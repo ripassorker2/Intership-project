@@ -6,7 +6,6 @@ import './Principal.css';
 const Principal = () => {
   return (
     <>
-      <h1>Principal</h1>
       <section className="principal-main">
         <div className="core-main">
             <div className="principal_core_img">

@@ -1,15 +1,46 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
+import "./Banner.css";
+import { Autoplay, Pagination, Navigation } from "swiper";
+import BannerItem from "./BannerItem";
 
+const Banner = () => {
+  const [banner, setBanner] = useState([]);
 
-
-
-const Bannar = () => {
+  useEffect(() => {
+    fetch("banner.json")
+      .then((res) => res.json())
+      .then((data) => setBanner(data));
+  }, []);
   return (
-    <div>
-        <h1>Banner</h1>
-    </div>
+    <>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={false}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        {
+        banner.map((banner, i) => (
+          <SwiperSlide key={i}>
+            <BannerItem banner={banner}></BannerItem>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </>
   );
 };
 
-export default Bannar;
+export default Banner;
