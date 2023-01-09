@@ -1,9 +1,12 @@
 import React from "react";
+import Footer from "../../Shared/Footer/Footer";
+import Contact from "./Contact/Contact";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <Contact />
+      <Footer />
     </div>
   );
 };
