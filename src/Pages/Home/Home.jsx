@@ -1,9 +1,11 @@
 import React from "react";
+import Principal from "./Principal/Principal";
+
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+    <Principal/>
     </div>
   );
 };
