@@ -1,15 +1,16 @@
 import React from "react";
-import Banner from "./Bannar/Bannar";
-
 import Footer from "../../Shared/Footer/Footer";
+import Banner from "./Bannar/Bannar";
 import Contact from "./Contact/Contact";
+import Principal from "./Principal/Principal";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <Contact />
-      <Footer />
+      <Principal></Principal>
+      <Contact/>
+      <Footer/>
     </div>
   );
 };
