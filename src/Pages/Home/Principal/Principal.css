@@ -1,4 +1,4 @@
-.principal-main{
+/* .principal-main{
     background-color: #fff;
     height: 85vh;
 }
@@ -53,13 +53,13 @@
 .text p{
     color: #000;
     font-weight: 400;
-}
+} */
 /* .item-img:hover{
     background-color: #004E7E;
     color: #fff;
 
 } */
-.item-img:hover + .ooo {
+/* .item-img:hover + .ooo {
     color: rgb(88, 202, 230);
     background: #000;
   }
@@ -68,4 +68,4 @@
   @media (min-width: 768px) {}
   @media (min-width: 640px) {
     
-  }
+  } */

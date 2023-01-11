@@ -1,22 +1,12 @@
-/* #app { height: 100% }
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-} */
-
 .swiper .slider_img {
   width: 100%;
   height: 100vh;
+}
+.swiper-pagination-bullet{
+  background-color: #fff !important;
+}
+.swiper-pagination-bullet-active{
+background-color:#fd7e14 !important;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px){
   .swiper .slider_img {
@@ -55,3 +45,8 @@ body {
   color: #fff;
 }
 
+.banner_right{
+  top: 0;
+  right: 0;
+  position: fixed;
+}
