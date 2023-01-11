@@ -4,6 +4,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 99999;
+    padding: 0 20px;
 }
 
 .nav-bg {
@@ -45,7 +46,7 @@ nav .nav-container .toggole-menu svg {
     color: black;
 }
 
-nav .logo img {
+nav .logo > img {
     height: 80px;
 }
 
@@ -229,4 +230,10 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
         display: none;
     }
 
+}
+
+@media (min-width:577px) and (max-width:768px){
+    nav {
+        padding: 0 20px;
+    }
 }
