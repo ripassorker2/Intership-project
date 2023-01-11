@@ -1,0 +1,58 @@
+.main-drawer {
+    padding: 10px 20px;
+    min-height: 100vh;
+}
+
+.main-drawer .drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-drawer .drawer-header svg {
+    font-size: 20px;
+    color: white;
+}
+
+.main-drawer .drawer-header img {
+    height: 70px;
+}
+
+.main-drawer .drawer-main-menu {
+    margin-top: 50px;
+}
+
+.main-drawer .drawer-main-menu li {
+    margin-top: 20px;
+}
+
+.main-drawer .drawer-main-menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+.main-drawer .drawer-main-menu .according-menu.color > a{
+    color: orange;
+}
+
+.main-drawer .drawer-main-menu li span svg {
+    font-size: 40px;
+    color: white;
+}
+
+.main-drawer .drawer-main-menu .according-menu .drawer-sub-menu {
+    display: none;
+    height: 0;
+    transition: all 0.5s;
+    padding: 10px 15px;
+}
+
+
+.main-drawer .drawer-main-menu .according-menu.active .drawer-sub-menu {
+    height: 100%;
+    display: block;
+}
