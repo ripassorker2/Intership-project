@@ -1,0 +1,232 @@
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.nav-bg {
+    background: #e4701d;
+}
+
+.bb-none {
+    border-bottom: none !important;
+}
+
+nav .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 15px 0px;
+}
+
+nav .nav-container .toggole-menu {
+    display: none;
+}
+
+nav .nav-container .phone-menu {
+    width: 100%;
+    min-height: 100vh;
+    background: #004e7e;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all linear 0.4s;
+}
+
+.right0 {
+    left: 0 !important;
+}
+
+nav .nav-container .toggole-menu svg {
+    font-size: 50px;
+    color: black;
+}
+
+nav .logo img {
+    height: 80px;
+}
+
+nav .nav-container .menu .donate {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .nav-container .menu .donate div {
+    display: flex;
+}
+
+nav .nav-container .menu .donate div label {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+nav .nav-container .menu .donate div label svg {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+
+nav .nav-container .menu .donate div input {
+    outline: none;
+    background: transparent;
+    padding: 5px 10px;
+    color: white;
+}
+
+nav .nav-container .menu .donate div input::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+nav .nav-container .menu .donate div button {
+    display: flex;
+    align-items: center;
+    background: #fba704;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+nav .nav-container .menu .donate div button svg {
+    margin-left: 10px;
+}
+
+nav .nav-container .main-menu {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+nav .nav-container .main-menu>li {
+    position: relative;
+}
+
+nav .nav-container .main-menu>li>a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 5px 10px;
+    transition: all linear 0.2s;
+}
+
+nav .nav-container .main-menu>li>a:first-child {
+    margin-left: 0px;
+}
+
+nav .nav-container .main-menu>li>a:hover {
+    background: #fba704;
+}
+
+nav .nav-container .main-menu>li>a span>svg {
+    margin-left: 0px;
+    transition: all linear 0.2s;
+}
+
+nav .nav-container .main-menu>li>a:hover span>svg {
+    transform: rotate(180deg);
+}
+
+nav .nav-container .main-menu>li .sub-menu {
+    position: absolute;
+    width: 150px;
+    padding-top: 50px;
+    top: 0%;
+    left: 0;
+    display: none;
+}
+
+nav .nav-container .main-menu>li .sub-menu>li {
+    background: white;
+    text-transform: capitalize;
+    border-bottom: 1px solid #b9b6b6;
+}
+
+nav .nav-container .main-menu>li .sub-menu>li:last-child {
+    border-bottom: none;
+}
+
+nav .nav-container .main-menu>li .sub-menu>li>a:active {
+    background: none;
+}
+
+nav .nav-container .main-menu>li .sub-menu>li>a {
+    display: block;
+    color: black;
+}
+
+nav .nav-container .main-menu>li>a:hover .sub-menu {
+    display: block;
+}
+
+nav .nav-container .main-menu>li .sub-menu>li>a:hover {
+    background-color: #d5d4d4;
+}
+
+nav .nav-container .main-menu>li>a:hover .sub-menu li {
+    transform-origin: bottom center;
+    opacity: 1;
+}
+
+nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(1) {
+    animation: animate 0.3s ease-in-out backwards;
+    animation-delay: 0.15;
+}
+
+nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(2) {
+    animation: animate 0.3s ease-in-out backwards;
+    animation-delay: 0s;
+}
+
+nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
+    animation: animate 0.3s ease-in-out backwards;
+    animation-delay: -0.15s;
+}
+
+/* main menu css ends  */
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotateX(-90deg);
+    }
+
+    50% {
+        transform: rotateX(20deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+@media (min-width:320px) and (max-width:576px) {
+    nav {
+        background: white;
+    }
+
+    nav .nav-container {
+        border-bottom: none;
+    }
+
+    nav .nav-container .toggole-menu {
+        display: block;
+    }
+
+    nav .nav-container .menu {
+        display: none;
+    }
+
+}
