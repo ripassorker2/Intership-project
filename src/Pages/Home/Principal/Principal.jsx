@@ -6,10 +6,10 @@ import './Principal.css';
 const Principal = () => {
   return (
     <>
-      <section className="principal-main">
-        <div className="core-main">
+      <section className="principal-main py-24">
+        <div className="core-main max-w-screen-xl mx-auto">
             <div className="principal_core_img">
-                <img className="core_img" src={core_img} alt="" />
+                <img className="core_img lg:block md:block  hidden" src={core_img} alt="" />
             </div>
             <div className="our-title">
                <h1>Our <br /> Core Values</h1>
