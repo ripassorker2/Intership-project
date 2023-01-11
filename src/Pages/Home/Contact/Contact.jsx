@@ -12,7 +12,7 @@ import {
 const Contact = () => {
   return (
     <div className="bg-orange-500 py-12">
-      <div className="lg:w-[70%] md:w-[80%] mx-auto w-[90%] ">
+      <div className="md:max-w-[1100px] mx-auto w-[90%] ">
         <h3 className="text-center md:text-[40px] text-2xl font-bold text-white mb-6">
           Connect with Us
         </h3>
