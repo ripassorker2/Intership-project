@@ -1,5 +1,4 @@
 import React from "react";
-import reCAPTCHA from "react-google-recaptcha";
 import {
   FaFacebook,
   FaTwitter,
@@ -47,9 +46,7 @@ const Contact = () => {
             </div>
             <div className="border-b pt-1">
               <select className="input  w-full p-0 bg-orange-500 text-white  font-semibold text-lg focus:outline-none">
-                <option disabled selected>
-                  Query releted to
-                </option>
+                <option disabled defaultValue={"Query releted to"}></option>
                 <option>Death Note</option>
                 <option>Attack on Titan</option>
                 <option>Bleach</option>
@@ -65,9 +62,6 @@ const Contact = () => {
                 placeholder="Message"
                 required
               />
-            </div>
-            <div>
-              <reCAPTCHA style={{ display: "inline-block" }} theme="dark" />
             </div>
             <div className="pt-4">
               <button
