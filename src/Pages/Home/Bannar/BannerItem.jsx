@@ -9,7 +9,7 @@ const BannerItem = ({banner}) => {
        <div className="banner_slide w-[100%]">
          <div
            className="slide_details absolute flex justify-center 
-         xl:mt-[350px] lg:mt-52 md:mt-40 mt-44"
+         xl:mt-[320px] lg:mt-56 md:mt-52 mt-56"
          >
            <img
              className="banner_right xl:w-[480px] lg:w-[340px] 
@@ -22,15 +22,16 @@ const BannerItem = ({banner}) => {
              className="xl:w-[60%] md:w-[80%] lg:w-[70%] w-[90%] 
            text-start fade"
            >
-             <h1 className="md:text-5xl text-2xl font-bold" 
+             <h1 className="md:text-3xl lg:text:2xl xl:text-5xl text-xl 
+             font-bold" 
              data-aos="fade-left">
                {title}
              </h1>
              <button
                data-aos="fade-right"
                className="bg-[#f4b124] hover:bg-[#e4701d]
-                hover:text-white rounded md:mt-4 mt-6 w-44
-             h-14 text-black text-xl font-bold "
+                hover:text-white rounded md:mt-12 lg:mt-12 mt-6 
+                md:w-44 md:h-14 w-28 h-10 text-black md:text-xl text-xs font-bold "
              >
                View Collection
              </button>
