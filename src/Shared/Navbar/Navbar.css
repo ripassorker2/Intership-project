@@ -42,7 +42,7 @@ nav .nav-container .phone-menu {
 }
 
 nav .nav-container .toggole-menu svg {
-    font-size: 50px;
+    font-size: 35px;
     color: black;
 }
 
@@ -216,6 +216,10 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
 @media (min-width:320px) and (max-width:576px) {
     nav {
         background: white;
+    }
+
+    nav .logo > img {
+        height: 50px;
     }
 
     nav .nav-container {

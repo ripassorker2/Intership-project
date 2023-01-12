@@ -6,7 +6,7 @@ import './Principal.css';
 const Principal = () => {
   return (
     <>
-      <div className="h-[135vh] xl:h-[120vh] lg:h-[120vh] md:h-[110vh]">
+      <div className=" lg:h-[700px] md:h-[510px] h-[680px] pb-10">
         <div className="flex justify-center align-middle items-center">
           <img
             className="xl:w-96 lg:w-72 md:w-60 mt-[-100px] hidden md:block rotate-90 relative"
