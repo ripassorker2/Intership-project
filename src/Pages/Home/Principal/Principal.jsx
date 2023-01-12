@@ -1,12 +1,12 @@
 import React from "react";
 import core_img from '../../../assets/icons/cirle-motiff.svg'
-import commitment from '../../../assets/icons/commitment-icon.svg'
+import CommitmentIcon from "../../../assets/icons/CommitmentIcon";
 import './Principal.css';
 
 const Principal = () => {
   return (
     <>
-      <div className="h-[135vh] xl:h-[120vh] lg:h-[120vh] md:h-[110vh]">
+      <div className=" lg:h-[700px] md:h-[510px] h-[680px] pb-10">
         <div className="flex justify-center align-middle items-center">
           <img
             className="xl:w-96 lg:w-72 md:w-60 mt-[-100px] hidden md:block rotate-90 relative"
@@ -31,19 +31,15 @@ const Principal = () => {
               className="card xl:w-40 lg:w-32 md:w-28 w-36 flex 
             justify-center"
             >
-              <div className=" ">
+              <div className="principal-item ">
                 <figure
                   className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 
                   lg:h-24 md:w-24 md:h-24 w-28 h-28
-                   bg-gray-400 mx-auto"
+                   bg-[#e3e2e1] mx-auto"
                 >
-                  <img
-                    src={commitment}
-                    alt="icon"
-                    className="xl:w-20 xl:h-20 lg:w-16 lg:h-16 hover:text-[#fff]"
-                  />
+                  <CommitmentIcon/>
                 </figure>
-                <div className=" mx-auto text-center text">
+                <div className="mx-auto text-center text">
                   <h2 className="py-2 text-xl font-bold">Respect</h2>
                   <p>Upholding the dignity of each individual</p>
                 </div>
@@ -51,16 +47,12 @@ const Principal = () => {
             </li>
 
             <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center">
-              <div className=" ">
+              <div className="principal-item ">
                 <figure
                   className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 lg:h-24 md:w-24 md:h-24 w-28 h-28
-                   bg-gray-400 mx-auto"
+                  bg-[#e3e2e1] mx-auto"
                 >
-                  <img
-                    src={commitment}
-                    alt="icon"
-                    className="xl:w-20 xl:h-20 lg:w-16 lg:h-16"
-                  />
+                   <CommitmentIcon/>
                 </figure>
                 <div className=" mx-auto text-center text">
                   <h2 className="py-2 text-xl font-bold">Integrity</h2>
@@ -70,16 +62,12 @@ const Principal = () => {
             </li>
 
             <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center">
-              <div className=" ">
+              <div className="principal-item ">
                 <figure
                   className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 lg:h-24 md:w-24 md:h-24 w-28 h-28
-                   bg-gray-400 mx-auto"
+                  bg-[#e3e2e1] mx-auto"
                 >
-                  <img
-                    src={commitment}
-                    alt="icon"
-                    className="xl:w-20 xl:h-20 lg:w-16 lg:h-16"
-                  />
+                   <CommitmentIcon/>
                 </figure>
                 <div className=" mx-auto text-center text">
                   <h2 className="py-2 text-xl font-bold">Commitment</h2>
@@ -89,16 +77,12 @@ const Principal = () => {
             </li>
 
             <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center">
-              <div className=" ">
+              <div className="principal-item ">
                 <figure
                   className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 lg:h-24 md:w-24 md:h-24 w-28 h-28
-                   bg-gray-400 mx-auto"
+                  bg-[#e3e2e1] mx-auto"
                 >
-                  <img
-                    src={commitment}
-                    alt="icon"
-                    className="xl:w-20 xl:h-20 lg:w-16 lg:h-16"
-                  />
+                   <CommitmentIcon/>
                 </figure>
                 <div className=" mx-auto text-center text">
                   <h2 className="py-2 text-xl font-bold">Excellence</h2>
@@ -108,16 +92,12 @@ const Principal = () => {
             </li>
 
             <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center ">
-              <div className=" hidden sm:block">
+              <div className="principal-item hidden sm:block">
                 <figure
                   className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 lg:h-24 md:w-24 md:h-24 w-28 h-28
-                   bg-gray-400 mx-auto"
+                  bg-[#e3e2e1] mx-auto"
                 >
-                  <img
-                    src={commitment}
-                    alt="icon"
-                    className="xl:w-20 xl:h-20 lg:w-16 lg:h-16"
-                  />
+                   <CommitmentIcon/>
                 </figure>
                 <div className=" mx-auto text-center text">
                   <h2 className="py-2 text-xl font-bold">Respect</h2>
