@@ -3,7 +3,7 @@ import React from 'react';
 const Direct = () => {
     return (
         <div>
-            <h1>This is direct page</h1>
+            <h1>This is direct  pages</h1>
         </div>
     );
 };
