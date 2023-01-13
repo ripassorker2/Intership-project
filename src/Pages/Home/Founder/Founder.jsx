@@ -4,7 +4,7 @@ const Founder = () => {
   return (
     <div className="max-w-screen-xl mx-auto w-[90%] mt-10">
       <h3 className="md:text-5xl text-3xl text-center font-semibold leading-none">
-        Founder massage
+        Founder message
       </h3>
       <section className="">
         <div className="container grid md:grid-cols-2 justify-center md:p-4 mx-auto sm:py-10 lg:flex-row lg:justify-between">
