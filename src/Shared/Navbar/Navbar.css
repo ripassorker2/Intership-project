@@ -8,7 +8,7 @@ nav {
 }
 
 .nav-bg {
-    background: #e4701d;
+    background: #009432;
 }
 
 .bb-none {
@@ -46,64 +46,26 @@ nav .nav-container .toggole-menu svg {
     color: black;
 }
 
-nav .logo > img {
-    height: 80px;
+nav .logo{
+    height: 90px;
+    margin-right: 5px;
 }
-
-nav .nav-container .menu .donate {
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav .nav-container .menu .donate div {
-    display: flex;
-}
-
-nav .nav-container .menu .donate div label {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid white;
-}
-
-nav .nav-container .menu .donate div label svg {
-    font-size: 18px;
-    color: white;
+.logo_title{
+    font-size: 42px;
+    color: deepskyblue;
     font-weight: 700;
 }
-
-nav .nav-container .menu .donate div input {
-    outline: none;
-    background: transparent;
-    padding: 5px 10px;
-    color: white;
-}
-
-nav .nav-container .menu .donate div input::placeholder {
-    color: white;
-    font-size: 18px;
-}
-
-nav .nav-container .menu .donate div button {
-    display: flex;
-    align-items: center;
-    background: #fba704;
+.logo_he{
+    font-size: 22px;
+    color: #fff;
     font-weight: 700;
-    font-size: 24px;
-    color: white;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    margin-left: 30px;
-}
-
-nav .nav-container .menu .donate div button svg {
-    margin-left: 10px;
+    text-align: center;
+    line-height: 2px;
 }
 
 nav .nav-container .main-menu {
     display: flex;
-    margin-top: 20px;
+
 }
 
 
@@ -127,7 +89,7 @@ nav .nav-container .main-menu>li>a:first-child {
 }
 
 nav .nav-container .main-menu>li>a:hover {
-    background: #fba704;
+    background: #71e432;
 }
 
 nav .nav-container .main-menu>li>a span>svg {
@@ -142,7 +104,7 @@ nav .nav-container .main-menu>li>a:hover span>svg {
 nav .nav-container .main-menu>li .sub-menu {
     position: absolute;
     width: 150px;
-    padding-top: 50px;
+    padding-top: 62px;
     top: 0%;
     left: 0;
     display: none;
@@ -218,8 +180,19 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
         background: white;
     }
 
-    nav .logo > img {
+    nav .logo{
         height: 50px;
+    }
+    .logo_detail{
+        margin-top: 5px;
+    }
+    .logo_title{
+        font-size: 18px;
+    }
+    .logo_he{
+        font-size: 10px;
+        font-weight: 700;
+        color: #f0f07a;
     }
 
     nav .nav-container {
@@ -236,8 +209,36 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
 
 }
 
-@media (min-width:577px) and (max-width:768px){
+@media (min-width:577px) and (max-width:768px) {
     nav {
         padding: 0 20px;
+    }
+    nav .logo{
+        height: 60px;
+    }
+    .logo_detail{
+        margin-top: 10px;
+    }
+    .logo_title{
+        font-size: 20px;
+    }
+    .logo_he{
+        font-size: 11px;
+        font-weight: 700;
+    }
+}
+@media (min-width:779px) and (max-width:1024px){
+    nav .logo{
+        height: 80px;
+    }
+    .logo_detail{
+        margin-top: 8px;
+    }
+    .logo_title{
+        font-size: 30px;
+    }
+    .logo_he{
+        font-size: 16px;
+        font-weight: 700;
     }
 }
