@@ -7,7 +7,8 @@
    width: 85px;
  }
 .principal-item:hover h2{
-    color: #E4701D;
+    color: #5eaf3c;
+
 }
 .principal-item:hover .item-img {
     background-color: #004E7E;
@@ -15,6 +16,6 @@
     transition:all linear 0.4s;
 }
 .principal-item h2{
-    color: #004E7E;
+    color: #0989CA;
 }
 
