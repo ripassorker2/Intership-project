@@ -9,7 +9,7 @@ const BannerItem = ({banner}) => {
        <div className="banner_slide w-[100%]">
          <div
            className="slide_details absolute flex justify-center 
-         xl:mt-[320px] lg:mt-56 md:mt-52 mt-56"
+         xl:mt-[320px] lg:mt-72 md:mt-72 mt-56"
          >
            <img
              className="banner_right xl:w-[480px] lg:w-[340px] 
