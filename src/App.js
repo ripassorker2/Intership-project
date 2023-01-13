@@ -1,7 +1,8 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-import Home from "./Pages/Home/Home";
+import { RouterProvider } from "react-router-dom";
+import router from "./Routes/Routes";
 
 const App = () => {
   useEffect(() => {
@@ -9,7 +10,7 @@ const App = () => {
   }, []);
   return (
     <div>
-      <Home />
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 };

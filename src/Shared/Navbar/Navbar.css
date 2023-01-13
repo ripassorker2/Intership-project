@@ -46,59 +46,8 @@ nav .nav-container .toggole-menu svg {
     color: black;
 }
 
-nav .logo > img {
+nav .logo > a img {
     height: 80px;
-}
-
-nav .nav-container .menu .donate {
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav .nav-container .menu .donate div {
-    display: flex;
-}
-
-nav .nav-container .menu .donate div label {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid white;
-}
-
-nav .nav-container .menu .donate div label svg {
-    font-size: 18px;
-    color: white;
-    font-weight: 700;
-}
-
-nav .nav-container .menu .donate div input {
-    outline: none;
-    background: transparent;
-    padding: 5px 10px;
-    color: white;
-}
-
-nav .nav-container .menu .donate div input::placeholder {
-    color: white;
-    font-size: 18px;
-}
-
-nav .nav-container .menu .donate div button {
-    display: flex;
-    align-items: center;
-    background: #fba704;
-    font-weight: 700;
-    font-size: 24px;
-    color: white;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    margin-left: 30px;
-}
-
-nav .nav-container .menu .donate div button svg {
-    margin-left: 10px;
 }
 
 nav .nav-container .main-menu {
@@ -142,7 +91,7 @@ nav .nav-container .main-menu>li>a:hover span>svg {
 nav .nav-container .main-menu>li .sub-menu {
     position: absolute;
     width: 150px;
-    padding-top: 50px;
+    padding-top: 62px;
     top: 0%;
     left: 0;
     display: none;
@@ -218,7 +167,7 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
         background: white;
     }
 
-    nav .logo > img {
+    nav .logo > a img {
         height: 50px;
     }
 
@@ -236,7 +185,7 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
 
 }
 
-@media (min-width:577px) and (max-width:768px){
+@media (min-width:577px) and (max-width:768px) {
     nav {
         padding: 0 20px;
     }

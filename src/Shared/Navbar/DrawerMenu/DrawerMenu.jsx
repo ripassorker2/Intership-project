@@ -3,6 +3,7 @@ import './DrawerMenu.css';
 import { ImCross } from "react-icons/im";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import logo from '../../../assets/icons/care-logo.svg';
+import { Link } from 'react-router-dom';
 
 const DrawerMenu = ({ setOpenMenu, openMenu }) => {
 
@@ -30,39 +31,38 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
                 <span onClick={() => setOpenMenu(!openMenu)}><ImCross /></span>
             </div>
             <ul className='drawer-main-menu'>
-                <li className='according-menu'><a>Who we are <span><MdOutlineKeyboardArrowDown /></span></a>
+                <li className='according-menu'><Link>Who are we <span><MdOutlineKeyboardArrowDown /></span></Link>
                     <div className="drawer-sub-menu">
                         <ul>
-                            <li><a>About us</a></li>
-                            <li><a>Vison</a></li>
-                            <li><a>Our Team</a></li>
+                            <li><Link to='/aboutus'>About us</Link></li>
+                            <li><Link to='/vision'>Vision</Link></li>
+                            <li><Link to='/ourteam'>Our Team</Link></li>
                         </ul>
                     </div>
                 </li>
-                <li className='according-menu'><a>Our Work <span><MdOutlineKeyboardArrowDown /></span></a>
+                <li className='according-menu'><Link>Our Work <span><MdOutlineKeyboardArrowDown /></span></Link>
                     <div className="drawer-sub-menu">
                         <ul>
-                            <li><a>About us</a></li>
-                            <li><a>Vison</a></li>
-                            <li><a>Our Team</a></li>
+                            <li><Link to='/stewacd'>Stewacd</Link></li>
+                            <li><Link to='/vnsdg'>Vnsdg Imp</Link></li>
+                            <li><Link to='/telenthunt'>Telent Hunt</Link></li>
                         </ul>
                     </div>
                 </li>
-                <li className='according-menu'><a>Partner <span><MdOutlineKeyboardArrowDown /></span></a>
+                <li className='according-menu'><Link>Partner <span><MdOutlineKeyboardArrowDown /></span></Link>
                     <div className="drawer-sub-menu">
                         <ul>
-                            <li><a>About us</a></li>
-                            <li><a>Vison</a></li>
-                            <li><a>Our Team</a></li>
+                            <li><Link to='/ourpartners'>Our Partners</Link></li>
+                            <li><Link to='/events'>Events</Link></li>
+                            <li><Link to='/partnerwithus'>Partner With Us</Link></li>
                         </ul>
                     </div>
                 </li>
-                <li className='according-menu'><a>Impact <span><MdOutlineKeyboardArrowDown /></span></a>
+                <li className='according-menu'><Link>Impact <span><MdOutlineKeyboardArrowDown /></span></Link>
                     <div className="drawer-sub-menu">
                         <ul>
-                            <li><a>About us</a></li>
-                            <li><a>Vison</a></li>
-                            <li><a>Our Team</a></li>
+                            <li><Link to='/direct'>Direct</Link></li>
+                            <li><Link to='/indirect'>Indirect</Link></li>
                         </ul>
                     </div>
                 </li>
