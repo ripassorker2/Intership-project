@@ -6,6 +6,7 @@ import img3 from "../../../assets/team/img3.jpg";
 import img4 from "../../../assets/team/img4.jpg";
 import img5 from "../../../assets/team/img5.JPG";
 import img6 from "../../../assets/team/img6.jpg";
+import img7 from "../../../assets/team/img7.jpg";
 
 const OurTeam = () => {
   return (
@@ -138,7 +139,7 @@ const OurTeam = () => {
               <img
                 class="w-full h-full object-cover rounded-t "
                 src={img6}
-                alt="piña"
+                alt="img"
               />
             </div>
             <div class="w-full h-1/4 p-3 text-center">
@@ -150,9 +151,10 @@ const OurTeam = () => {
               <p class="text-gray-300 text-base leading-5 mt-1">Member</p>
             </div>
           </div>
-          <div class="card bg-gray-900 hover:bg-white duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl">
+          <div class="card bg-gray-900 hover:bg-white duration-300 h-80 
+          shadow-md rounded m-3 hover:shadow-xl">
             <div class="h-3/4 w-full">
-              <img class="w-full h-full rounded-t " src={img1} alt="piña" />
+              <img class="w-full h-full rounded-t" src={img7} alt="img" />
             </div>
             <div class="w-full h-1/4 p-3 text-center">
               <a href="/" class=" text-gray-300">
