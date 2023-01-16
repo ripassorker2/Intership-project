@@ -8,7 +8,7 @@ nav {
 }
 
 .nav-bg {
-    background: #e4701d;
+    background: #FFFFFF;
 }
 
 .bb-none {
@@ -46,13 +46,26 @@ nav .nav-container .toggole-menu svg {
     color: black;
 }
 
-nav .logo > a img {
-    height: 80px;
+nav .logo{
+    height: 90px;
+    margin-right: 5px;
+}
+.logo_title{
+    font-size: 42px;
+    color: #2143F5;
+    font-weight: 700;
+}
+.logo_he{
+    font-size: 22px;
+    color: #444444;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2px;
 }
 
 nav .nav-container .main-menu {
     display: flex;
-    margin-top: 20px;
+
 }
 
 
@@ -63,7 +76,8 @@ nav .nav-container .main-menu>li {
 nav .nav-container .main-menu>li>a {
     display: flex;
     align-items: center;
-    color: white;
+    color: #000;
+    font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
     margin-left: 20px;
@@ -76,7 +90,7 @@ nav .nav-container .main-menu>li>a:first-child {
 }
 
 nav .nav-container .main-menu>li>a:hover {
-    background: #fba704;
+    background: #71e432;
 }
 
 nav .nav-container .main-menu>li>a span>svg {
@@ -121,7 +135,7 @@ nav .nav-container .main-menu>li>a:hover .sub-menu {
 }
 
 nav .nav-container .main-menu>li .sub-menu>li>a:hover {
-    background-color: #d5d4d4;
+    background-color: #d6ffc0;
 }
 
 nav .nav-container .main-menu>li>a:hover .sub-menu li {
@@ -167,8 +181,19 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
         background: white;
     }
 
-    nav .logo > a img {
+    nav .logo{
         height: 50px;
+    }
+    .logo_detail{
+        margin-top: 5px;
+    }
+    .logo_title{
+        font-size: 18px;
+    }
+    .logo_he{
+        font-size: 10px;
+        font-weight: 700;
+        color: #f0f07a;
     }
 
     nav .nav-container {
@@ -188,5 +213,33 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
 @media (min-width:577px) and (max-width:768px) {
     nav {
         padding: 0 20px;
+    }
+    nav .logo{
+        height: 60px;
+    }
+    .logo_detail{
+        margin-top: 10px;
+    }
+    .logo_title{
+        font-size: 20px;
+    }
+    .logo_he{
+        font-size: 11px;
+        font-weight: 700;
+    }
+}
+@media (min-width:779px) and (max-width:1024px){
+    nav .logo{
+        height: 80px;
+    }
+    .logo_detail{
+        margin-top: 8px;
+    }
+    .logo_title{
+        font-size: 30px;
+    }
+    .logo_he{
+        font-size: 16px;
+        font-weight: 700;
     }
 }
