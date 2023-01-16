@@ -120,7 +120,7 @@ const OurTeam = () => {
           <div class="card bg-gray-900 hover:bg-white duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl">
             <div class="h-3/4 w-full">
               <img
-                class="w-full h-full object-cover rounded-t "
+                class="w-full h-full object-cover rounded-t"
                 src={img5}
                 alt=""
               />
