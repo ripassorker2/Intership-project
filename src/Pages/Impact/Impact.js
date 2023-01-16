@@ -28,7 +28,6 @@ const Impact = () => {
                   <h2 className=" text-xl-5 font-bold">
                     Students -  12000
                   </h2>
-                  <p></p>
                 </div>
               </div>
             </li>
