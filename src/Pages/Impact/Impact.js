@@ -2,7 +2,6 @@ import React from 'react';
 import Education from '../../assets/icons/Education';
 import Groups from '../../assets/icons/Groups';
 import Students from '../../assets/icons/Students';
-
 const Impact = () => {
     return (
       <div className="max-w-screen-xl mx-auto my-20">
@@ -12,7 +11,7 @@ const Impact = () => {
             className="item xl:gap-6 lg:gap-1 md:gap-1 gap-1 
           justify-center lg:flex md:flex grid grid-cols-2 h-40"
           >
-            <li
+<li
               className="card shadow-lg xl:w-96 lg:w-32 md:w-28 w-36 flex 
             justify-center"
             >
@@ -31,8 +30,7 @@ const Impact = () => {
                 </div>
               </div>
             </li>
-
-            <li className="card shadow-lg xl:w-96 lg:w-32 md:w-28 w-36 flex 
+<li className="card shadow-lg xl:w-96 lg:w-32 md:w-28 w-36 flex 
             justify-center">
               <div className="principal-item flex  align-middle items-center">
                 <figure
@@ -50,8 +48,7 @@ const Impact = () => {
                 </div>
               </div>
             </li>
-
-            <li className="card shadow-lg xl:w-96 lg:w-32 md:w-28 w-36 flex 
+<li className="card shadow-lg xl:w-96 lg:w-32 md:w-28 w-36 flex 
             justify-center">
               <div className="principal-item flex  align-middle items-center">
                 <figure
