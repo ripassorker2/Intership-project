@@ -35,8 +35,9 @@ background-color:#34910b !important;
 .slider_img{
   display: block;
   object-fit: cover;
-}
 
+ 
+}
 
 .slide_details{
   height: 100%;
@@ -50,3 +51,4 @@ background-color:#34910b !important;
   right: 0;
   position: fixed;
 }
+
