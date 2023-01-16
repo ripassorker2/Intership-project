@@ -1,6 +1,10 @@
 import React from "react";
 import core_img from '../../../assets/icons/cirle-motiff.svg'
 import CommitmentIcon from "../../../assets/icons/CommitmentIcon";
+import RespectIcon from "../../../assets/icons/RespectIcon";
+import IntegrityIcon from "../../../assets/icons/IntegrityIcon";
+import ExcellenceIcon from "../../../assets/icons/ExcellenceIcon";
+import InclusiveIcon from "../../../assets/icons/InclusiveIcon";
 import './Principal.css';
 
 const Principal = () => {
@@ -16,7 +20,7 @@ const Principal = () => {
         </div>
         <div className="absolute md:text-white text-[#004e7e]  w-[100%] my-10 xl:mt-[-400px] lg:mt-[-320px] md:mt-[-270px] flex justify-center text-center">
           <h1 className="text-3xl font-bold">
-            Our <br /> Core Values
+            CORE <br /> PRINCIPLES
           </h1>
         </div>
         <div
@@ -35,72 +39,81 @@ const Principal = () => {
                 <figure
                   className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 
                   lg:h-24 md:w-24 md:h-24 w-28 h-28
-                   bg-[#e3e2e1] mx-auto"
-                >
-                  <CommitmentIcon/>
-                </figure>
-                <div className="mx-auto text-center text">
-                  <h2 className="py-2 text-xl font-bold">Respect</h2>
-                  <p>Upholding the dignity of each individual</p>
-                </div>
-              </div>
-            </li>
-
-            <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center">
-              <div className="principal-item ">
-                <figure
-                  className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 lg:h-24 md:w-24 md:h-24 w-28 h-28
                   bg-[#e3e2e1] mx-auto"
                 >
-                   <CommitmentIcon/>
+                  <CommitmentIcon />
                 </figure>
                 <div className=" mx-auto text-center text">
-                  <h2 className="py-2 text-xl font-bold">Integrity</h2>
+                  <h2 className="py-2 text-xl font-bold"> Commitment</h2>
                   <p>Upholding the dignity of each individual</p>
                 </div>
               </div>
             </li>
-
-            <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center">
-              <div className="principal-item ">
-                <figure
-                  className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 lg:h-24 md:w-24 md:h-24 w-28 h-28
-                  bg-[#e3e2e1] mx-auto"
-                >
-                   <CommitmentIcon/>
-                </figure>
-                <div className=" mx-auto text-center text">
-                  <h2 className="py-2 text-xl font-bold">Commitment</h2>
-                  <p>Upholding the dignity of each individual</p>
-                </div>
-              </div>
-            </li>
-
-            <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center">
-              <div className="principal-item ">
-                <figure
-                  className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 lg:h-24 md:w-24 md:h-24 w-28 h-28
-                  bg-[#e3e2e1] mx-auto"
-                >
-                   <CommitmentIcon/>
-                </figure>
-                <div className=" mx-auto text-center text">
-                  <h2 className="py-2 text-xl font-bold">Excellence</h2>
-                  <p>Upholding the dignity of each individual</p>
-                </div>
-              </div>
-            </li>
-
-            <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center ">
+            <li
+              className="card xl:w-40 lg:w-32 md:w-28 w-36  flex 
+            justify-center "
+            >
               <div className="principal-item hidden sm:block">
                 <figure
+                  className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 
+                  lg:h-24 md:w-24 md:h-24 w-28 h-28
+                  bg-[#e3e2e1] mx-auto"
+                >
+                  <InclusiveIcon />
+                </figure>
+                <div className=" mx-auto text-center text">
+                  <h2 className="py-2 text-xl font-bold"> Inclusive </h2>
+                  <p>Upholding the dignity of each individual</p>
+                </div>
+              </div>
+            </li>
+
+            <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex 
+            justify-center">
+              <div className="principal-item ">
+                <figure
+                  className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 
+                  lg:h-24 md:w-24 md:h-24 w-28 h-28
+                  bg-[#e3e2e1] mx-auto"
+                >
+                  <ExcellenceIcon />
+                </figure>
+                <div className=" mx-auto text-center text">
+                  <h2 className="py-2 text-xl font-bold"> Learning</h2>
+                  <p>Upholding the dignity of each individual</p>
+                </div>
+              </div>
+            </li>
+
+            <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center">
+              <div className="principal-item ">
+                <figure
                   className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 lg:h-24 md:w-24 md:h-24 w-28 h-28
                   bg-[#e3e2e1] mx-auto"
                 >
-                   <CommitmentIcon/>
+                  <RespectIcon />
                 </figure>
                 <div className=" mx-auto text-center text">
-                  <h2 className="py-2 text-xl font-bold">Respect</h2>
+                  <h2 className="py-2 text-xl font-bold">Integrity </h2>
+                  <p>Upholding the dignity of each individual</p>
+                </div>
+              </div>
+            </li>
+
+            <li
+              className="card xl:w-40 lg:w-32 md:w-28 w-36 flex 
+            justify-center"
+            >
+              <div className="principal-item ">
+                <figure
+                  className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 
+                  lg:h-24 md:w-24 md:h-24 w-28 h-28
+                   bg-[#e3e2e1] mx-auto"
+                >
+                  <IntegrityIcon />
+                </figure>
+                <div className="mx-auto text-center text">
+                  <h2 className="py-2 text-xl font-bold">Equality </h2>
                   <p>Upholding the dignity of each individual</p>
                 </div>
               </div>
