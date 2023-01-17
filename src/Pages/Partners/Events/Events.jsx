@@ -27,52 +27,64 @@ const Events = () => {
           <div className=" w-96">
             <ul>
               <li> 
-                  <div className="w-72 bg-green-600 hover:bg-white shadow-xl ">
-                  <div className="flex items-center h-12 font-bold">
-                      <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen/></h1>
-                      <p className=''>Awards Ceremony</p>
-                    </div>
-                  </div>
+                  <Link to="/AwardsCeremony">
+                      <div className="w-72 bg-green-600 hover:bg-white shadow-xl ">
+                      <div className="flex items-center h-12 font-bold">
+                          <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen/></h1>
+                          <p className=''>Awards Ceremony</p>
+                        </div>
+                      </div>
+                  </Link>
               </li>
               <li> 
+                 <Link to="/GenderAwarness">
                   <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
-                  <div className="flex items-center h-12 font-bold">
-                      <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen/></h1>
-                      <p>Gender Awarness and  Well-Being Session</p>
+                    <div className="flex items-center h-12 font-bold">
+                        <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen/></h1>
+                        <p>Gender Awarness and  Well-Being Session</p>
+                      </div>
                     </div>
-                  </div>
+                 </Link>
               </li>
               <li> 
-                  <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
-                  <div className="flex items-center h-12 font-bold">
-                      <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen/></h1>
-                      <p>Good Touch and Bad Touch Session and Skill </p>
+                  <Link to="/GoodTouch">
+                    <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
+                    <div className="flex items-center h-12 font-bold">
+                        <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen/></h1>
+                        <p>Good Touch and Bad Touch Session and Skill </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
               </li>
               <li> 
-                  <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
+                 <Link to="/NutritousFood">
+                 <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
                   <div className="flex items-center h-12 font-bold">
                       <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen/></h1>
                       <p>Nutritous food drive</p>
                     </div>
                   </div>
+                 </Link>
               </li>
               <li> 
+                  <Link to="/QualityEducation">
                   <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
                   <div className="flex items-center h-12 font-bold">
                       <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen/></h1>
                       <p>Quality Education Session-Bowrampet</p>
                     </div>
                   </div>
+                  </Link>
               </li>  
              <li> 
-                  <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
+                 <Link to="/SkillEnhancement">
+                 <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
                   <div className="flex items-center h-12 font-bold">
                       <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen/></h1>
                       <p>Skill Enhancement programme-Orphanage</p>
                     </div>
                   </div>
+                 </Link>
               </li>
             </ul>
           </div>
