@@ -13,8 +13,10 @@ import {
 
 const Contact = () => {
   return (
+
     <div className="bg-[#8395a7] py-12">
       <div className="md:max-w-[1270px] mx-auto w-[90%] ">
+
         <div className="grid md:grid-cols-2">
           <div className="md:w-[90%]">
             <div className="flex">
