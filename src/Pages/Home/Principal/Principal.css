@@ -1,5 +1,5 @@
 .principal-item:hover .item-img svg {
-  fill: #fff;
+  fill: yellow;
 
   transition: all linear 0.4s;
 }
@@ -7,13 +7,13 @@
   width: 85px;
 }
 .principal-item:hover h2 {
-  color: #5eaf3c;
+  color: #000;
 }
 .principal-item:hover .item-img {
-  background-color: #0989ca;
+  background-color: green;
   border: 2px solid #fff;
   transition: all linear 0.3s;
 }
 .principal-item h2 {
-  color: #0989ca;
+  color: green;
 }
