@@ -80,5 +80,5 @@ const Events = () => {
       </div>
     );
 };
-
+// end
 export default Events;
