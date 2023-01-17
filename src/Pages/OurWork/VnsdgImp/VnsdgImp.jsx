@@ -21,7 +21,11 @@ const VnsdgImp = () => {
         </h2>
         <div className="card lg:card-side bg-base-100 shadow-xl my-16">
           <div>
-            <img className="w-[780px] h-72" src={img} alt="Album" />
+            <img
+              className="w-[380px] h-60 rounded-l-lg"
+              src={img}
+              alt="Album"
+            />
           </div>
           <div className="card-body">
             <h2 className="card-title">UNSDG GOAL: 02: ZERO HUNGER </h2>
@@ -43,6 +47,13 @@ const VnsdgImp = () => {
         </div>
 
         <div className="card lg:card-side bg-base-100 shadow-xl my-16">
+          <div>
+            <img
+              className="w-[335px] h-60 rounded-l-lg"
+              src={img1}
+              alt="Album"
+            />
+          </div>
           <div className="card-body">
             <h2 className="card-title">
               UNSDG GOAL: 03: GOOD HEALTH AND WELL-BEING
@@ -66,14 +77,14 @@ const VnsdgImp = () => {
               Good Touch-Bad Touch sessions at Schools and colleges.
             </p>
           </div>
-          <div>
-            <img className="w-[600px] h-72" src={img1} alt="Album" />
-          </div>
         </div>
-        {/* ========= */}
         <div className="card lg:card-side bg-base-100 shadow-xl my-16">
           <div>
-            <img className="w-[600px] h-72" src={img2} alt="Album" />
+            <img
+              className="w-[335px] h-60 rounded-l-lg"
+              src={img2}
+              alt="Album"
+            />
           </div>
           <div className="card-body">
             <h2 className="card-title">UNSDG GOAL: 13: CLIMATE ACTION</h2>

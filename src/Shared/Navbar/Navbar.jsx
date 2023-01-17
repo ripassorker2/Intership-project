@@ -42,7 +42,7 @@ const Navbar = () => {
               <Link to="/stewacd">STEWACD</Link>
             </li>
             <li>
-              <Link to="/vnsdgimp">UNSDGS Imp</Link>
+              <Link to="/vnsdgimp">UNSDGs Imp</Link>
             </li>
             <li>
               <Link to="/telenthunt">TALENT HUNT</Link>

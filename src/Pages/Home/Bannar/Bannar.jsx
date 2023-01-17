@@ -30,10 +30,9 @@ const Banner = () => {
         }}
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper xl:mt-[122px] lg:mt-[112px] md:mt-[92px] mt-[82px]"
       >
-        {
-        banner.map((banner, i) => (
+        {banner.map((banner, i) => (
           <SwiperSlide key={i}>
             <BannerItem banner={banner}></BannerItem>
           </SwiperSlide>

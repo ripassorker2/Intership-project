@@ -1,19 +1,17 @@
 import React from 'react';
+import logo from "../../../assets/banner-logo/logo.png";  
+
 
 const AboutUs = () => {
     return (
       <>
         <div className="max-w-screen-xl mx-auto my-20">
-          <div className="flex gap-10">
-            <div className="w-[50%]">
-              <img
-                className="h-96"
-                src="https://i.ibb.co/jwQYdSR/1-banner.jpg"
-                alt=""
-              />
+          <h1 className="text-5xl font-bold text-center mb-10">About Us</h1>
+          <div className="flex gap-10 justify-center align-middle items-center">
+            <div className="xl:w-[35%] lg:w-[40%] md:w-[50%]">
+              <img className="h-full w-full " src={logo} alt="" />
             </div>
-            <div className="w-[50%]">
-              <h1 className="text-5xl font-bold">About Us</h1>
+            <div className="xl:w-[65%] lg:w-[50%] md:w-[90%] ">
               <article className="mt-10">
                 We started this organisation because we felt that there are
                 people in this world who dream to live a life that we are living

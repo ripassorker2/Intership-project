@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from "../../../assets/banner-logo/logo.png";
+import logo from "../../../assets/vison/vison.png";
 import { TbCircleCheck } from "react-icons/tb";
 
 const Vision = () => {
     return (
-      <div>
+
         <div className="max-w-screen-xl mx-auto my-20">
           <div className="flex gap-10">
             <div className="w-[50%]">
@@ -52,7 +52,6 @@ const Vision = () => {
             </div>
           </div>
         </div>
-      </div>
     );
 };
 
