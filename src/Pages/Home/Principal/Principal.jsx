@@ -18,7 +18,7 @@ const Principal = () => {
             alt="img"
           />
         </div>
-        <div className="absolute md:text-white text-[#004e7e]  w-[100%] my-10 xl:mt-[-400px] lg:mt-[-320px] md:mt-[-270px] flex justify-center text-center">
+        <div className="absolute md:text-[yellow] text-[#004e7e]  w-[100%] my-10 xl:mt-[-400px] lg:mt-[-320px] md:mt-[-270px] flex justify-center text-center">
           <h1 className="text-3xl font-bold">
             CORE <br /> PRINCIPLES
           </h1>
