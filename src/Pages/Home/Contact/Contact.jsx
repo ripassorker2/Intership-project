@@ -13,7 +13,7 @@ import {
 
 const Contact = () => {
   return (
-<div className="bg-white pt-8 pb-4 shadow-lg">
+    <div className="bg-white pt-8 pb-4 shadow-lg">
       <div className="max-w-screen-xl mx-auto w-[90%] ">
         <div className="grid md:grid-cols-3">
           <div className="md:w-[90%]">
@@ -22,8 +22,10 @@ const Contact = () => {
                 <img className="md:w-24 w-16" src={logo} alt="" />
               </div>
               <div className="mt-5 ml-2">
-                <h1 className="logo_title leading-none pb-0">THE CHANGE</h1>
-                <h3 className="ml-4 md:text-xl font-bold pt-0 leading-none text-gray-900">
+                <h1 className="text-3xl font-bold text-[#2143F5] leading-none pb-0">
+                  THE CHANGE
+                </h1>
+                <h3 className="md:text-xl font-bold pt-0 leading-none text-gray-900">
                   He for She, She for He
                 </h3>
                 <div className=" pt-1">

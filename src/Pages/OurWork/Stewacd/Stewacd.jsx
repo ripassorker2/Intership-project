@@ -19,7 +19,7 @@ const Stewacd = () => {
         <div className="card lg:card-side bg-base-100 shadow-xl my-16">
           <div>
             <img
-              className="w-[550px] h-72 rounded-l-lg"
+              className="w-[350px] h-72 rounded-l-lg"
               src={img}
               alt="Album"
             />
@@ -62,7 +62,7 @@ const Stewacd = () => {
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
           <div>
             <img
-              className="w-[582px] h-72 rounded-l-lg"
+              className="w-[370px] h-72 rounded-l-lg"
               src={img1}
               alt="Album"
             />
