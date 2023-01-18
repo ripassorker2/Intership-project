@@ -5,9 +5,9 @@ import { TbCircleCheck } from "react-icons/tb";
 const Vision = () => {
     return (
 
-        <div className="max-w-screen-xl mx-auto my-20">
-          <div className="flex gap-10">
-            <div className="w-[50%]">
+        <div className="max-w-screen-xl mx-auto my-32">
+          <div className="flex gap-10 justify-center">
+            <div className="w-[40%]">
               <h1 className="text-5xl font-bold">Vision</h1>
               <article className="mt-10">
                 The Change’s vision is to serve individuals, families and
@@ -47,7 +47,7 @@ const Vision = () => {
                 <TbCircleCheck className="text-xl mt-1 mr-2" /> Addressing discrimination in all its forms
               </h2>
             </div>
-            <div className="w-[50%]">
+            <div className="w-[40%] flex justify-center">
               <img className="h-96" src={logo} alt="" />
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import logo from '../../../assets/banner-logo/logo.png'
-import './Contact.css'
+import logo from "../../../assets/banner-logo/logo.png";
+import "./Contact.css";
 import { TbCircleCheck } from "react-icons/tb";
 import {
   FaFacebook,
@@ -13,76 +13,89 @@ import {
 
 const Contact = () => {
   return (
-
-    <div className="bg-[#8395a7] py-12">
-      <div className="md:max-w-[1270px] mx-auto w-[90%] ">
-
-        <div className="grid md:grid-cols-2">
+    <div className="bg-white pt-8 pb-4 shadow-lg">
+      <div className="max-w-screen-xl mx-auto w-[90%] ">
+        <div className="grid md:grid-cols-3">
           <div className="md:w-[90%]">
             <div className="flex">
               <div className="">
-                <img className="w-28" src={logo} alt="" />
+                <img className="md:w-24 w-16" src={logo} alt="" />
               </div>
-              <div className="mt-2">
-                <h1 className="logo_title">THE CHANGE</h1>
-                <h3 className="logo_he">He for She, She for He</h3>
+              <div className="mt-5 ml-2">
+                <h1 className="text-3xl font-bold text-[#2143F5] leading-none pb-0">
+                  THE CHANGE
+                </h1>
+                <h3 className="md:text-xl font-bold pt-0 leading-none text-gray-900">
+                  He for She, She for He
+                </h3>
+                <div className=" pt-1">
+                  <div
+                    className="flex font-semibold text-blue-500 
+              cursor-pointer pt-2"
+                  >
+                    <TbCircleCheck className="text-xl mt-1 mr-2" />{" "}
+                    <span className="hover:text-[#34910b]">
+                      VOLUNTEER WITH US
+                    </span>
+                  </div>
+                  <div
+                    className="flex font-semibold text-blue-600
+              cursor-pointer pt-2"
+                  >
+                    <TbCircleCheck className="text-xl mt-1 mr-2" />{" "}
+                    <span className="hover:text-[#34910b]">DONATE US</span>
+                  </div>
+                </div>
               </div>
             </div>
-
-            <h2
-              className="flex font-semibold text-white hover:text-[#34910b] 
-              cursor-pointer mt-10 ml-28"
-            >
-              <TbCircleCheck className="text-xl mt-1 mr-2" /> VOLUNTEER WITH US
-            </h2>
-            <h2
-              className="flex font-semibold text-white hover:text-[#34910b] 
-              cursor-pointer mt-5 ml-28"
-            >
-              <TbCircleCheck className="text-xl mt-1 mr-2" />
-              DONATE US
-            </h2>
           </div>
           <div className="md:ml-8">
-            <h3 className=" md:text-[40px] text-2xl font-bold text-white mt-6 mb-2">
+            <h3 className=" md:text-3xl text-xl font-bold text-blue-500  mt-4 mb-1">
               Connect with Us
             </h3>
-            <div className="flex pt-6 ">
-              <p className="bg-white inline-block p-[10px] rounded-full mr-3">
-                <FaFacebook className="text-lg text-[#61c22d] hover:text-blue-700 duration-300" />
+            <div className="flex pt-3 ">
+              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[8px] rounded-full mr-3">
+                <FaFacebook className="text-lg text-white duration-300" />
               </p>
-              <p className="bg-white inline-block p-[10px] rounded-full mr-3">
-                <FaTwitter className="text-lg text-[#61c22d] hover:text-blue-700 duration-300" />
+              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[7px] rounded-full mr-3">
+                <FaTwitter className="text-lg text-white duration-300" />
               </p>
-              <p className="bg-white inline-block p-[10px] rounded-full mr-3">
-                <FaLinkedin className="text-lg text-[#61c22d] hover:text-blue-700 duration-300" />
+              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[8px] rounded-full mr-3">
+                <FaLinkedin className="text-lg text-white duration-300" />
               </p>
-              <p className="bg-white inline-block p-[10px] rounded-full mr-3">
-                <FaYoutube className="text-lg text-[#61c22d] hover:text-blue-700 duration-300" />
+              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[8px] rounded-full mr-3">
+                <FaYoutube className="text-lg text-white duration-300" />
               </p>
-              <p className="bg-white inline-block p-[10px] rounded-full mr-3">
-                <FaInstagram className="text-lg text-[#61c22d] hover:text-blue-700 duration-300" />
+              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[8px] rounded-full mr-3">
+                <FaInstagram className="text-lg text-white duration-300" />
               </p>
             </div>
-            <h3 className="text-3xl py-2 font-semibold text-white">
-              Corporate and Registered Office
+            <div className=" pt-1">
+              <button className="bg-[#71c445] hover:bg-[#4b9c28] px-3 py-2 mt-2 font-bold  text-lg ">
+                <FaPhoneSquareAlt className="inline-block mr-2 text-xl" />
+                <span className="hover:text-white duration-300">
+                  11 - 69200000
+                </span>
+              </button>
+            </div>
+          </div>
+          <div>
+            <h3 className=" md:text-3xl text-xl font-bold text-blue-500  mt-4 ">
+              Location and Address
             </h3>
-            <p className="text-white text-xl">
+            <h5 className="md:text-2xl text-lg py-2 font-semibold text-[#34910b]">
+              Corporate and Registered Office
+            </h5>
+            <p className="text-[#34910b] md:text-lg">
               Module No. 411, 4th Floor, NSIC-MDBP Building <br /> Okhla
               Industrial Estate, New Delhi – 110020 (INDIA)
             </p>
-            <button className="bg-[#84D957] hover:bg-[#34910b] px-3 py-2 mt-2 font-bold  text-lg ">
-              <FaPhoneSquareAlt className="inline-block mr-2 text-xl" />
-              <span className="hover:text-white duration-300">
-                11 - 69200000
-              </span>
-            </button>
           </div>
         </div>
       </div>
 
-      <div className="text-center font-semibold pt-16 text-white">
-        <hr className="mb-6" />
+      <div className="text-center font-semibold pt-16 text-gray-800">
+        <hr className="pb-2 border-red-600 border-t " />
         <p>Copyright © 2023 CARE India. All Rights Reserved</p>
         <p>Current IP Address: 27.109.18.26</p>
       </div>
