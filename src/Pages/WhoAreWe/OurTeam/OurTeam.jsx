@@ -13,7 +13,7 @@ const OurTeam = () => {
     <div className=" my-9">
       <div className="max-w-screen-xl mx-auto w-[90%] ">
         {/* <div class="grid  md:grid-cols-2  gap-6 justify-center">
-          <div class="card bg-gray-900  duration-300  h-[400px] shadow-md rounded m-4 hover:shadow-xl">
+          <div class="card bg-blue-500  duration-300  h-[400px] shadow-md rounded m-4 hover:shadow-xl">
             <div class="h-3/4 w-full ">
               <figure>
                 <img
@@ -56,14 +56,17 @@ const OurTeam = () => {
         <div>
           <div class=" flex items-center  overflow-hidden relative">
             <div class="w-full  rounded  shadow-xl mx-auto text-gray-800 relative md:text-left">
+              <h2 className="md:text-4xl text-3xl py-3 pl-2 font-semibold uppercase">
+                Our team
+              </h2>
               <div class="grid md:grid-cols-2 gap-6 m-3 items-center">
                 <div class="w-full relative">
-                  <div class=" p-3 text-center bg-gray-900 w-full text-gray-300 absolute bottom-0 z-50">
+                  <div class=" p-3 text-center bg-blue-500 w-full text-gray-200 absolute bottom-0 z-50">
                     <span class=" font-semibold uppercase tracking-wide ">
                       Salamullah Shaik
                     </span>
 
-                    <p class="text-gray-300 text-base leading-5 mt-1 ">
+                    <p class="text-gray-200 text-base leading-5 mt-1 ">
                       Founder
                     </p>
                   </div>
@@ -127,57 +130,34 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-        <h2 className="md:text-4xl text-3xl py-3 pl-2 font-semibold uppercase">
-          Our team
-        </h2>
+
         <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div class="card bg-gray-900 duration-300   h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-blue-500 duration-300   h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
-                  class="w-full h-[230px] object-cover rounded-t hover:scale-110  hover:skew-x-1 duration-300"
+                  class="w-full h-[230px]  rounded-t hover:scale-110  hover:skew-x-1 duration-300"
                   src={img2}
                   alt=""
                 />
               </figure>
             </div>
-            <div class="w-full h-1/4 p-3 text-center text-gray-300">
+            <div class="w-full h-1/4 p-3 text-center text-gray-200">
               <p>
                 <span class=" font-semibold uppercase tracking-wide ">
                   Raasi kutcharlapati
                 </span>
               </p>
-              <p class="text-gray-300 text-base leading-5 mt-1 ">
+              <p class="text-gray-200 text-base leading-5 mt-1 ">
                 Director - Human Resource
               </p>
             </div>
           </div>
-          <div class="card bg-gray-900  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-blue-500  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
-                  class="w-full h-[230px] object-cover rounded-t hover:scale-110 hover:skew-x-1 duration-300"
-                  src={img3}
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="w-full h-1/4 p-3 text-center text-gray-300">
-              <p>
-                <span class=" font-semibold uppercase tracking-wide  ">
-                  Nagaraj Golla
-                </span>
-              </p>
-              <p class="text-gray-300 text-base leading-5 mt-1 ">
-                Associate Coordinator
-              </p>
-            </div>
-          </div>
-          <div class="card bg-gray-900  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
-            <div class="h-3/4 w-full">
-              <figure>
-                <img
-                  class="w-full h-[230px] object-cover rounded-t hover:scale-110 hover:skew-x-1 duration-300"
+                  class="w-full h-[230px]  rounded-t hover:scale-110 hover:skew-x-1 duration-300"
                   src={img4}
                   alt=""
                 />
@@ -194,17 +174,38 @@ const OurTeam = () => {
               </p>
             </div>
           </div>
-        </div>
-
-        <h2 className="md:text-4xl text-3xl py-3 pt-5 pl-2 font-semibold uppercase">
-          Our Advisor Board
-        </h2>
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div class="card bg-gray-900  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-blue-500  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
-                  class="w-full h-[230px] object-cover rounded-t hover:scale-110 hover:skew-x-1 duration-300"
+                  class="w-full h-[230px]  rounded-t hover:scale-110 hover:skew-x-1 duration-300"
+                  src={img3}
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="w-full h-1/4 p-3 text-center text-gray-300">
+              <p>
+                <span class=" font-semibold uppercase tracking-wide  ">
+                  Nagaraj Golla
+                </span>
+              </p>
+              <p class="text-gray-300 text-base leading-5 mt-1 ">
+                Associate Coordinator
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h2 className="md:text-4xl text-3xl py-3 pt-5 pl-2 font-bold uppercase">
+          Our Advisor Board
+        </h2>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
+          <div class="card bg-blue-500  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+            <div class="h-3/4 w-full">
+              <figure>
+                <img
+                  class="w-full h-[230px]  rounded-t hover:scale-110 hover:skew-x-1 duration-300"
                   src={img5}
                   alt=""
                 />
@@ -213,39 +214,17 @@ const OurTeam = () => {
             <div class="w-full h-1/4 p-3 text-center text-gray-300">
               <p>
                 <span class=" font-semibold uppercase tracking-wide  ">
-                  Dr. BalaRangaiah Golla
+                  Dr. S Veerabhadra Rao
                 </span>
               </p>
               <p class="text-gray-300 text-base leading-5 mt-1 ">Member</p>
             </div>
           </div>
-          <div class="card bg-gray-900  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-blue-500  duration-300 h-80 shadow-md rounded m-3 hover:shadow-xl">
             <div class="h-3/4 w-full">
               <figure>
                 <img
-                  class="w-full h-[230px] object-cover rounded-t hover:scale-110 hover:skew-x-1 duration-300"
-                  src={img6}
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="w-full h-1/4 p-3 text-center text-gray-300">
-              <p>
-                <span class=" font-semibold uppercase tracking-wide  ">
-                  Dr. BalaRangaiah Golla
-                </span>
-              </p>
-              <p class="text-gray-300 text-base leading-5 mt-1 ">Member</p>
-            </div>
-          </div>
-          <div
-            class="card bg-gray-900  duration-300 h-80 
-          shadow-md rounded m-3 hover:shadow-xl "
-          >
-            <div class="h-3/4 w-full">
-              <figure>
-                <img
-                  class="w-full h-[230px] object-cover rounded-t hover:scale-110 hover:skew-x-1 duration-300"
+                  class="w-full h-[230px] bg-cover rounded-t hover:scale-110 hover:skew-x-1 duration-300"
                   src={img7}
                   alt=""
                 />
@@ -258,6 +237,25 @@ const OurTeam = () => {
                 </span>
               </p>
               <p class=" text-base leading-5 mt-1 ">Member</p>
+            </div>
+          </div>
+          <div class="card bg-blue-500  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+            <div class="h-3/4 w-full">
+              <figure>
+                <img
+                  class="w-full h-[230px]  rounded-t hover:scale-110 hover:skew-x-1 duration-300"
+                  src={img6}
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="w-full h-1/4 p-3 text-center text-gray-300">
+              <p>
+                <span class=" font-semibold uppercase tracking-wide  ">
+                  Dr. BalaRangaiah Golla
+                </span>
+              </p>
+              <p class="text-gray-300 text-base leading-5 mt-1 ">Member</p>
             </div>
           </div>
         </div>
