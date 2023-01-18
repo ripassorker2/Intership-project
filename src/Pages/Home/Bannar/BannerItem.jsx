@@ -41,7 +41,7 @@ const BannerItem = ({banner}) => {
          </div>
          <div className="slide-img mt-[85px] xl:mt-0 lg:mt-0 md:mt-0">
            <img
-             className="slider_img relative w-[100%] xl:h-[100%] 
+             className="slider_img relative w-[100%]  xl:h-[100%] 
              h-[50vh]"
              src={picture}
              alt="img"
