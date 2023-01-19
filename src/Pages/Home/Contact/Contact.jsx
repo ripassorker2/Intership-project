@@ -30,63 +30,63 @@ const Contact = () => {
                 </h3>
                 <div className=" pt-1">
                   <div
-                    className="flex font-semibold text-blue-500 
+                    className="flex font-semibold text-black 
               cursor-pointer pt-2"
                   >
                     <TbCircleCheck className="text-xl mt-1 mr-2" />{" "}
-                    <span className="hover:text-[#34910b]">
+                    <span className="hover:text-[#d26e21]">
                       VOLUNTEER WITH US
                     </span>
                   </div>
                   <div
-                    className="flex font-semibold text-blue-600
+                    className="flex font-semibold text-black 
               cursor-pointer pt-2"
                   >
                     <TbCircleCheck className="text-xl mt-1 mr-2" />{" "}
-                    <span className="hover:text-[#34910b]">DONATE US</span>
+                    <span className="hover:text-[#d26e21]">DONATE US</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="md:ml-8">
-            <h3 className=" md:text-3xl text-xl font-bold text-blue-500  mt-4 mb-1">
+            <h3 className=" md:text-3xl text-xl font-bold text-[#d26e21]  mt-4 mb-1">
               Connect with Us
             </h3>
             <div className="flex pt-3 ">
-              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[8px] rounded-full mr-3">
+              <p className="bg-[#000] hover:bg-[#F48E40] inline-block p-[8px] rounded-full mr-3">
                 <FaFacebook className="text-lg text-white duration-300" />
               </p>
-              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[7px] rounded-full mr-3">
+              <p className="bg-[#000] hover:bg-[#F48E40] inline-block p-[7px] rounded-full mr-3">
                 <FaTwitter className="text-lg text-white duration-300" />
               </p>
-              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[8px] rounded-full mr-3">
+              <p className="bg-[#000] hover:bg-[#F48E40] inline-block p-[8px] rounded-full mr-3">
                 <FaLinkedin className="text-lg text-white duration-300" />
               </p>
-              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[8px] rounded-full mr-3">
+              <p className="bg-[#000] hover:bg-[#F48E40] inline-block p-[8px] rounded-full mr-3">
                 <FaYoutube className="text-lg text-white duration-300" />
               </p>
-              <p className="bg-[#71c445] hover:bg-blue-500 inline-block p-[8px] rounded-full mr-3">
+              <p className="bg-[#000] hover:bg-[#F48E40] inline-block p-[8px] rounded-full mr-3">
                 <FaInstagram className="text-lg text-white duration-300" />
               </p>
             </div>
             <div className=" pt-1">
-              <button className="bg-[#71c445] hover:bg-[#4b9c28] px-3 py-2 mt-2 font-bold  text-lg ">
-                <FaPhoneSquareAlt className="inline-block mr-2 text-xl" />
-                <span className="hover:text-white duration-300">
-                  11 - 69200000
+              <button className="bg-[#000] hover:bg-[#F48E40] px-3 py-2 mt-2 font-bold  text-lg ">
+                <FaPhoneSquareAlt className="text-white inline-block mr-2 text-xl" />
+                <span className=" text-white hover:text-white duration-300">
+                  00 - 0000000
                 </span>
               </button>
             </div>
           </div>
           <div>
-            <h3 className=" md:text-3xl text-xl font-bold text-blue-500  mt-4 ">
+            <h3 className=" md:text-3xl text-xl font-bold text-[#d26e21]   mt-4 ">
               Location and Address
             </h3>
-            <h5 className="md:text-2xl text-lg py-2 font-semibold text-[#34910b]">
+            <h5 className="md:text-2xl text-lg py-2 font-semibold text-[#000]">
               Corporate and Registered Office
             </h5>
-            <p className="text-[#34910b] md:text-lg">
+            <p className="text-[#000] md:text-lg font-medium">
               Module No. 411, 4th Floor, NSIC-MDBP Building <br /> Okhla
               Industrial Estate, New Delhi – 110020 (INDIA)
             </p>
@@ -95,7 +95,7 @@ const Contact = () => {
       </div>
 
       <div className="text-center font-semibold pt-16 text-gray-800">
-        <hr className="pb-2 border-red-600 border-t " />
+        <hr className="pb-2 border-[#F48E40] border-t " />
         <p>Copyright © 2023 CARE India. All Rights Reserved</p>
         <p>Current IP Address: 27.109.18.26</p>
       </div>
