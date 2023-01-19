@@ -7,7 +7,8 @@ import img5 from '../../../../assets/event/Gender Awarness and  Well-Being Sessi
 import img6 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.42 PM (2).jpeg'
 import img7 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.42 PM (3).jpeg'
 import img8 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.42 PM.jpeg'
-
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 const GenderAwarness = () => {
     const PhotoData = [
         {
@@ -49,7 +50,9 @@ const GenderAwarness = () => {
              <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                 {PhotoData.map((photo) => (
                     <div className=" bg-base-100 shadow-xl">
+                    <Zoom> 
                         <img className='w-80 h-72' src={photo.img} alt="" />
+                    </Zoom>
                     </div>
                 ))}
             </div>

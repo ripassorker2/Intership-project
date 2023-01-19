@@ -5,7 +5,8 @@ import img3 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2
 import img4 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2021-09-08 at 10.07.39 PM (4).jpeg'
 import img5 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2021-09-08 at 10.07.39 PM.jpeg'
 import img6 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2021-09-08 at 10.44.04 PM.jpeg'
-
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const NutritousFood = () => {
     const PhotoData = [
@@ -40,7 +41,9 @@ const NutritousFood = () => {
              <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                 {PhotoData.map((photo) => (
                     <div className=" bg-base-100 shadow-xl">
+                     <Zoom> 
                         <img className='w-80 h-72' src={photo.img} alt="" />
+                    </Zoom>
                     </div>
                 ))}
             </div>
