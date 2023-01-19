@@ -62,12 +62,13 @@ const Stewacd = () => {
         <div className="card lg:card-side bg-base-100 shadow-xl my-12">
           <div>
             <img
-              className="w-[370px] h-72 rounded-l-lg"
+              className="w-[370px] lg:w-[370px] h-72 md:w-52 md:h-full
+               rounded-t-lg md:rounded-t-lg xl:rounded-l-lg lg:rounded-l-lg"
               src={img1}
               alt="Album"
             />
           </div>
-          <div className="pl-10">
+          <div className="md:pl-10 pl-5">
             <h2 className="card-title mt-6 mb-4">
               UNSDG GOAL: 05: GENDER EQUALITY
             </h2>
