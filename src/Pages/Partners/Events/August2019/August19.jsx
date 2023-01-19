@@ -9,7 +9,9 @@ import img7 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09
 import img8 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.11.33 PM.jpeg'
 import img9 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.30.55 PM.jpeg'
 import img10 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.30.56 PM (2).jpeg'
-import img11 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.30.56 PM.jpeg'
+import img11 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.30.56 PM.jpeg';
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const August19 = () => {
     const PhotoData = [
@@ -62,7 +64,9 @@ const August19 = () => {
              <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                 {PhotoData.map((photo) => (
                     <div className=" bg-base-100 shadow-xl">
+                     <Zoom> 
                         <img className='w-80 h-72' src={photo.img} alt="" />
+                    </Zoom> 
                     </div>
                 ))}
             </div>
