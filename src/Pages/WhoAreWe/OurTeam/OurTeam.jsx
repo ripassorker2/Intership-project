@@ -12,53 +12,15 @@ const OurTeam = () => {
   return (
     <div className=" my-9">
       <div className="max-w-screen-xl mx-auto w-[90%] ">
-        {/* <div class="grid  md:grid-cols-2  gap-6 justify-center">
-          <div class="card bg-gray-900  duration-300  h-[400px] shadow-md rounded m-4 hover:shadow-xl">
-            <div class="h-3/4 w-full ">
-              <figure>
-                <img
-                  class="w-full  h-[300px] bg-cover rounded-t hover:scale-110 hover:skew-x-1 duration-300"
-                  src={img1}
-                  alt="Founder"
-                />
-              </figure>
-            </div>
-            <div class="w-full h-1/4 p-3 mt-3 text-center text-gray-300 ">
-              <p>
-                <span class=" font-semibold uppercase tracking-wide ">
-                  Salamullah Shaik
-                </span>
-              </p>
-              <p class="text-gray-300 text-base leading-5 mt-1 ">Founder</p>
-            </div>
-          </div>
-          <div className="flex justify-center items-center md:p-2 p-4">
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident magni neque cum, voluptatum eos nulla esse nesciunt
-              voluptate doloremque dolor vero suscipit unde non eveniet
-              perferendis facilis illo autem sapiente error dignissimos? Unde
-              recusandae, optio natus placeat illo labore? Tenetur aliquid
-              ipsam, minus ullam ipsum, dicta tempore tempora reiciendis
-              consequuntur dolor pariatur, iusto dignissimos rerum quam hic
-              repudiandae quia! Iste distinctio fuga totam ex recusandae
-              accusamus qui quibusdam inventore sapiente quis saepe, esse veniam
-              mollitia nesciunt nostrum deleniti sunt earum in animi nihil sequi
-              explicabo. Ipsam maiores rem nostrum at dolores itaque tempora ea
-              quod cum, dolorem dignissimos excepturi, ducimus explicabo
-              sapiente vel libero omnis laboriosam doloribus ex praesentium
-              officiis. Exercitationem quasi minima aliquam, ab at libero
-              eligendi sunt ratione!
-            </p>
-          </div>
-        </div> */}
-
         <div>
           <div class=" flex items-center  overflow-hidden relative">
             <div class="w-full  rounded  shadow-xl mx-auto text-gray-800 relative md:text-left">
+              <h2 className="md:text-4xl text-3xl py-3 pl-2 font-semibold uppercase">
+                Our team
+              </h2>
               <div class="grid md:grid-cols-2 gap-6 m-3 items-center">
                 <div class="w-full relative">
-                  <div class=" p-3 text-center bg-yellow-500 w-full text-black absolute bottom-0 z-50">
+                  <div class=" p-3 text-center bg-[#1097CC] w-full text-black absolute bottom-0 z-50">
                     <span class=" font-semibold uppercase tracking-wide ">
                       Salamullah Shaik
                     </span>
@@ -75,8 +37,9 @@ const OurTeam = () => {
                 </div>
                 <div class="w-full">
                   <div class="md:pl-5">
-                    <p class="text-sm text-gray-900">
-                      <span className="pb-2">Greetings,</span> <br />
+                    <p class="text-sm text-gray-900 leading-2">
+                      <span className="pb-2 font-semibold">Greetings,</span>{" "}
+                      <br />
                       It’s my privilege and honour for me to interact with you
                       and introduce you to The Change. <br />
                       With such aims and objectives, The Change was established
@@ -116,8 +79,10 @@ const OurTeam = () => {
                       free to visit us and join our activities at any time. We
                       welcome you all to join us for making this Earth more
                       Sustainable and Inclusive. <br /> Regards, <br />{" "}
-                      Shaik.Salamullah <br />
-                      Founder-The Change
+                      <span className="font-semibold">
+                        Shaik Salamullah
+                      </span>{" "}
+                      <br />
                     </p>
                   </div>
                 </div>
@@ -125,11 +90,9 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-        <h2 className="md:text-4xl text-3xl py-3 pl-2 font-semibold uppercase">
-          Our team
-        </h2>
+
         <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div class="card bg-yellow-500 duration-300   h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#1097CC] duration-300   h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -150,11 +113,11 @@ const OurTeam = () => {
               </p>
             </div>
           </div>
-          <div class="card bg-yellow-500  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
-                  class="w-full h-[230px] object-cover rounded-t hover:scale-110 hover:skew-x-1 duration-300"
+                  class="w-full h-[230px]  rounded-t hover:scale-110 hover:skew-x-1 duration-300"
                   src={img3}
                   alt=""
                 />
@@ -171,7 +134,7 @@ const OurTeam = () => {
               </p>
             </div>
           </div>
-          <div class="card bg-yellow-500  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -194,11 +157,11 @@ const OurTeam = () => {
           </div>
         </div>
 
-        <h2 className="md:text-4xl text-3xl py-3 pt-5 pl-2 font-semibold uppercase">
+        <h2 className="md:text-4xl text-3xl py-3 pt-9 pl-2 font-semibold uppercase">
           Our Advisor Board
         </h2>
         <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div class="card bg-yellow-500  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -219,7 +182,7 @@ const OurTeam = () => {
           </div>
 
           <div
-            class="card bg-yellow-500  duration-300 h-80 
+            class="card bg-[#1097CC]  duration-300 h-80 
           shadow-md rounded m-3 hover:shadow-xl "
           >
             <div class="h-3/4 w-full">
@@ -241,7 +204,7 @@ const OurTeam = () => {
               <p class=" text-base leading-5 mt-1 ">Member</p>
             </div>
           </div>
-          <div class="card bg-yellow-500  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
