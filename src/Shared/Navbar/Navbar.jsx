@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import './Navbar.css';
-import logo from '../../assets/banner-logo/logo.png';
+import "./Navbar.css";
+import logo from "../../assets/logo/logo.png";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import DrawerMenu from "./DrawerMenu/DrawerMenu";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
   const [openMenu, setOpenMenu] = useState(false);
 
   const menuItems = (
@@ -78,25 +77,20 @@ const Navbar = () => {
   window.onscroll = () => scrollingBg();
   const scrollingBg = () => {
     if (document.documentElement.scrollTop > 50) {
-      document.getElementById('main-nav').classList.add('nav-bg');
-      document.getElementById('navContainer').classList.add('bb-none')
+      document.getElementById("main-nav").classList.add("nav-bg");
+      document.getElementById("navContainer").classList.add("bb-none");
+    } else {
+      document.getElementById("main-nav").classList.remove("nav-bg");
+      document.getElementById("navContainer").classList.remove("bb-none");
     }
-    else {
-      document.getElementById('main-nav').classList.remove('nav-bg');
-      document.getElementById('navContainer').classList.remove('bb-none')
-    }
-  }
+  };
 
   return (
     <nav id="main-nav">
       <div id="navContainer" className="max-w-7xl mx-auto nav-container">
         <Link to="/">
           <div className="flex">
-            <img className="logo" src={logo} alt="logo" />
-            <div className="logo_detail">
-              <h1 className="logo_title">THE CHANGE</h1>
-              <h3 className="logo_he">He for She, She for He</h3>
-            </div>
+            <img className=" md:w-80 w-60" src={logo} alt="logo" />
           </div>
         </Link>
         <div className="toggole-menu">
