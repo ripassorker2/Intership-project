@@ -26,7 +26,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
   return (
     <div className="main-drawer">
       <div className="drawer-header">
-        <img src={logo} alt="logo" className="w-72" />
+        <img src={logo} alt="logo" className="w-48" />
         <span onClick={() => setOpenMenu(!openMenu)}>
           <ImCross />
         </span>
@@ -95,20 +95,11 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
             </ul>
           </div>
         </li>
-        {/* <li className="according-menu">
-            <Link>
-              Impact{" "}
-              <span>
-                <MdOutlineKeyboardArrowDown />
-              </span>
-            </Link>
-            <div className="drawer-sub-menu">
-                        <ul>
-                            <li><Link to='/direct'>Direct</Link></li>
-                            <li><Link to='/indirect'>Indirect</Link></li>
-                        </ul>
-                    </div>
-          </li> */}
+        <li className="according-menu">
+          <Link to='/impact'>
+            Impact{" "}
+          </Link>
+        </li>
       </ul>
     </div>
   );
