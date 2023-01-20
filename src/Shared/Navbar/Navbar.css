@@ -3,7 +3,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 99999;
+    z-index: 9999999;
     padding: 0 20px;
     background: #FFFFFF;
 }
@@ -48,16 +48,18 @@ nav .nav-container .toggole-menu svg {
     color: black;
 }
 
-nav .logo{
+nav .logo {
     height: 90px;
     margin-right: 5px;
 }
-.logo_title{
+
+.logo_title {
     font-size: 42px;
     color: #2143F5;
     font-weight: 700;
 }
-.logo_he{
+
+.logo_he {
     font-size: 22px;
     color: #444444;
 
@@ -184,16 +186,19 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
         background: white;
     }
 
-    nav .logo{
+    nav .logo {
         height: 50px;
     }
-    .logo_detail{
+
+    .logo_detail {
         margin-top: 5px;
     }
-    .logo_title{
+
+    .logo_title {
         font-size: 18px;
     }
-    .logo_he{
+
+    .logo_he {
         font-size: 10px;
         font-weight: 700;
         color: #f0f07a;
@@ -217,31 +222,43 @@ nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
     nav {
         padding: 0 20px;
     }
-    nav .logo{
+
+    nav .logo {
         height: 60px;
     }
-    .logo_detail{
+
+    .logo_detail {
         margin-top: 10px;
     }
-    .logo_title{
+
+    .logo_title {
         font-size: 20px;
     }
-    .logo_he{
+
+    .logo_he {
         font-size: 11px;
         font-weight: 700;
     }
+
+    nav .nav-container .main-menu>li>a {
+        font-size: 13px;
+    }
 }
-@media (min-width:779px) and (max-width:1024px){
-    nav .logo{
+
+@media (min-width:779px) and (max-width:1024px) {
+    nav .logo {
         height: 80px;
     }
-    .logo_detail{
+
+    .logo_detail {
         margin-top: 8px;
     }
-    .logo_title{
+
+    .logo_title {
         font-size: 30px;
     }
-    .logo_he{
+
+    .logo_he {
         font-size: 16px;
         font-weight: 700;
     }
