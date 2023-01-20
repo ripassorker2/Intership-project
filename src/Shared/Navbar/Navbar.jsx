@@ -90,7 +90,7 @@ const Navbar = () => {
       <div id="navContainer" className="max-w-7xl mx-auto nav-container">
         <Link to="/">
           <div className="flex">
-            <img className=" md:w-80 w-60" src={logo} alt="logo" />
+            <img className="lg:w-80 md:w-60 w-48" src={logo} alt="logo" />
           </div>
         </Link>
         <div className="toggole-menu">
