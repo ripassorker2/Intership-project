@@ -3,17 +3,113 @@
 
   transition: all linear 0.4s;
 }
+
 .principal-item .item-img svg {
   width: 85px;
 }
+
+.principal-item h2 {
+  font-size: 26px;
+}
+
+.principal-item p {
+  font-size: 18px;
+}
+
 .principal-item:hover h2 {
   color: #000;
 }
+
 .principal-item:hover .item-img {
   background-color: green;
   border: 2px solid #fff;
   transition: all linear 0.3s;
 }
+
 .principal-item h2 {
   color: green;
+}
+
+.main-principal {
+  position: relative;
+}
+
+
+.main-principal .principale-ul {
+  position: absolute;
+  top: 45%;
+  z-index: 99999;
+}
+
+.main-principal .principale-ul .item {
+  display: flex;
+  justify-content: center;
+}
+
+.first-principale {
+  background: rgba(80, 203, 14, 0.6);
+  width: 60%;
+  border-radius: 50%;
+}
+
+.first-principale::before {
+  content: '';
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  height: 75%;
+  background: rgba(80, 203, 14, 0.7);
+  border-radius: 50%;
+}
+
+.first-principale::after {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55%;
+  height: 55%;
+  background: rgba(80, 203, 14, 1);
+  border-radius: 50%;
+}
+
+.first-principale .principale-content {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  z-index: 9999;
+}
+
+.first-principale .principale-content ul {
+  position: absolute;
+  top: -20px;
+  left: -60px;
+}
+
+@media (min-width:320px) and (max-width:576px) {
+  .first-principale {
+    display: none;
+  }
+
+  .first-principale .principale-content {
+    display: none;
+  }
+
+  .main-principal .principale-ul {
+    top: 0%;
+  }
+
+  .main-principal .principale-ul .item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-principal .principale-ul ul .card2 {
+    display: none;
+  }
 }

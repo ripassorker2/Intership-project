@@ -3,6 +3,7 @@ import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import { RouterProvider } from "react-router-dom";
 import router from "./Routes/Routes";
+import './App.css';
 
 const App = () => {
   useEffect(() => {
