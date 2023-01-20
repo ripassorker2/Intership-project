@@ -1,76 +1,62 @@
-import React from 'react';
-import Education from '../../assets/icons/Education';
-import Groups from '../../assets/icons/Groups';
-import Students from '../../assets/icons/Students';
+import React, { useState } from "react";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
+
 const Impact = () => {
-    return (
-      <div className="max-w-screen-xl mx-auto my-20">
-        <h1 className="text-5xl font-bold text-center">IMPACT</h1>
-        <div className="flex justify-center w-[100%] mt-10">
-          <ul
-            className="item xl:gap-6 lg:gap-1 md:gap-1 gap-1 
-          justify-center lg:flex md:flex grid grid-cols-2 h-40"
-          >
-<li
-              className="card shadow-lg xl:w-96 lg:w-32 md:w-28 w-36 flex 
-            justify-center"
-            >
-              <div className="principal-item flex  align-middle items-center">
-                <figure
-                  className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 
-                  lg:h-24 md:w-24 md:h-24 w-28 h-28
-                   bg-[#e3e2e1] mx-auto"
-                >
-                 <Students/>
-                </figure>
-                <div className="mx-auto  text-center text">
-                  <h2 className=" text-xl-5 font-bold">
-                    Students -  12000
-                  </h2>
-                </div>
+  const [counterOn, seTCounterOn] = useState(false);
+
+  return (
+    <div className="  my-10">
+      <h1 className="md:text-5xl text-3xl font-semibold text-center uppercase pb-7">
+        IMPACT On Us
+      </h1>
+      <ScrollTrigger
+        onEnter={() => seTCounterOn(true)}
+        onExit={() => seTCounterOn(false)}
+      >
+        {counterOn && (
+          <section class="relative h-[500px]  bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBlyZibPNLePg2I6WJlhegUHo15i1cjqdwWn7rwCGvz9HzZSDu-yEByTChhCiWbQ8KCUM&usqp=CAU)]  bg-cover bg-center bg-no-repeat w-full flex justify-center flex-row items-center lg:gap-9 opacity-80 ">
+            {/* <div class="absolute inset-0  md:bg-transparent md:bg-gradient-to-r md:from-[#86D955]/25 md:to-[#86D955]/25"></div> */}
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 xl:gap-x-20  md:gap-9 gap-6 max-w-screen-xl mx-auto">
+              <div
+                data-aos="fade-right"
+                className="bg-gray-300  w-[300px]  p-6 rounded-xl text-center hover:shadow-lg hover:shadow-[#F48E40]"
+              >
+                <h5 className=" text-[#1E50EC] font-semibold pt-2 text-xl">
+                  <h5 className=" text-[#1E50EC] font-bold text-2xl">
+                    <CountUp start={0} delay={0} end={12000} duration={3} />+
+                  </h5>
+                  Students
+                </h5>
               </div>
-            </li>
-<li className="card shadow-lg xl:w-96 lg:w-32 md:w-28 w-36 flex 
-            justify-center">
-              <div className="principal-item flex  align-middle items-center">
-                <figure
-                  className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 
-                  lg:h-24 md:w-24 md:h-24 w-28 h-28
-                  bg-[#e3e2e1] mx-auto"
-                >
-                  <Education/>
-                </figure>
-                <div className=" mx-auto text-center text">
-                  <h2 className="py-2 text-xl-5 font-bold">
-                    Educational Institutions - 18
-                  </h2>
-                  <p></p>
-                </div>
+              <div
+                data-aos="zoom-in-up"
+                className="bg-gray-300 w-[300px]  p-6 rounded-xl text-center hover:shadow- hover:shadow-[#F48E40]"
+              >
+                <h5 className="text-[#1E50EC] font-bold text-2xl">
+                  <CountUp start={0} delay={0} end={3400} duration={2} />+
+                </h5>
+                <h5 className="text-[#1E50EC] font-semibold pt-2 text-xl">
+                  Educational Institutions
+                </h5>
               </div>
-            </li>
-<li className="card shadow-lg xl:w-96 lg:w-32 md:w-28 w-36 flex 
-            justify-center">
-              <div className="principal-item flex  align-middle items-center">
-                <figure
-                  className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 
-                  lg:h-24 md:w-24 md:h-24 w-28 h-28
-                  bg-[#e3e2e1] mx-auto"
-                >
-                  <Groups/>
-                </figure>
-                <div className=" mx-auto text-center text">
-                  <h2 className="py-2 text-xl-5 font-bold">
-                    {" "}
-                    Women and Other <br /> Vulnerable Groups – 1800
-                  </h2>
-                  <p></p>
-                </div>
+              <div
+                data-aos="fade-left"
+                className="bg-gray-300 w-[300px]  p-6 rounded-xl text-center hover:shadow-lg hover:shadow-[#F48E40]"
+              >
+                <h5 className="text-[#1E50EC] font-bold text-2xl lg:text-3xl">
+                  <CountUp start={0} delay={0} end={1800} duration={3} />+
+                </h5>
+                <h5 className="text-[#1E50EC] font-semibold pt-2 text-xl ">
+                  Vulnerable Groups
+                </h5>
               </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    );
+            </div>
+          </section>
+        )}
+      </ScrollTrigger>
+    </div>
+  );
 };
 
 export default Impact;
