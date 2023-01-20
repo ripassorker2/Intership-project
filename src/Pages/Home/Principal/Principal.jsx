@@ -16,7 +16,7 @@ const Principal = () => {
           </div>
         </div>
         <div className="principale-ul">
-          <ul className="item xl:gap-6 lg:gap-1 md:gap-1 gap-1 
+          <ul className="item xl:gap-6 lg:gap-1 md:gap-8 gap-1 
           justify-center md:flex">
 
             <li className="card xl:w-40 lg:w-32 md:w-28 w-36 flex 

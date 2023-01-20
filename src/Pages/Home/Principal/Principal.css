@@ -112,4 +112,29 @@
   .main-principal .principale-ul ul .card2 {
     display: none;
   }
+
+  .principal-item h2 {
+    font-size: 22px;
+  }
+
+  .principal-item p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+  .first-principale {
+    background: rgba(80, 203, 14, 0.6);
+    width: 80%;
+    height: 545px;
+    border-radius: 50%;
+  }
+
+  .principal-item h2 {
+    font-size: 18px;
+  }
+
+  .principal-item p {
+    font-size: 16px;
+  }
 }
