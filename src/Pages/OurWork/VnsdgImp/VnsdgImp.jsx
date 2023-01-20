@@ -7,10 +7,10 @@ import img2 from '../../../assets/eduction/Sustainable_Development_Goal_13.png'
 const VnsdgImp = () => {
     return (
       <div className="max-w-screen-xl mx-auto my-20">
-        <h1 className="text-5xl font-bold text-center">
+        <h1 className="md:text-5xl text-xl font-bold text-center">
           UNSDGs IMPLEMENTATION
         </h1>
-        <h2 className="text-center mt-10">
+        <h2 className="text-center mt-10 m-4">
           At our organisation we work on separate programmes like STEWACD, it is
           the acronym of Support Towards Empowerment of Women and Child
           Development. This initiative is mainly focussed on the UNSDG Goals-4,5
@@ -19,10 +19,11 @@ const VnsdgImp = () => {
           schools for doing various works based on their gender. Under this
           flagship we conduct the following programmes.
         </h2>
-        <div className="card lg:card-side bg-base-100 shadow-xl my-16">
+        <div className="card lg:card-side bg-base-100 shadow-xl my-16 m-4">
           <div>
             <img
-              className="w-[380px] h-60 rounded-l-lg"
+              className="w-[380px] lg:w-[350px] md:w-full xl:h-60 lg:h-64 
+              md:h-96 lg:px-0 rounded"
               src={img}
               alt="Album"
             />
@@ -46,10 +47,11 @@ const VnsdgImp = () => {
           </div>
         </div>
 
-        <div className="card lg:card-side bg-base-100 shadow-xl my-16">
+        <div className="card lg:card-side bg-base-100 shadow-xl my-16 m-4">
           <div>
             <img
-              className="w-[335px] h-60 rounded-l-lg"
+              className="xl:w-[310px] lg:w-[350px] md:w-full xl:h-60 lg:h-64 
+              md:h-96 lg:px-0 rounded"
               src={img1}
               alt="Album"
             />
@@ -78,10 +80,11 @@ const VnsdgImp = () => {
             </p>
           </div>
         </div>
-        <div className="card lg:card-side bg-base-100 shadow-xl my-16">
+        <div className="card lg:card-side bg-base-100 shadow-xl my-16 m-4">
           <div>
             <img
-              className="w-[335px] h-60 rounded-l-lg"
+              className="xl:w-[310px] lg:w-[350px] md:w-full xl:h-60 lg:h-64 
+              md:h-96 lg:px-0 rounded"
               src={img2}
               alt="Album"
             />

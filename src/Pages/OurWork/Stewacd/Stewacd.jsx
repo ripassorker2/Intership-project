@@ -7,7 +7,7 @@ const Stewacd = () => {
     return (
       <div className="max-w-screen-xl mx-auto my-20">
         <h1 className="text-5xl font-bold text-center">STEWACD</h1>
-        <h2 className="text-center mt-10">
+        <h2 className="text-center mt-10 px-4">
           At our organisation we work on separate programmes like STEWACD, it is
           the acronym of Support Towards Empowerment of Women and Child
           Development. This initiative is mainly focussed on the UNSDG Goals-4,5
@@ -16,16 +16,17 @@ const Stewacd = () => {
           schools for doing various works based on their gender. Under this
           flagship we conduct the following programmes.
         </h2>
-        <div className="card lg:card-side bg-base-100 shadow-xl my-16">
+        <div className="card lg:card-side bg-base-100 shadow-xl my-12 m-4">
           <div>
             <img
-              className="w-[350px] h-72 rounded-l-lg"
+              className="xl:w-[200px] lg:w-[350px] md:w-full xl:h-[200px] lg:h-64 
+              md:h-96 lg:px-0 rounded"
               src={img}
               alt="Album"
             />
           </div>
           <div className="pl-10">
-            <h2 className="card-title mt-6 mb-4">
+            <h2 className="card-title my-6 ">
               UNSDG GOAL: 04: QUALITY EDUCATION
             </h2>
             <p className="flex leading-8">
@@ -59,19 +60,17 @@ const Stewacd = () => {
           </div>
         </div>
 
-        <div className="card lg:card-side bg-base-100 shadow-xl my-12">
+        <div className="card lg:card-side bg-base-100 shadow-xl my-12 m-4">
           <div>
             <img
-              className="w-[370px] lg:w-[370px] h-72 md:w-52 md:h-full
-               rounded-t-lg md:rounded-t-lg xl:rounded-l-lg lg:rounded-l-lg"
+              className="xl:w-[370px] lg:w-[370px] md:w-full xl:h-60 lg:h-64 
+              md:h-96 lg:px-0 rounded"
               src={img1}
               alt="Album"
             />
           </div>
           <div className="md:pl-10 pl-5">
-            <h2 className="card-title mt-6 mb-4">
-              UNSDG GOAL: 05: GENDER EQUALITY
-            </h2>
+            <h2 className="card-title my-6">UNSDG GOAL: 05: GENDER EQUALITY</h2>
             <p className="flex leading-8">
               <span className="text-[18px] mt-1 mr-2">
                 <FaHandPointRight />
