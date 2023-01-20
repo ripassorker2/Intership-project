@@ -31,7 +31,7 @@ const Impact = () => {
               </div>
               <div
                 data-aos="zoom-in-up"
-                className="bg-gray-300 w-[300px]  p-6 rounded-xl text-center hover:shadow- hover:shadow-[#F48E40]"
+                className="bg-gray-300 w-[300px]  p-6 rounded-xl text-center hover:shadow-lg hover:shadow-[#F48E40]"
               >
                 <h5 className="text-[#1E50EC] font-bold text-2xl">
                   <CountUp start={0} delay={0} end={3400} duration={2} />+
