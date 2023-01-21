@@ -10,8 +10,10 @@ import './Principal.css';
 const Principal = () => {
   return (
     <>
+      <h1 className="text-2xl text-center font-bold mt-5 block md:hidden lg:hidden">Core Principale</h1>
       <div className="main-principal max-w-screen-xl mx-auto lg:h-[700px] md:h-[510px] h-[480px] my-10 flex justify-center items-center">
         <div className="first-principale lg:h-[100%] md:h-[310px] h-[480px] relative">
+          <h1>Core Principale</h1>
           <div className="principale-content absolute">
           </div>
         </div>

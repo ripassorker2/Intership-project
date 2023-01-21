@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../../assets/vison/vison.png";
 import { TbCircleCheck } from "react-icons/tb";
+import talent from '../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.38.58 PM.jpeg';
 
 const Vision = () => {
   return (
@@ -8,6 +9,7 @@ const Vision = () => {
       <div className="grid md:grid-cols-2 gap-6 justify-center">
         <div className=" p-4">
           <h1 className="text-5xl font-bold">Vision</h1>
+          <img src={talent} alt="" />
           <article className="mt-10">
             The Change’s vision is to serve individuals, families and
             communities in the poorest by pulling strength from our global
