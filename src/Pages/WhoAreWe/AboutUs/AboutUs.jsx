@@ -12,7 +12,7 @@ const AboutUs = () => {
             <img className="h-72 " src={logo} alt="" />
             </div>
             <div className="md:w-1/2 sm:w-[100%]">
-            <article className="font-medium">
+            <article className=" text-[18px]">
                 We started this organisation because we felt that there are
                 people in this world who dream to live a life that we are living
                 right now. While we dream of luxuries, they just hope to get a

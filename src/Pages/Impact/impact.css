@@ -1,0 +1,12 @@
+#bg-overlay {
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 11, 3, 0.52),
+      rgba(18, 18, 17, 0.73)
+    ),
+    url("../../assets/banner/img.jpeg");
+
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
