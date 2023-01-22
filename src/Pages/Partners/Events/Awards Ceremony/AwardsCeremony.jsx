@@ -18,8 +18,6 @@ import img16 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-
 import img17 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.39.00 PM.jpeg'
 import img18 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.39.01 PM.jpeg'
 import img19 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.40.11 PM.jpeg'
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
 
 const AwardsCeremony = () => {
     const PhotoData = [
@@ -101,13 +99,12 @@ const AwardsCeremony = () => {
     return (
         <>
         <section className='max-w-screen-xl mx-auto my-20'>
+        <h1 className='text-4xl font-semibold'>Awards Ceremony</h1>
              <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                 {PhotoData.map((photo) => (
                     <div className=" bg-base-100 shadow-xl">
-                    <Zoom> 
-                        <img className='w-80 h-72' src={photo.img} alt="" />
-                    </Zoom>
-                    </div>
+                    <img className='w-80 h-72 rounded' src={photo.img} alt="" />
+                </div>
                 ))}
             </div>
         </section>
