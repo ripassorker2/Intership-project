@@ -19,7 +19,7 @@ const OurTeam = () => {
                 Our team
               </h2>
               <div class=" gap-6 m-3 items-center">
-                <div class="w-full lg:w-[50%] relative" data-aos="fade-up">
+                <div class="w-full lg:w-[50%] relative">
                   <div class=" p-3 text-center bg-[#1097CC] w-full text-[#86D955] absolute bottom-0 z-50 text-xl">
                     <span class=" font-semibold uppercase tracking-wide ">
                       Shaik.Salamullah
@@ -35,7 +35,7 @@ const OurTeam = () => {
                     />
                   </div>
                 </div>
-                <div class="w-full mt-5" data-aos="fade-left">
+                <div class="w-full mt-5">
                   <div class="">
                     <div class="text-sm text-gray-900 leading-2">
                       Greetings,
@@ -104,10 +104,7 @@ const OurTeam = () => {
         </div>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div
-            class="card bg-[#1097CC] duration-300   h-80 shadow-md rounded m-3 hover:shadow-xl "
-            data-aos="fade-up-right"
-          >
+          <div class="card bg-[#1097CC] duration-300   h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -128,10 +125,7 @@ const OurTeam = () => {
               </p>
             </div>
           </div>
-          <div
-            class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl "
-            data-aos="fade-up"
-          >
+          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -152,10 +146,7 @@ const OurTeam = () => {
               </p>
             </div>
           </div>
-          <div
-            class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl "
-            data-aos="fade-up-left"
-          >
+          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -182,10 +173,7 @@ const OurTeam = () => {
           Our Advisor Board
         </h2>
         <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div
-            class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl "
-            data-aos="zoom-out-right"
-          >
+          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -208,7 +196,6 @@ const OurTeam = () => {
           <div
             class="card bg-[#1097CC]  duration-300 h-80 
           shadow-md rounded m-3 hover:shadow-xl "
-            data-aos="fade-up"
           >
             <div class="h-3/4 w-full">
               <figure>
@@ -229,10 +216,7 @@ const OurTeam = () => {
               <p class=" text-base leading-5 mt-1 ">Member</p>
             </div>
           </div>
-          <div
-            class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl "
-            data-aos="zoom-out-left"
-          >
+          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img

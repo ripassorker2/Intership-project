@@ -13,7 +13,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className="bg-white pt-7 pb-4 shadow-lg" data-aos="fade-up">
+    <div className="bg-white pt-7 pb-4 shadow-lg">
       <div className="max-w-screen-xl mx-auto w-[90%] ">
         <div className="grid md:grid-cols-3">
           <div className="md:w-[90%]">
