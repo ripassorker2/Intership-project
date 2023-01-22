@@ -11,8 +11,6 @@ import img9 from '../../../../assets/event/Skill Enhancement programme-Orphanage
 import img10 from '../../../../assets/event/Skill Enhancement programme-Orphanage/WhatsApp Image 2021-09-08 at 10.13.06 PM (2).jpeg'
 import img11 from '../../../../assets/event/Skill Enhancement programme-Orphanage/WhatsApp Image 2021-09-08 at 10.13.06 PM (3).jpeg'
 import img12 from '../../../../assets/event/Skill Enhancement programme-Orphanage/WhatsApp Image 2021-09-08 at 10.13.06 PM.jpeg'
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
 
 const SkillEnhancement = () => {
     const PhotoData = [
@@ -67,12 +65,11 @@ const SkillEnhancement = () => {
     return (
         <>
         <section className='max-w-screen-xl mx-auto my-20'>
+        <h1 className='text-4xl font-semibold'>Skill Enhancement programme-Orphanage</h1>
              <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                 {PhotoData.map((photo) => (
                     <div className=" bg-base-100 shadow-xl">
-                     <Zoom> 
-                        <img className='w-80 h-72' src={photo.img} alt="" />
-                    </Zoom>
+                        <img className='w-80 h-72 rounded' src={photo.img} alt="" />
                     </div>
                 ))}
             </div>

@@ -10,8 +10,6 @@ import img8 from '../../../../assets/event/Good Touch and Bad Touch Session and 
 import img9 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (8).jpeg'
 import img10 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (9).jpeg'
 import img11 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM.jpeg'
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
 const GoodTouch = () => {
     const PhotoData = [
         {
@@ -60,13 +58,12 @@ const GoodTouch = () => {
     return (
         <>
         <section className='max-w-screen-xl mx-auto my-20'>
+        <h1 className='text-4xl font-semibold'>Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar</h1>
              <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                 {PhotoData.map((photo) => (
-                    <div className=" bg-base-100 shadow-xl">
-                     <Zoom> 
-                        <img className='w-80 h-72' src={photo.img} alt="" />
-                    </Zoom>
-                    </div>
+                     <div className=" bg-base-100 shadow-xl">
+                     <img className='w-80 h-72 rounded' src={photo.img} alt="" />
+                 </div>
                 ))}
             </div>
         </section>
