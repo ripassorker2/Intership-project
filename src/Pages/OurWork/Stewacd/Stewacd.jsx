@@ -2,6 +2,7 @@ import React from 'react';
 import { FaHandPointRight } from "react-icons/fa";
 import img from '../../../assets/eduction/download.png'
 import img1 from '../../../assets/eduction/Sustainable_Development_Goal_5.png'
+import './Stewacd.css'
 
 const Stewacd = () => {
     return (
@@ -16,41 +17,42 @@ const Stewacd = () => {
           schools for doing various works based on their gender. Under this
           flagship we conduct the following programmes.
         </h2>
-        <div className="card lg:card-side bg-base-100 shadow-xl my-12 m-4">
-          <div>
+        <div
+          className=" lg:card-side bg-base-100 drop-shadow-2xl 
+           flex justify-center my-12 gap-4 md:p-4 xl:w-[950px] lg:w-[800px] md:w-[700px] mx-auto stewacd_card"
+        >
+          <div className="flex items-center justify-center">
             <img
-              className="xl:w-[200px] lg:w-[350px] md:w-full xl:h-[200px] lg:h-64 
-              md:h-96 lg:px-0 rounded"
+              className="xl:w-[280px] lg:w-[210px] md:w-[200px] w-[250px] 
+              xl:h-[180px] lg:h-[140px] md:h-[100px] lg:px-0 rounded"
               src={img}
               alt="Album"
             />
           </div>
-          <div className="pl-10">
-            <h2 className="card-title my-6 ">
-              UNSDG GOAL: 04: QUALITY EDUCATION
-            </h2>
-            <p className="flex leading-8">
+          <div className="px-2">
+            <h2 className="card-title">UNSDG GOAL: 04: QUALITY EDUCATION</h2>
+            <p className="flex leading-6 mt-2">
               <span className="text-[18px] mt-1 mr-2">
                 <FaHandPointRight />
               </span>
               Sessions on LSRW (Listening, Speaking, Reading and Writing) Skills
               at Schools
             </p>
-            <p className="flex leading-8">
+            <p className="flex leading-6">
               <span className="text-[18px] mt-1 mr-2">
                 <FaHandPointRight />
               </span>
               Sessions on Issues of National and International importance at
               Schools and colleges.
             </p>
-            <p className="flex leading-8">
+            <p className="flex leading-6">
               <span className="text-[18px] mt-1 mr-2">
                 <FaHandPointRight />
               </span>
               Sessions on Arts like Singing, Dancing, Drawing at Schools and
               Orphanages
             </p>
-            <p className="flex leading-8">
+            <p className="flex leading-6">
               <span className="text-[18px] mt-1 mr-2">
                 <FaHandPointRight />
               </span>
@@ -60,37 +62,45 @@ const Stewacd = () => {
           </div>
         </div>
 
-        <div className="card lg:card-side bg-base-100 shadow-xl my-12 m-4">
-          <div>
+        <div
+          className="lg:card-side bg-base-100 drop-shadow-2xl 
+           flex justify-center my-12 gap-4 md:p-4 xl:w-[950px] lg:w-[800px] md:w-[700px] mx-auto stewacd_card"
+        >
+          <div className="flex items-center justify-center">
             <img
-              className="xl:w-[370px] lg:w-[370px] md:w-full xl:h-60 lg:h-64 
-              md:h-96 lg:px-0 rounded"
+              className="xl:w-[300px] lg:w-[220px] md:w-[210px] w-[250px] 
+              xl:h-[180px] 
+              lg:h-[140px] md:h-[100px] lg:px-0 rounded"
               src={img1}
               alt="Album"
             />
           </div>
-          <div className="md:pl-10 pl-5">
-            <h2 className="card-title my-6">UNSDG GOAL: 05: GENDER EQUALITY</h2>
-            <p className="flex leading-8">
+          <div className="px-2">
+            <h2
+              className="card-title"
+            >
+              UNSDG GOAL: 05: GENDER EQUALITY
+            </h2>
+            <p className="flex leading-6 mt-4">
               <span className="text-[18px] mt-1 mr-2">
                 <FaHandPointRight />
               </span>
               Good Touch-Bad Touch sessions at schools and colleges
             </p>
-            <p className="flex leading-8">
+            <p className="flex leading-6">
               <span className="text-[18px] mt-1 mr-2">
                 <FaHandPointRight />
               </span>
               Women Empowerment sessions at DWAKRA centres
             </p>
-            <p className="flex leading-8">
+            <p className="flex leading-6">
               <span className="text-[18px] mt-1 mr-2">
                 <FaHandPointRight />
               </span>
               Sessions on the Gender Identity and Sexual Orientation, Awareness
               on LGBTQ.
             </p>
-            <p className="flex leading-8">
+            <p className="flex leading-6">
               <span className="text-[18px] mt-1 mr-2">
                 <FaHandPointRight />
               </span>

@@ -19,16 +19,20 @@ const VnsdgImp = () => {
           schools for doing various works based on their gender. Under this
           flagship we conduct the following programmes.
         </h2>
-        <div className="card lg:card-side bg-base-100 shadow-xl my-16 m-4">
-          <div>
+        <div
+          className="lg:card-side bg-base-100 drop-shadow-2xl 
+           flex justify-center my-12 gap-4 md:p-4 xl:w-[950px] lg:w-[800px] md:w-[700px] mx-auto stewacd_card"
+        >
+          <div className="flex items-center justify-center">
             <img
-              className="w-[380px] lg:w-[350px] md:w-full xl:h-60 lg:h-64 
-              md:h-96 lg:px-0 rounded"
+              className="xl:w-[290px] lg:w-[220px] md:w-[220px] w-[250px] 
+              xl:h-[180px] 
+              lg:h-[140px] md:h-[100px] lg:px-0 rounded"
               src={img}
               alt="Album"
             />
           </div>
-          <div className="card-body">
+          <div className="px-2">
             <h2 className="card-title">UNSDG GOAL: 02: ZERO HUNGER </h2>
             <p className="flex">
               <span className="text-[18px] mt-1 mr-2">
@@ -47,16 +51,21 @@ const VnsdgImp = () => {
           </div>
         </div>
 
-        <div className="card lg:card-side bg-base-100 shadow-xl my-16 m-4">
-          <div>
+        <div
+          className="lg:card-side bg-base-100 drop-shadow-2xl 
+           flex my-12 gap-4 md:p-4 xl:w-[950px] lg:w-[800px] md:w-[700px] 
+           mx-auto stewacd_card"
+        >
+          <div className="flex items-center justify-center">
             <img
-              className="xl:w-[310px] lg:w-[350px] md:w-full xl:h-60 lg:h-64 
-              md:h-96 lg:px-0 rounded"
+              className="xl:w-[200px] lg:w-[135px] md:w-[116px] w-[250px] 
+              xl:h-[180px] 
+              lg:h-[146px] md:h-[100px] lg:px-0 rounded stewacd_img"
               src={img1}
               alt="Album"
             />
           </div>
-          <div className="card-body">
+          <div className="px-2">
             <h2 className="card-title">
               UNSDG GOAL: 03: GOOD HEALTH AND WELL-BEING
             </h2>
@@ -80,16 +89,21 @@ const VnsdgImp = () => {
             </p>
           </div>
         </div>
-        <div className="card lg:card-side bg-base-100 shadow-xl my-16 m-4">
-          <div>
+        <div
+          className="lg:card-side bg-base-100 drop-shadow-2xl 
+           flex justify-center my-12 gap-4 md:p-4 xl:w-[950px] lg:w-[800px]
+            md:w-[700px] mx-auto stewacd_card"
+        >
+          <div className="flex items-center justify-center">
             <img
-              className="xl:w-[310px] lg:w-[350px] md:w-full xl:h-60 lg:h-64 
-              md:h-96 lg:px-0 rounded"
+              className="xl:w-[230px] lg:w-[178px] md:w-[180px] w-[250px] 
+              xl:h-[180px] 
+              lg:h-[145px] md:h-[100px] lg:px-0 rounded"
               src={img2}
               alt="Album"
             />
           </div>
-          <div className="card-body">
+          <div className="px-2">
             <h2 className="card-title">UNSDG GOAL: 13: CLIMATE ACTION</h2>
             <p className="flex">
               <span className="text-[18px] mt-1 mr-2">
