@@ -21,6 +21,7 @@ const OurTeam = () => {
               <div class=" gap-6 m-3 items-center">
                 <div class="w-full lg:w-[50%] relative">
                   <div class=" p-3 text-center bg-[#F48E40] w-full text-[#003f61] absolute bottom-0 z-50 text-xl">
+
                     <span class=" font-semibold uppercase tracking-wide ">
                       Shaik.Salamullah
                     </span>
@@ -38,6 +39,7 @@ const OurTeam = () => {
                 <div class="w-full mt-5">
                   <div class="">
                     <div class="text-[18px] text-gray-900 leading-2">
+
                       Greetings,
                       <p className="py-2">
                         It’s my privilege and honour for me to interact with you
