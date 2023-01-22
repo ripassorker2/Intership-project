@@ -34,7 +34,6 @@
   position: relative;
 }
 
-
 .main-principal .principale-ul {
   position: absolute;
   top: 45%;
@@ -50,6 +49,17 @@
   background: rgba(80, 203, 14, 0.6);
   width: 60%;
   border-radius: 50%;
+}
+
+.first-principale h1{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999999;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
 }
 
 .first-principale::before {
