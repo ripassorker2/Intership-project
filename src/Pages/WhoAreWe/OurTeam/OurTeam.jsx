@@ -18,8 +18,8 @@ const OurTeam = () => {
               <h2 className="md:text-4xl text-3xl text-center py-3 pl-2 font-semibold uppercase text-gray-800">
                 Our team
               </h2>
-              <div class=" gap-6 m-3 items-center">
-                <div class="w-full lg:w-[50%] relative">
+              <div class=" grid grid-cols-2 gap-6 m-3 items-center">
+                <div class="w-full  relative">
                   <div class=" p-3 text-center bg-[#1097CC] w-full text-[#86D955] absolute bottom-0 z-50 text-xl">
                     <span class=" font-semibold uppercase tracking-wide ">
                       Shaik.Salamullah
