@@ -11,19 +11,16 @@ import img7 from "../../../assets/team/t-7.png";
 const OurTeam = () => {
   return (
     <div className=" my-9">
-      <div className="max-w-screen-xl mx-auto w-[90%] ">
+      <div className="max-w-screen-xl mx-auto w-[90%]">
         <div className='text-center my-24'>
           <h1 className='our-team-title'>Our Team</h1>
         </div>
         <div>
           <div class=" flex items-center  overflow-hidden relative">
             <div class="w-full  rounded  shadow-xl mx-auto text-gray-800 relative md:text-left">
-              {/* <h2 className="md:text-4xl text-3xl text-center py-3 pl-2 font-semibold uppercase text-gray-800">
-                Our team
-              </h2> */}
-              <div class=" gap-6 m-3 items-center">
-                <div class="w-full lg:w-[50%] relative">
-                  <div class=" p-3 text-center bg-[#1097CC] w-full text-[#86D955] absolute bottom-0 z-50 text-xl">
+              <div class=" grid lg:grid-cols-2 gap-6 m-3 items-center">
+                <div class="w-full  relative">
+                  <div class=" p-4 text-center bg-[#1097CC] w-full text-gray-800 absolute bottom-0 z-50 text-xl">
                     <span class=" font-semibold uppercase tracking-wide ">
                       Shaik.Salamullah
                     </span>
@@ -31,16 +28,12 @@ const OurTeam = () => {
                     <p class=" text-lg leading-5 mt-1 ">Founder</p>
                   </div>
                   <div class="relative">
-                    <img
-                      src={img1}
-                      class="w-full lg:h-[500px] md:h-[500px]"
-                      alt=""
-                    />
+                    <img src={img1} class="w-full h-full " alt="" />
                   </div>
                 </div>
                 <div class="w-full mt-5">
                   <div class="">
-                    <div class="text-sm text-gray-900 leading-2">
+                    <div class="text-[14px] text-gray-800 leading-2">
                       Greetings,
                       <p className="py-2">
                         It’s my privilege and honour for me to interact with you
@@ -107,7 +100,7 @@ const OurTeam = () => {
         </div>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div class="card bg-[#1097CC] duration-300   h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#F48E40] duration-300   h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -117,18 +110,18 @@ const OurTeam = () => {
                 />
               </figure>
             </div>
-            <div class="w-full h-1/4 p-3 text-center text-black">
+            <div class="w-full h-1/4 p-3 text-center text-gray-800">
               <p>
                 <span class=" font-semibold uppercase tracking-wide ">
                   Raasi kutcharlapati
                 </span>
               </p>
-              <p class="text-black text-base leading-5 mt-1 ">
+              <p class="text-gray-800 text-base leading-5 mt-1 ">
                 Director - Human Resource
               </p>
             </div>
           </div>
-          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#F48E40]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -138,18 +131,18 @@ const OurTeam = () => {
                 />
               </figure>
             </div>
-            <div class="w-full h-1/4 p-3 text-center text-black">
+            <div class="w-full h-1/4 p-3 text-center text-gray-800">
               <p>
                 <span class=" font-semibold uppercase tracking-wide  ">
                   Nagaraj Golla
                 </span>
               </p>
-              <p class="text-black text-base leading-5 mt-1 ">
+              <p class="text-gray-800 text-base leading-5 mt-1 ">
                 Associate Coordinator
               </p>
             </div>
           </div>
-          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#F48E40]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -159,13 +152,13 @@ const OurTeam = () => {
                 />
               </figure>
             </div>
-            <div class="w-full h-1/4 p-3 text-center text-black">
+            <div class="w-full h-1/4 p-3 text-center text-gray-800">
               <p>
                 <span class=" font-semibold uppercase tracking-wide  ">
                   Mohammed Faiz K
                 </span>
               </p>
-              <p class="text-black text-base leading-5 mt-1 ">
+              <p class="text-gray-800 text-base leading-5 mt-1 ">
                 Director - Designs
               </p>
             </div>
@@ -176,7 +169,7 @@ const OurTeam = () => {
           Our Advisor Board
         </h2>
         <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#F48E40]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -186,18 +179,18 @@ const OurTeam = () => {
                 />
               </figure>
             </div>
-            <div class="w-full h-1/4 p-3 text-center text-black">
+            <div class="w-full h-1/4 p-3 text-center text-gray-800">
               <p>
                 <span class=" font-semibold uppercase tracking-wide  ">
                   Dr. S Veerabhadra Rao
                 </span>
               </p>
-              <p class="text-black text-base leading-5 mt-1 ">Member</p>
+              <p class="text-gray-800 text-base leading-5 mt-1 ">Member</p>
             </div>
           </div>
 
           <div
-            class="card bg-[#1097CC]  duration-300 h-80 
+            class="card bg-[#F48E40]  duration-300 h-80 
           shadow-md rounded m-3 hover:shadow-xl "
           >
             <div class="h-3/4 w-full">
@@ -210,7 +203,7 @@ const OurTeam = () => {
                 />
               </figure>
             </div>
-            <div class="w-full h-1/4 p-3 text-center text-black">
+            <div class="w-full h-1/4 p-3 text-center text-gray-800">
               <p>
                 <span class=" font-semibold uppercase tracking-wide  ">
                   Smt V R Thulasi
@@ -219,7 +212,7 @@ const OurTeam = () => {
               <p class=" text-base leading-5 mt-1 ">Member</p>
             </div>
           </div>
-          <div class="card bg-[#1097CC]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
+          <div class="card bg-[#F48E40]  duration-300  h-80 shadow-md rounded m-3 hover:shadow-xl ">
             <div class="h-3/4 w-full">
               <figure>
                 <img
@@ -229,13 +222,13 @@ const OurTeam = () => {
                 />
               </figure>
             </div>
-            <div class="w-full h-1/4 p-3 text-center text-black">
+            <div class="w-full h-1/4 p-3 text-center text-gray-800">
               <p>
                 <span class=" font-semibold uppercase tracking-wide  ">
                   Dr. BalaRangaiah Golla
                 </span>
               </p>
-              <p class="text-black text-base leading-5 mt-1 ">Member</p>
+              <p class="text-gray-800 text-base leading-5 mt-1 ">Member</p>
             </div>
           </div>
         </div>

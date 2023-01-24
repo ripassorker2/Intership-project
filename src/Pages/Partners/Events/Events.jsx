@@ -4,96 +4,116 @@ import { Link } from "react-router-dom";
 import img1 from "../../../assets/event/Event.jpg";
 import img2 from "../../../assets/event/event-2.jpg";
 import img3 from "../../../assets/event/event-3.jpg";
-import { AiFillFolderOpen } from "react-icons/ai";
-
+import demo from "../../../assets/event/event-0 (2).jpg";
+//import { AiFillFolderOpen } from "react-icons/ai";
 
 const Events = () => {
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto my-20">
       <div className='text-center my-24'>
         <h1 className='events-title'>EVENTS</h1>
       </div>
-      <div className="lg:flex gap-10 justify-center mt-10 grid md:grid-cols-2 sm:grid-cols-1">
+      <div className=" gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         <div className="">
-          <img className="w-96 h-80" src={img1} alt="" />
+          <div className="card card-compact w-96 bg-base-100 shadow-xl ">
+            <figure>
+              <img className="h-[420px]" src={img1} alt="Shoes" />
+            </figure>
+          </div>
         </div>
         <div className="">
           <Link to="/august19">
-            <img className="w-96 h-80" src={img2} alt="" />
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img className="h-[350px]" src={img2} alt="Shoes" />
+              </figure>
+              <div className="card-body bg-[#F48E40] hover:bg-[#fff] ">
+                <h2 className="card-title">AUGUST 15-2019</h2>
+              </div>
+            </div>
           </Link>
         </div>
         <div className="">
           <Link to="/august20">
-            <img className="w-96 h-80" src={img3} alt="" />
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img className="h-[350px] w-96" src={img3} alt="Shoes" />
+              </figure>
+              <div className="card-body  bg-[#F48E40] hover:bg-[#fff]">
+                <h2 className="card-title">AUGUST 15 - 2020</h2>
+              </div>
+            </div>
           </Link>
         </div>
-        <div className=" w-96">
-          <ul>
-            <li>
-              <Link to="/AwardsCeremony">
-                <div className="w-72 bg-green-600 hover:bg-white shadow-xl ">
-                  <div className="flex items-center h-12 font-bold">
-                    <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen /></h1>
-                    <p className=''>Awards Ceremony</p>
-                  </div>
-                </div>
-              </Link>
-            </li>
-            <li>
-              <Link to="/GenderAwarness">
-                <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
-                  <div className="flex items-center h-12 font-bold">
-                    <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen /></h1>
-                    <p>Gender Awarness and  Well-Being Session</p>
-                  </div>
-                </div>
-              </Link>
-            </li>
-            <li>
-              <Link to="/GoodTouch">
-                <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
-                  <div className="flex items-center h-12 font-bold">
-                    <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen /></h1>
-                    <p>Good Touch and Bad Touch Session and Skill </p>
-                  </div>
-                </div>
-              </Link>
-            </li>
-            <li>
-              <Link to="/NutritousFood">
-                <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
-                  <div className="flex items-center h-12 font-bold">
-                    <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen /></h1>
-                    <p>Nutritous food drive</p>
-                  </div>
-                </div>
-              </Link>
-            </li>
-            <li>
-              <Link to="/QualityEducation">
-                <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
-                  <div className="flex items-center h-12 font-bold">
-                    <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen /></h1>
-                    <p>Quality Education Session-Bowrampet</p>
-                  </div>
-                </div>
-              </Link>
-            </li>
-            <li>
-              <Link to="/SkillEnhancement">
-                <div className="w-72  bg-green-600 hover:bg-white shadow-xl mt-1">
-                  <div className="flex items-center h-12 font-bold">
-                    <h1 className='text-5xl ml-5 text-orange-400'><AiFillFolderOpen /></h1>
-                    <p>Skill Enhancement programme-Orphanage</p>
-                  </div>
-                </div>
-              </Link>
-            </li>
-          </ul>
-        </div>
+
+        <Link to="/AwardsCeremony">
+          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+            </figure>
+            <div className="card-body  bg-[#F48E40] hover:bg-[#fff]">
+              <h2 className="card-title">Awards Ceremony</h2>
+            </div>
+          </div>
+        </Link>
+
+        <Link to="/GenderAwarness">
+          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+            </figure>
+            <div className="card-body  bg-[#F48E40] hover:bg-[#fff]">
+              <h2 className="card-title">Gender Awarness Session</h2>
+            </div>
+          </div>
+        </Link>
+
+        <Link to="/GoodTouch">
+          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+            </figure>
+            <div className="card-body bg-[#F48E40] hover:bg-[#fff]">
+              <h2 className="card-title">Good Touch and Bad Touch Session</h2>
+            </div>
+          </div>
+        </Link>
+
+        <Link to="/NutritousFood">
+          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+            </figure>
+            <div className="card-body bg-[#F48E40] hover:bg-[#fff]">
+              <h2 className="card-title">Nutritous food drive</h2>
+            </div>
+          </div>
+        </Link>
+
+        <Link to="/QualityEducation">
+          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+            </figure>
+            <div className="card-body  bg-[#F48E40] hover:bg-[#fff]">
+              <h2 className="card-title">Quality Education Session</h2>
+            </div>
+          </div>
+        </Link>
+
+        <Link to="/SkillEnhancement">
+          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+            </figure>
+            <div className="card-body bg-[#F48E40] hover:bg-[#fff]">
+              <h2 className="card-title">Skill Enhancement programme..</h2>
+            </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
 };
-// end
+
 export default Events;

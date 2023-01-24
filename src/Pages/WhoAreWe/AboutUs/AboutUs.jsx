@@ -9,12 +9,12 @@ const AboutUs = () => {
         <div className='text-center'>
           <h1 className='about-title'>About Us</h1>
         </div>
-        <div className="flex gap-10 justify-center align-middle items-center">
-          <div className="xl:w-[35%] lg:w-[40%] md:w-[50%]">
-            <img className="h-full w-full " src={logo} alt="" />
+        <div className="md:flex px-5 sm:grid sm:grid-cols-1">
+          <div className="md:w-1/2 sm:w-[100%] flex justify-center">
+            <img className="h-72 " src={logo} alt="" />
           </div>
-          <div className="xl:w-[65%] lg:w-[50%] md:w-[90%] ">
-            <article className="mt-10">
+          <div className="md:w-1/2 sm:w-[100%]">
+            <article className=" text-[18px]">
               We started this organisation because we felt that there are
               people in this world who dream to live a life that we are living
               right now. While we dream of luxuries, they just hope to get a
@@ -29,7 +29,7 @@ const AboutUs = () => {
               believe that " The change we start now in this society may not
               bring a huge impact. But we are sure it will change the mindsets
               of the upcoming generations and make this world a better place
-              to live
+              to live.
             </article>
           </div>
         </div>
