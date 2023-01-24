@@ -1,12 +1,12 @@
 import React from 'react';
-import img1 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.41 PM (1).jpeg'
-import img2 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.41 PM (2).jpeg'
-import img3 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.41 PM (3).jpeg'
-import img4 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.41 PM.jpeg'
-import img5 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.42 PM (1).jpeg'
-import img6 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.42 PM (2).jpeg'
-import img7 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.42 PM (3).jpeg'
-import img8 from '../../../../assets/event/Gender Awarness and  Well-Being Session/WhatsApp Image 2021-09-08 at 10.10.42 PM.jpeg'
+import img1 from '../../../../assets/event/Gender Awarness and  Well-Being Session/1.jpg'
+import img2 from '../../../../assets/event/Gender Awarness and  Well-Being Session/2.jpg'
+import img3 from '../../../../assets/event/Gender Awarness and  Well-Being Session/3.jpg'
+import img4 from '../../../../assets/event/Gender Awarness and  Well-Being Session/4.jpg'
+import img5 from '../../../../assets/event/Gender Awarness and  Well-Being Session/5.jpg'
+import img6 from '../../../../assets/event/Gender Awarness and  Well-Being Session/6.jpg'
+import img7 from '../../../../assets/event/Gender Awarness and  Well-Being Session/7.jpg'
+import img8 from '../../../../assets/event/Gender Awarness and  Well-Being Session/8.jpg'
 const GenderAwarness = () => {
     const PhotoData = [
         {

@@ -1,23 +1,24 @@
 import React from 'react';
-import img1 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.37.50 PM (1).jpeg'
-import img2 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.37.50 PM (2).jpeg'
-import img3 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.37.50 PM.jpeg'
-import img4 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.37.51 PM.jpeg'
-import img5 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.37.52 PM.jpeg'
-import img6 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.37.53 PM.jpeg'
-import img7 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.37.54 PM.jpeg'
-import img8 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.37.55 PM.jpeg'
-import img9 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.38.54 PM.jpeg'
-import img10 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.38.55 PM (1).jpeg'
-import img11 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.38.55 PM.jpeg'
-import img12 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.38.56 PM.jpeg'
-import img13 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.38.57 PM.jpeg'
-import img14 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.38.58 PM.jpeg'
-import img15 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.38.59 PM.jpeg'
-import img16 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.39.00 PM (1).jpeg'
-import img17 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.39.00 PM.jpeg'
-import img18 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.39.01 PM.jpeg'
-import img19 from '../../../../assets/event/Awards Ceremony/WhatsApp Image 2021-09-08 at 2.40.11 PM.jpeg'
+import img1 from '../../../../assets/event/Awards Ceremony/1.jpg'
+import img2 from '../../../../assets/event/Awards Ceremony/2.jpg'
+import img3 from '../../../../assets/event/Awards Ceremony/3.jpg'
+import img4 from '../../../../assets/event/Awards Ceremony/4.jpg'
+import img5 from '../../../../assets/event/Awards Ceremony/5.jpeg'
+import img6 from '../../../../assets/event/Awards Ceremony/6.jpg'
+import img7 from '../../../../assets/event/Awards Ceremony/2.jpg'
+import img8 from '../../../../assets/event/Awards Ceremony/7.jpg'
+import img9 from '../../../../assets/event/Awards Ceremony/8.jpg'
+import img10 from '../../../../assets/event/Awards Ceremony/9.jpg'
+import img11 from '../../../../assets/event/Awards Ceremony/10.jpg'
+import img12 from '../../../../assets/event/Awards Ceremony/11.jpg'
+import img13 from '../../../../assets/event/Awards Ceremony/12.jpg'
+import img14 from '../../../../assets/event/Awards Ceremony/13.jpg'
+import img15 from '../../../../assets/event/Awards Ceremony/14.jpg'
+import img16 from '../../../../assets/event/Awards Ceremony/15.jpg'
+import img17 from '../../../../assets/event/Awards Ceremony/16.jpg'
+import img18 from '../../../../assets/event/Awards Ceremony/17.jpg'
+import img19 from '../../../../assets/event/Awards Ceremony/19.jpg'
+
 
 const AwardsCeremony = () => {
     const PhotoData = [
@@ -103,7 +104,7 @@ const AwardsCeremony = () => {
              <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                 {PhotoData.map((photo) => (
                     <div className=" bg-base-100 shadow-xl">
-                    <img className='w-80 h-72 rounded' src={photo.img} alt="" />
+                    <img className='w-full h-72 rounded bg-contain' src={photo.img} alt="" />
                 </div>
                 ))}
             </div>
