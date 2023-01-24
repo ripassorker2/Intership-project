@@ -1,3 +1,46 @@
-/* .card:hover p {
-  color: #61c22d;
-} */
+.our-team-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+}
+
+.our-team-title::before {
+  content: '';
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -45%;
+  background: #50cb0e;
+}
+
+.our-team-title::after {
+  content: '';
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -45%;
+  background: #50cb0e;
+}
+
+@media (min-width:320px) and (max-width: 576px) {
+  .our-team-title {
+      font-size: 18px;
+  }
+
+  .our-team-title::before {
+      width: 30px;
+      height: 4px;
+  }
+
+  .our-team-title::after {
+      width: 30px;
+      height: 4px;
+  }
+}

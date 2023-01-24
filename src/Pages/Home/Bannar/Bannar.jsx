@@ -17,7 +17,7 @@ const Banner = () => {
       .then((data) => setBanner(data));
   }, []);
   return (
-    <>
+    <div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -38,7 +38,7 @@ const Banner = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 };
 

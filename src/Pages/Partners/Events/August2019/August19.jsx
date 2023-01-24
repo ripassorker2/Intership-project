@@ -1,15 +1,13 @@
 import React from 'react';
-import img1 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.11.32 PM (1).jpeg'
-import img2 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.11.32 PM.jpeg'
-import img3 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.11.33 PM (1).jpeg'
-import img4 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.11.33 PM (2).jpeg'
-import img5 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.11.33 PM (3).jpeg'
-import img6 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.11.33 PM (4).jpeg'
-import img7 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.11.33 PM.jpeg'
-import img8 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.11.33 PM.jpeg'
-import img9 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.30.55 PM.jpeg'
-import img10 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.30.56 PM (2).jpeg'
-import img11 from '../../../../assets/event/AUGUST 15-2019/WhatsApp Image 2021-09-08 at 10.30.56 PM.jpeg';
+import img1 from '../../../../assets/event/AUGUST 15-2019/1.jpg'
+import img2 from '../../../../assets/event/AUGUST 15-2019/2.jpg'
+import img3 from '../../../../assets/event/AUGUST 15-2019/3.jpg'
+import img4 from '../../../../assets/event/AUGUST 15-2019/4.jpg'
+import img5 from '../../../../assets/event/AUGUST 15-2019/5.jpg'
+import img7 from '../../../../assets/event/AUGUST 15-2019/7.jpg'
+import img8 from '../../../../assets/event/AUGUST 15-2019/8.jpg'
+import img9 from '../../../../assets/event/AUGUST 15-2019/9.jpg'
+import img10 from '../../../../assets/event/AUGUST 15-2019/10.jpg';
 
 const August19 = () => {
     const PhotoData = [
@@ -34,10 +32,6 @@ const August19 = () => {
             img: img5, 
         },
         {
-            id: 6,
-            img: img6, 
-        },
-        {
             id: 7,
             img: img7, 
         },
@@ -50,10 +44,7 @@ const August19 = () => {
         },      {
             id: 10,
             img: img10, 
-        },      {
-            id: 11,
-            img: img11, 
-        },
+        }, 
        
     ];
     return (

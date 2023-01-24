@@ -1,5 +1,4 @@
 import React from "react";
-import core_img from '../../../assets/icons/cirle-motiff.svg'
 import CommitmentIcon from "../../../assets/icons/CommitmentIcon";
 import RespectIcon from "../../../assets/icons/RespectIcon";
 import IntegrityIcon from "../../../assets/icons/IntegrityIcon";

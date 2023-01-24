@@ -1,0 +1,46 @@
+.unsdgs-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+.unsdgs-title::before {
+    content: '';
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -20%;
+    background: #50cb0e;
+}
+
+.unsdgs-title::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20%;
+    background: #50cb0e;
+}
+
+@media (min-width:320px) and (max-width: 576px) {
+    .unsdgs-title {
+        font-size: 18px;
+    }
+
+    .unsdgs-title::before {
+        width: 30px;
+        height: 4px;
+    }
+
+    .unsdgs-title::after {
+        width: 30px;
+        height: 4px;
+    }
+}

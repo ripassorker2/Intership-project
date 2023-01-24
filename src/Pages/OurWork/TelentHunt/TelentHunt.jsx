@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Title from '../../../Shared/Title/Title';
-import img1 from "../../../assets/event/Event.jpg";
 import img2 from "../../../assets/event/event-2.jpg";
 import img3 from "../../../assets/event/event-3.jpg";
+import demo from "../../../assets/event/event-0 (2).jpg";
 
 const TelentHunt = () => {
   return (
-    <div className="max-w-screen-xl mx-auto my-20">
+    <div className="max-w-screen-xl mx-auto my-24">
       <Title title={'Telent Hunt'}></Title>
       <div className="hero-content text-center text-neutral-content">
         <p className="text-black mb-5">
@@ -19,11 +19,6 @@ const TelentHunt = () => {
         </p>
       </div>
       <div className=" gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-          <div className="">
-            <div className=" card-compact w-96 bg-base-100 shadow-xl ">
-              <figure><img className='h-[420px]' src={img1} alt="Shoes" /></figure>
-            </div>
-          </div>
           <div className="">
            <Link to="/august19">
            <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -44,7 +39,17 @@ const TelentHunt = () => {
             </div>
             </Link>
           </div>
-          </div> 
+          <Link to="/AwardsCeremony">
+          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+            </figure>
+            <div className="card-body  bg-[#F48E40] hover:bg-[#fff]">
+              <h2 className="card-title">Awards Ceremony</h2>
+            </div>
+          </div>
+        </Link>
+      </div> 
     </div>
   );
 };

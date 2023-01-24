@@ -1,10 +1,57 @@
+.stewacd-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
 
-@media (min-width:320px) and (max-width:576px){
-    .stewacd_card{
+.stewacd-title::before {
+    content: '';
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -45%;
+    background: #50cb0e;
+}
+
+.stewacd-title::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -45%;
+    background: #50cb0e;
+}
+
+@media (min-width:320px) and (max-width: 576px) {
+    .stewacd-title {
+        font-size: 18px;
+    }
+
+    .stewacd-title::before {
+        width: 30px;
+        height: 4px;
+    }
+
+    .stewacd-title::after {
+        width: 30px;
+        height: 4px;
+    }
+}
+
+@media (min-width:320px) and (max-width:576px) {
+    .stewacd_card {
         display: grid;
         grid-column: 1fr;
-}
-.stewacd_img{
-    justify-content: center;
-}
+    }
+
+    .stewacd_img {
+        justify-content: center;
+    }
 }
