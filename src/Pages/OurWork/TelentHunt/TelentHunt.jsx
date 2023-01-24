@@ -4,7 +4,7 @@ import Title from '../../../Shared/Title/Title';
 
 const TelentHunt = () => {
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto my-24">
       <Title title={'Telent Hunt'}></Title>
       <div className="hero-content text-center text-neutral-content">
         <p className="text-black mb-5">

@@ -1,12 +1,58 @@
 #bg-overlay {
-  background-image: linear-gradient(
-      to left,
+  background-image: linear-gradient(to left,
       rgba(0, 11, 3, 0.52),
-      rgba(18, 18, 17, 0.73)
-    ),
+      rgba(18, 18, 17, 0.73)),
     url("../../assets/banner/img.jpeg");
 
   background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+
+.impact-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+}
+
+.impact-title::before {
+  content: '';
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30%;
+  background: #50cb0e;
+}
+
+.impact-title::after {
+  content: '';
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -30%;
+  background: #50cb0e;
+}
+
+@media (min-width:320px) and (max-width: 576px) {
+  .impact-title {
+    font-size: 18px;
+  }
+
+  .impact-title::before {
+    width: 30px;
+    height: 4px;
+  }
+
+  .impact-title::after {
+    width: 30px;
+    height: 4px;
+  }
 }

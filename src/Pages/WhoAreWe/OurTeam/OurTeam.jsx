@@ -12,12 +12,15 @@ const OurTeam = () => {
   return (
     <div className=" my-9">
       <div className="max-w-screen-xl mx-auto w-[90%] ">
+        <div className='text-center my-24'>
+          <h1 className='our-team-title'>Our Team</h1>
+        </div>
         <div>
           <div class=" flex items-center  overflow-hidden relative">
             <div class="w-full  rounded  shadow-xl mx-auto text-gray-800 relative md:text-left">
-              <h2 className="md:text-4xl text-3xl text-center py-3 pl-2 font-semibold uppercase text-gray-800">
+              {/* <h2 className="md:text-4xl text-3xl text-center py-3 pl-2 font-semibold uppercase text-gray-800">
                 Our team
-              </h2>
+              </h2> */}
               <div class=" gap-6 m-3 items-center">
                 <div class="w-full lg:w-[50%] relative">
                   <div class=" p-3 text-center bg-[#1097CC] w-full text-[#86D955] absolute bottom-0 z-50 text-xl">
