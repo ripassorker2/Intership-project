@@ -1,15 +1,13 @@
 import React from 'react';
-import img1 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (1).jpeg'
-import img2 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (10).jpeg'
-import img3 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (2).jpeg'
-import img4 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (3).jpeg'
-import img5 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (4).jpeg'
-import img6 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (5).jpeg'
-import img7 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (6).jpeg'
-import img8 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (7).jpeg'
-import img9 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (8).jpeg'
-import img10 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM (9).jpeg'
-import img11 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/WhatsApp Image 2021-09-08 at 10.08.37 PM.jpeg'
+import img1 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/1.jpg'
+import img2 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/2.jpg'
+import img3 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/3.jpg'
+import img4 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/4.jpg'
+import img5 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/5.jpg'
+import img6 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/6.jpg'
+import img7 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/7.jpg'
+import img8 from '../../../../assets/event/Good Touch and Bad Touch Session and Skill Enhancement Programme-pragartinagar/8.jpg'
+
 const GoodTouch = () => {
     const PhotoData = [
         {
@@ -43,16 +41,7 @@ const GoodTouch = () => {
         {
             id: 8,
             img: img8, 
-        },      {
-            id: 9,
-            img: img9, 
-        },      {
-            id: 10,
-            img: img10, 
-        },      {
-            id: 11,
-            img: img11, 
-        },
+        },    
        
     ];
     return (

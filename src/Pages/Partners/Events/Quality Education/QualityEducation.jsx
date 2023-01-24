@@ -1,11 +1,11 @@
 import React from 'react';
-import img1 from '../../../../assets/event/Quality Education Session-Bowrampet/WhatsApp Image 2021-09-08 at 10.09.44 PM (1).jpeg'
-import img2 from '../../../../assets/event/Quality Education Session-Bowrampet/WhatsApp Image 2021-09-08 at 10.09.44 PM (2).jpeg'
-import img3 from '../../../../assets/event/Quality Education Session-Bowrampet/WhatsApp Image 2021-09-08 at 10.09.44 PM (3).jpeg'
-import img4 from '../../../../assets/event/Quality Education Session-Bowrampet/WhatsApp Image 2021-09-08 at 10.09.44 PM (4).jpeg'
-import img5 from '../../../../assets/event/Quality Education Session-Bowrampet/WhatsApp Image 2021-09-08 at 10.09.44 PM (5).jpeg'
-import img6 from '../../../../assets/event/Quality Education Session-Bowrampet/WhatsApp Image 2021-09-08 at 10.09.44 PM (6).jpeg'
-import img7 from '../../../../assets/event/Quality Education Session-Bowrampet/WhatsApp Image 2021-09-08 at 10.09.44 PM.jpeg'
+import img1 from '../../../../assets/event/Quality Education Session-Bowrampet/1.jpg'
+import img2 from '../../../../assets/event/Quality Education Session-Bowrampet/2.jpg'
+import img3 from '../../../../assets/event/Quality Education Session-Bowrampet/3.jpg'
+import img4 from '../../../../assets/event/Quality Education Session-Bowrampet/4.jpg'
+import img5 from '../../../../assets/event/Quality Education Session-Bowrampet/5.jpg'
+import img6 from '../../../../assets/event/Quality Education Session-Bowrampet/6.jpg'
+import img7 from '../../../../assets/event/Quality Education Session-Bowrampet/7.jpg'
 
 
 const QualityEducation = () => {

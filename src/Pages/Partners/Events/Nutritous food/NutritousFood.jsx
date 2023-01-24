@@ -1,10 +1,10 @@
 import React from 'react';
-import img1 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2021-09-08 at 10.07.39 PM (1).jpeg'
-import img2 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2021-09-08 at 10.07.39 PM (2).jpeg'
-import img3 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2021-09-08 at 10.07.39 PM (3).jpeg'
-import img4 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2021-09-08 at 10.07.39 PM (4).jpeg'
-import img5 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2021-09-08 at 10.07.39 PM.jpeg'
-import img6 from '../../../../assets/event/Nutritous food drive/WhatsApp Image 2021-09-08 at 10.44.04 PM.jpeg'
+import img1 from '../../../../assets/event/Nutritous food drive/1.jpg'
+import img2 from '../../../../assets/event/Nutritous food drive/2.jpg'
+import img3 from '../../../../assets/event/Nutritous food drive/3.jpg'
+import img4 from '../../../../assets/event/Nutritous food drive/4.jpg'
+import img5 from '../../../../assets/event/Nutritous food drive/5.jpg'
+import img6 from '../../../../assets/event/Nutritous food drive/6.jpg'
 
 
 const NutritousFood = () => {
