@@ -8,10 +8,10 @@ const Impact = () => {
   const [counterOn, seTCounterOn] = useState(false);
 
   return (
-    <div className="  my-10">
-      <h1 className="md:text-5xl text-3xl font-semibold text-center uppercase pb-7">
-        IMPACT
-      </h1>
+    <div className="">
+      <div className='text-center my-24'>
+        <h1 className='impact-title'>IMPACT On Us</h1>
+      </div>
       <ScrollTrigger
         onEnter={() => seTCounterOn(true)}
         onExit={() => seTCounterOn(false)}

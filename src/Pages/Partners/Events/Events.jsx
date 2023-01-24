@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import './Events.css';
 import { Link } from "react-router-dom";
 import img1 from "../../../assets/event/Event.jpg";
 import img2 from "../../../assets/event/event-2.jpg";
@@ -9,7 +10,9 @@ import demo from "../../../assets/event/event-0 (2).jpg";
 const Events = () => {
   return (
     <div className="max-w-screen-xl mx-auto my-20">
-      <h1 className="text-5xl font-bold text-center">EVENTS</h1>
+      <div className='text-center my-24'>
+        <h1 className='events-title'>EVENTS</h1>
+      </div>
       <div className=" gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         <div className="">
           <div className="card card-compact w-96 bg-base-100 shadow-xl ">
