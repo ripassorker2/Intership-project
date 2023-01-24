@@ -21,7 +21,7 @@ const Impact = () => {
             class={`relative h-[520p]  py-10 bg-cover bg-center bg-no-repeat w-full opacity-80  `}
             id="bg-overlay"
           >
-            <div className=" hidden md:block absolute border border-green-500 h-[80%] left-[50%]"></div>
+            <div className=" hidden md:block absolute border border-green-500 h-[84%] left-[50%]"></div>
             <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 gap-2 ">
               <div className="w-full h-full m-auto lg:px-10 p-4  flex md:justify-start   justify-center items-center ">
                 <div className="text-white">
