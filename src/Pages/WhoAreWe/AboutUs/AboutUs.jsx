@@ -7,7 +7,7 @@ const AboutUs = () => {
     <>
       <div className="max-w-screen-xl mx-auto my-20">
         <div className='text-center'>
-          <h1 className='about-title'>About Us</h1>
+          <h1 className='about-title my-10'>About Us</h1>
         </div>
         <div className="md:flex px-5 sm:grid sm:grid-cols-1">
           <div className="md:w-1/2 sm:w-[100%] flex justify-center">
