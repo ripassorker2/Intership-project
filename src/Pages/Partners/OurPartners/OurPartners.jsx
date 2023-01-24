@@ -13,19 +13,19 @@ const OurPartners = () => {
       </h1>
       <div className="flex gap-10 justify-center mt-10">
         <div className="w-48 h-40">
-          <img className="w-full h-full" src={img1} alt="" />
+          <img className="w-full h-full rounded-md" src={img1} alt="" />
         </div>
         <div className="w-48 h-40">
-          <img className="w-full h-full" src={img2} alt="" />
+          <img className="w-full h-full rounded-md" src={img2} alt="" />
         </div>
         <div className="w-48 h-40">
-          <img className="w-full h-full" src={img3} alt="" />
+          <img className="w-full h-full rounded-md" src={img3} alt="" />
         </div>
         <div className="w-48 h-40">
-          <img className="w-full h-full" src={img4} alt="" />
+          <img className="w-full h-full rounded-md" src={img4} alt="" />
         </div>
         <div className="w-48 h-40">
-          <img className="w-full h-full" src={img5} alt="" />
+          <img className="w-full h-full rounded-md" src={img5} alt="" />
         </div>
       </div>
     </div>
