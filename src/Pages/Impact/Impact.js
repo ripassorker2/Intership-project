@@ -10,7 +10,7 @@ const Impact = () => {
   return (
     <div className="">
       <div className='text-center my-24'>
-        <h1 className='impact-title'>IMPACT On Us</h1>
+        <h1 className='impact-title mx-10'>IMPACT</h1>
       </div>
       <ScrollTrigger
         onEnter={() => seTCounterOn(true)}
@@ -77,7 +77,7 @@ const Impact = () => {
                         },
                       ],
                     }}
-                    series={[12000, 18000, 1800]}
+                    series={[12000, 1800, 18]}
                     type="pie"
                     width={490}
                     height={320}
