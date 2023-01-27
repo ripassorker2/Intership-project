@@ -13,7 +13,7 @@ const SkillEnhancement = () => {
     const PhotoData = [
         {
             id: 1,
-            img: img1, 
+            img: img4, 
         },
         {
             id: 2,
@@ -25,7 +25,7 @@ const SkillEnhancement = () => {
         },
         {
             id: 4,
-            img: img4, 
+            img: img1, 
         },
         {
             id: 5,

@@ -16,12 +16,11 @@ const OurTeam = () => {
           <h1 className="our-team-title">Our Team</h1>
         </div>
         <div>
-          <div class=" flex items-center  overflow-hidden relative">
-            <div class="w-full  rounded  shadow-xl mx-auto text-gray-800
-             relative md:text-left">
-              <div class=" grid lg:grid-cols-2 gap-6 m-3 items-center">
+          <div class=" flex items-center overflow-hidden relative">
+            <div class="w-full rounded shadow-xl mx-auto text-gray-800 relative md:text-left">
+              <div class=" grid lg:grid-cols-2 gap-6 m-3">
                 <div class="w-full  relative">
-                  <div class=" p-4 text-center bg-[#F48E40] w-full text-gray-800 absolute bottom-0 z-50 text-xl">
+                  <div class=" p-4 text-center bg-[#F48E40] w-full text-gray-800 absolute bottom-80 z-50 text-xl">
                     <span class=" font-semibold uppercase tracking-wide ">
                       Shaik.Salamullah
                     </span>

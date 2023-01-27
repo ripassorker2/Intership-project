@@ -37,10 +37,10 @@ const August20 = () => {
         },
       {
             id: 9,
-            img: img9, 
+            img: img1, 
         },      {
             id: 10,
-            img: img1, 
+            img: img9, 
         }
        
     ];
