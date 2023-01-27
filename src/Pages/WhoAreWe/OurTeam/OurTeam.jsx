@@ -12,15 +12,16 @@ const OurTeam = () => {
   return (
     <div className=" my-9">
       <div className="max-w-screen-xl mx-auto w-[90%]">
-        <div className='text-center my-24'>
-          <h1 className='our-team-title'>Our Team</h1>
+        <div className="text-center my-24">
+          <h1 className="our-team-title">Our Team</h1>
         </div>
         <div>
           <div class=" flex items-center  overflow-hidden relative">
-            <div class="w-full  rounded  shadow-xl mx-auto text-gray-800 relative md:text-left">
+            <div class="w-full  rounded  shadow-xl mx-auto text-gray-800
+             relative md:text-left">
               <div class=" grid lg:grid-cols-2 gap-6 m-3 items-center">
                 <div class="w-full  relative">
-                  <div class=" p-4 text-center bg-[#1097CC] w-full text-gray-800 absolute bottom-0 z-50 text-xl">
+                  <div class=" p-4 text-center bg-[#F48E40] w-full text-gray-800 absolute bottom-0 z-50 text-xl">
                     <span class=" font-semibold uppercase tracking-wide ">
                       Shaik.Salamullah
                     </span>
@@ -33,8 +34,8 @@ const OurTeam = () => {
                 </div>
                 <div class="w-full mt-5">
                   <div class="">
-                    <div class="text-[14px] text-gray-800 leading-2">
-                      Greetings,
+                    <div class="text-[16px] text-gray-800 leading-2">
+                      <span className="font-bold"> Greetings,</span>
                       <p className="py-2">
                         It’s my privilege and honour for me to interact with you
                         and introduce you to The Change.
