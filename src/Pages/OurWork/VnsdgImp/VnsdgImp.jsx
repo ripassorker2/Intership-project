@@ -8,17 +8,14 @@ import img2 from '../../../assets/eduction/Sustainable_Development_Goal_13.png'
 const VnsdgImp = () => {
   return (
     <div className="max-w-screen-xl mx-auto my-20">
-      <div className='text-center my-24'>
-        <h1 className='unsdgs-title'>UNSDGs IMPLEMENTATION</h1>
+      <div className="text-center my-24">
+        <h1 className="unsdgs-title">UNSDGs IMPLEMENTATION</h1>
       </div>
       <h2 className="text-center mt-10 m-4">
-        At our organisation we work on separate programmes like STEWACD, it is
-        the acronym of Support Towards Empowerment of Women and Child
-        Development. This initiative is mainly focussed on the UNSDG Goals-4,5
-        namely Quality Education and Gender Equality. We initiate these things
-        in school children as they are prone to difference in households and
-        schools for doing various works based on their gender. Under this
-        flagship we conduct the following programmes.
+        There are 17 United Nations Sustainable Development Goals listed by the
+        United Nations to achieve it by the 2030 in order to make this continent
+        Peaceful, Sustainable and Inclusive. Here, at The Change we focus on the
+        following SDGs.
       </h2>
       <div
         className="lg:card-side bg-base-100 drop-shadow-2xl 
@@ -45,9 +42,8 @@ const VnsdgImp = () => {
             <span className="text-[18px] mt-1 mr-2">
               <FaHandPointRight />
             </span>
-            Adopted 20 kids in the month of June,2019 in Mariyamma
-            Anathasramam and provided food three times a day along with Fruits
-            and Milk.
+            Adopted 20 kids in the month of June,2019 in Mariyamma Anathasramam
+            and provided food three times a day along with Fruits and Milk.
           </p>
         </div>
       </div>
@@ -122,8 +118,8 @@ const VnsdgImp = () => {
             <span className="text-[18px] mt-1 mr-2">
               <FaHandPointRight />
             </span>
-            Sessions and Panel discussions with farmers and agriculturalists
-            for better Planning and cropping patterns.
+            Sessions and Panel discussions with farmers and agriculturalists for
+            better Planning and cropping patterns.
           </p>
         </div>
       </div>
