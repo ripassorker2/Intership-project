@@ -9,8 +9,8 @@ const Impact = () => {
 
   return (
     <div className="">
-      <div className='text-center my-24'>
-        <h1 className='impact-title mx-10'>IMPACT</h1>
+      <div className="text-center my-24">
+        <h1 className="impact-title mx-10">IMPACT</h1>
       </div>
       <ScrollTrigger
         onEnter={() => seTCounterOn(true)}
@@ -18,7 +18,7 @@ const Impact = () => {
       >
         {counterOn && (
           <section
-            class={`relative h-[520p]  py-10 bg-cover bg-center bg-no-repeat w-full opacity-80  `}
+            className={`relative h-[520p]  py-10 bg-cover bg-center bg-no-repeat w-full opacity-80  `}
             id="bg-overlay"
           >
             <div className=" hidden md:block absolute border border-green-500 h-[84%] left-[50%]"></div>

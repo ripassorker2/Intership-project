@@ -15,22 +15,22 @@ const OurTeam = () => {
         <div className="text-center mt-8">
           <h1 className="our-team-title">Our Team</h1>
         </div>
-        <div class=" flex  overflow-hidden relative mb-8">
-          <div class="w-full  rounded text-gray-800 relative ">
-            <div class=" grid lg:grid-cols-2 gap-6 ">
-              <div class="mt-6 ">
-                <div class=" bg-[#77cf1a]   block rounded-lg  overflow-hidden">
-                  <div class="relative overflow-hidden bg-no-repeat bg-cover">
+        <div className=" flex  overflow-hidden relative mb-8">
+          <div className="w-full  rounded text-gray-800 relative ">
+            <div className=" grid lg:grid-cols-2 gap-6 ">
+              <div className="mt-6 ">
+                <div className=" bg-[#77cf1a]   block rounded-lg  overflow-hidden">
+                  <div className="relative overflow-hidden bg-no-repeat bg-cover">
                     <figure>
                       <img
                         src={img1}
                         alt=""
-                        class="w-full  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
+                        className="w-full  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                       />
                     </figure>
 
                     <svg
-                      class="absolute left-0 -bottom-[1px] "
+                      className="absolute left-0 -bottom-[1px] "
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 1440 320"
                     >
@@ -40,17 +40,17 @@ const OurTeam = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div class="p-5 text-center text-gray-800 ">
-                    <h5 class="md:text-xl text-base font-semibold ">
+                  <div className="p-5 text-center text-gray-800 ">
+                    <h5 className="md:text-xl text-base font-semibold ">
                       Shaik.Salamullah
                     </h5>
-                    <p class="md:text-lg text-base mb-2">Founder</p>
+                    <p className="md:text-lg text-base mb-2">Founder</p>
                   </div>
                 </div>
               </div>
-              <div class="w-full mt-5">
-                <div class="">
-                  <div class="text-[14px] text-gray-800 leading-2">
+              <div className="w-full mt-5">
+                <div className="">
+                  <div className="text-[14px] text-gray-800 leading-2">
                     <p className="font-semibold">Greetings,</p>
                     <p className="py-2">
                       It’s my privilege and honour for me to interact with you
@@ -114,20 +114,20 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div class="mb-6 lg:mb-0">
-            <div class=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
-              <div class="relative overflow-hidden bg-no-repeat bg-cover">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
+          <div className="mb-6 lg:mb-0">
+            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+              <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
                     src={img2}
                     alt=""
-                    class="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
+                    className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
 
                 <svg
-                  class="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px] "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -137,27 +137,27 @@ const OurTeam = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="p-5 text-center text-gray-800 ">
-                <h5 class="md:text-lg text-base font-semibold ">
+              <div className="p-5 text-center text-gray-800 ">
+                <h5 className="md:text-lg text-base font-semibold ">
                   Raasi kutcharlapati
                 </h5>
-                <p class=" text-base mb-2">Director - Human Resource</p>
+                <p className=" text-base mb-2">Director - Human Resource</p>
               </div>
             </div>
           </div>
-          <div class="mb-6 lg:mb-0">
-            <div class=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
-              <div class="relative overflow-hidden bg-no-repeat bg-cover">
+          <div className="mb-6 lg:mb-0">
+            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+              <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
                     src={img3}
                     alt=""
-                    class="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
+                    className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
 
                 <svg
-                  class="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px] "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -167,27 +167,27 @@ const OurTeam = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="p-5 text-center text-gray-800 ">
-                <h5 class="md:text-lg text-base font-semibold ">
+              <div className="p-5 text-center text-gray-800 ">
+                <h5 className="md:text-lg text-base font-semibold ">
                   Nagaraj Golla
                 </h5>
-                <p class=" text-base mb-2">Associate Coordinator</p>
+                <p className=" text-base mb-2">Associate Coordinator</p>
               </div>
             </div>
           </div>
-          <div class="mb-6 lg:mb-0">
-            <div class=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
-              <div class="relative overflow-hidden bg-no-repeat bg-cover">
+          <div className="mb-6 lg:mb-0">
+            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+              <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
                     src={img4}
                     alt=""
-                    class="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
+                    className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
 
                 <svg
-                  class="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px] "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -197,11 +197,11 @@ const OurTeam = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="p-5 text-center text-gray-800 ">
-                <h5 class="md:text-lg text-base font-semibold ">
+              <div className="p-5 text-center text-gray-800 ">
+                <h5 className="md:text-lg text-base font-semibold ">
                   Mohammed Faiz K
                 </h5>
-                <p class=" text-base mb-2">Director - Designs</p>
+                <p className=" text-base mb-2">Director - Designs</p>
               </div>
             </div>
           </div>
@@ -210,20 +210,20 @@ const OurTeam = () => {
         <h2 className="md:text-4xl text-center text-3xl py-3 pt-12 pl-2 font-semibold text-gray-800 uppercase ">
           Our Advisor Board
         </h2>
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
-          <div class="mb-6 lg:mb-0">
-            <div class=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
-              <div class="relative overflow-hidden bg-no-repeat bg-cover">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
+          <div className="mb-6 lg:mb-0">
+            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+              <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
                     src={img5}
                     alt=""
-                    class="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
+                    className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
 
                 <svg
-                  class="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px] "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -233,27 +233,27 @@ const OurTeam = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="p-5 text-center text-gray-800 ">
-                <h5 class="md:text-lg text-base font-semibold ">
+              <div className="p-5 text-center text-gray-800 ">
+                <h5 className="md:text-lg text-base font-semibold ">
                   Dr. S Veerabhadra Rao
                 </h5>
-                <p class=" text-base mb-2">Member</p>
+                <p className=" text-base mb-2">Member</p>
               </div>
             </div>
           </div>
-          <div class="mb-6 lg:mb-0">
-            <div class=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
-              <div class="relative overflow-hidden bg-no-repeat bg-cover">
+          <div className="mb-6 lg:mb-0">
+            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+              <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
                     src={img7}
                     alt=""
-                    class="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
+                    className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
 
                 <svg
-                  class="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px] "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -263,27 +263,27 @@ const OurTeam = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="p-5 text-center text-gray-800 ">
-                <h5 class="md:text-lg text-base font-semibold ">
+              <div className="p-5 text-center text-gray-800 ">
+                <h5 className="md:text-lg text-base font-semibold ">
                   Smt V R Thulasi
                 </h5>
-                <p class=" text-base mb-2">Member</p>
+                <p className=" text-base mb-2">Member</p>
               </div>
             </div>
           </div>
-          <div class="mb-6 lg:mb-0">
-            <div class=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
-              <div class="relative overflow-hidden bg-no-repeat bg-cover">
+          <div className="mb-6 lg:mb-0">
+            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+              <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
                     src={img6}
                     alt=""
-                    class="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
+                    className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
 
                 <svg
-                  class="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px] "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -293,11 +293,11 @@ const OurTeam = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="p-5 text-center text-gray-800 ">
-                <h5 class="md:text-lg text-base font-semibold ">
+              <div className="p-5 text-center text-gray-800 ">
+                <h5 className="md:text-lg text-base font-semibold ">
                   Dr. BalaRangaiah Golla
                 </h5>
-                <p class=" text-base mb-2">Member</p>
+                <p className=" text-base mb-2">Member</p>
               </div>
             </div>
           </div>
