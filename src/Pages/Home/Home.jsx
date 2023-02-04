@@ -1,12 +1,13 @@
 import React from "react";
-import Founder from "./Founder/Founder";
+import FeedBack from "./FeadBack/FeedBack";
+
 import Principal from "./Principal/Principal";
 
 const Home = () => {
   return (
     <div>
       <Principal></Principal>
-      <Founder />
+      <FeedBack />
     </div>
   );
 };
