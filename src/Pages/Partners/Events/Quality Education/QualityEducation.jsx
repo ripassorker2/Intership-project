@@ -28,7 +28,7 @@ const QualityEducation = () => {
         },
         {
             id: 5,
-            img: img5, 
+            img: img5,
         },
         {
             id: 6,
