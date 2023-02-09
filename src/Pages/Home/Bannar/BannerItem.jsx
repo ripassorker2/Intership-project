@@ -9,7 +9,7 @@ const BannerItem = ({banner}) => {
        <div className="banner_slide w-[100%]">
          <div className="slide_details absolute">
            <img
-             className="banner_right xl:w-[480px] lg:w-[340px] 
+             className="banner_right xl:w-[400px] lg:w-[340px] 
              md:w-[250px] hidden sm:block"
              data-aos="fade-down-left"
              src={sitePhoto}

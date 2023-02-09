@@ -38,6 +38,9 @@
   right: -50%;
   background: #50cb0e;
 }
+.apexcharts-datalabels{
+  display: none !important;
+}
 
 @media (min-width:320px) and (max-width: 576px) {
   .impact-title {

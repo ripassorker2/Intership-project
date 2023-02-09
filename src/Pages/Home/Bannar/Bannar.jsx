@@ -7,11 +7,11 @@ import "./Banner.css";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import BannerItem from "./BannerItem";
 import img1 from '../../../assets/banner/1 (Custom).jpg'
-import img2 from '../../../assets/banner/2 (Custom).jpg'
-import img3 from '../../../assets/banner/3 (Custom).jpg'
-import img4 from '../../../assets/banner/4 (Custom).jpg'
-import img5 from '../../../assets/banner/6 (Custom).jpg'
-import img6 from '../../../assets/banner/7 (Custom).jpg'
+import img2 from '../../../assets/banner/2 (Custom) (2).jpg'
+import img3 from '../../../assets/banner/3 (Custom) (2).jpg'
+import img4 from '../../../assets/banner/4 (Custom)_auto_x2.jpg'
+import img5 from '../../../assets/banner/6 (Custom)_auto_x2.jpg'
+import img6 from '../../../assets/banner/7 (Custom)_auto_x2.jpg'
 
 const Banner = () => {
    const banner = [
