@@ -37,12 +37,12 @@ const FeedBack = () => {
           <SwiperSlide key={i}>
             <section className={`relative  w-full`}>
               <img
-                className="w-full max-h-[550px] bg-cover"
+                className="w-full max-h-[500px] bg-cover"
                 src={data?.img}
                 alt=""
               />
 
-              <div className="absolute inset-0 bg-black/25 sm:bg-transparent sm:bg-gradient-to-r sm:from-black/25 sm:to-black/25"></div>
+              <div className="absolute inset-0 border-2 border-[#076797]"></div>
             </section>
           </SwiperSlide>
         ))}

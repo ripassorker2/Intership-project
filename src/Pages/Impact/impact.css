@@ -24,8 +24,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: -30%;
-
+  left: -50%;
   background: #50cb0e;
 }
 
@@ -36,8 +35,11 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: -30%;
+  right: -50%;
   background: #50cb0e;
+}
+.apexcharts-datalabels{
+  display: none !important;
 }
 
 @media (min-width:320px) and (max-width: 576px) {
