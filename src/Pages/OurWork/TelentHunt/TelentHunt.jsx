@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Title from '../../../Shared/Title/Title';
 import img2 from "../../../assets/event/event-2.jpg";
 import img3 from "../../../assets/event/event-3.jpg";
-import demo from "../../../assets/event/event-0 (2).jpg";
+import demo from "../../../assets/event/awards.jpg";
 
 const TelentHunt = () => {
   return (

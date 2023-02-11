@@ -1,7 +1,11 @@
 import React from 'react';
 import './Events.css';
 import { Link } from "react-router-dom";
-import demo from "../../../assets/event/event-0 (2).jpg";
+import gender from "../../../assets/event/gender.jpg";
+import good from "../../../assets/event/good.jpg";
+import Nutritous from "../../../assets/event/Nutritous.jpg";
+import quality from "../../../assets/event/quality.jpg";
+import skill from "../../../assets/event/skill.jpg";
 import img1 from "../../../assets/event/Event.jpg";
 //import { AiFillFolderOpen } from "react-icons/ai";
 
@@ -22,7 +26,7 @@ const Events = () => {
         <Link to="/GenderAwarness">
           <div className="card card-compact w-96 bg-base-100 shadow-xl">
             <figure>
-              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+              <img className="h-[350px] w-96" src={gender} alt="Shoes" />
             </figure>
             <div className="card-body  bg-[#F48E40] hover:bg-[#fff]">
               <h2 className="card-title">Gender Awarness Session</h2>
@@ -33,7 +37,7 @@ const Events = () => {
         <Link to="/GoodTouch">
           <div className="card card-compact w-96 bg-base-100 shadow-xl">
             <figure>
-              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+              <img className="h-[350px] w-96" src={good} alt="Shoes" />
             </figure>
             <div className="card-body bg-[#F48E40] hover:bg-[#fff]">
               <h2 className="card-title">Good Touch and Bad Touch Session</h2>
@@ -44,10 +48,10 @@ const Events = () => {
         <Link to="/NutritousFood">
           <div className="card card-compact w-96 bg-base-100 shadow-xl">
             <figure>
-              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+              <img className="h-[350px] w-96" src={Nutritous} alt="Shoes" />
             </figure>
             <div className="card-body bg-[#F48E40] hover:bg-[#fff]">
-              <h2 className="card-title">Nutritous food drive</h2>
+              <h2 className="card-title">Nutritous food </h2>
             </div>
           </div>
         </Link>
@@ -55,7 +59,7 @@ const Events = () => {
         <Link to="/QualityEducation">
           <div className="card card-compact w-96 bg-base-100 shadow-xl">
             <figure>
-              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+              <img className="h-[350px] w-96" src={quality} alt="Shoes" />
             </figure>
             <div className="card-body  bg-[#F48E40] hover:bg-[#fff]">
               <h2 className="card-title">Quality Education Session</h2>
@@ -66,10 +70,10 @@ const Events = () => {
         <Link to="/SkillEnhancement">
           <div className="card card-compact w-96 bg-base-100 shadow-xl">
             <figure>
-              <img className="h-[350px] w-96" src={demo} alt="Shoes" />
+              <img className="h-[350px] w-96" src={skill} alt="Shoes" />
             </figure>
             <div className="card-body bg-[#F48E40] hover:bg-[#fff]">
-              <h2 className="card-title">Skill Enhancement programme..</h2>
+              <h2 className="card-title">SEP Sessions</h2>
             </div>
           </div>
         </Link>

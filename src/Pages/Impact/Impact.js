@@ -27,7 +27,7 @@ const Impact = () => {
             <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 gap-2 ">
               <div className="w-full h-full m-auto lg:px-10 p-4  flex 
               md:justify-start   justify-center items-center ">
-                <div className="text-white">
+                <div className="text-[#000]">
                   <Chart
                     options={{
                       labels: [
