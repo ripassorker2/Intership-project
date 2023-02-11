@@ -69,7 +69,7 @@ const Events = () => {
               <img className="h-[350px] w-96" src={demo} alt="Shoes" />
             </figure>
             <div className="card-body bg-[#F48E40] hover:bg-[#fff]">
-              <h2 className="card-title">Skill Enhancement programme..</h2>
+              <h2 className="card-title">SEP Sessions</h2>
             </div>
           </div>
         </Link>
