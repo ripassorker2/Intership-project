@@ -1,12 +1,16 @@
 #bg-overlay {
+  background-image: url("../../assets/banner/Untitled\ design.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* #bg-overlay {
   background-image: linear-gradient(to left,
       rgba(0, 11, 3, 0.52),
       rgba(18, 18, 17, 0.73)),
     url("../../assets/banner/Untitled\ design.png");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
+} */
 
 .impact-title {
   font-size: 32px;
