@@ -18,19 +18,22 @@ const Impact = () => {
       >
         {counterOn && (
           <section
-            className={`relative h-[520p]  py-10 bg-cover bg-center bg-no-repeat w-full opacity-80  `}
+            className={`relative h-[520p]  py-10 bg-cover bg-center bg-no-repeat
+            w-full opacity-80  `}
             id="bg-overlay"
           >
-            <div className=" hidden md:block absolute border border-green-500 h-[84%] left-[50%]"></div>
+            <div className=" hidden md:block absolute border border-green-500 
+            h-[84%] left-[50%]"></div>
             <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 gap-2 ">
-              <div className="w-full h-full m-auto lg:px-10 p-4  flex md:justify-start   justify-center items-center ">
-                <div className="text-white">
+              <div className="w-full h-full m-auto lg:px-10 p-4  flex 
+              md:justify-start   justify-center items-center ">
+                <div className="text-[#000]">
                   <Chart
                     options={{
                       labels: [
+                        "Vulnerable Groups",
                         "Students",
                         "Educational Institutions",
-                        "Vulnerable Groups",
                       ],
                       legend: {
                         fontSize: "14px",
@@ -44,7 +47,7 @@ const Impact = () => {
                       },
                       theme: {
                         mode: "light",
-                        palette: "palette2",
+                        palette: "palette",
                         monochrome: {
                           enabled: false,
                           color: "#255aee",
@@ -77,7 +80,7 @@ const Impact = () => {
                         },
                       ],
                     }}
-                    series={[12000, 1800, 18]}
+                    series={[40, 35, 25]}
                     type="pie"
                     width={490}
                     height={320}
@@ -87,9 +90,12 @@ const Impact = () => {
               <div className="flex justify-center items-center flex-col ">
                 <div
                   data-aos="zoom-in-up"
-                  className="bg-gray-300  md:w-[280px] w-[260px]  md:p-6 p-4 rounded-xl text-center hover:shadow-lg hover:shadow-[#F48E40]"
+                  className="bg-gray-300  md:w-[280px] w-[260px]  md:p-6 p-4
+                   rounded-xl text-center hover:shadow-lg 
+                   hover:shadow-[#F48E40]"
                 >
-                  <h5 className="text-[#1E50EC] font-bold text-2xl lg:text-3xl">
+                  <h5 className="text-[#1E50EC] font-bold text-2xl 
+                  lg:text-3xl">
                     <CountUp start={0} delay={0} end={12000} duration={3} />+
                   </h5>
                   <h5 className="text-[#1E50EC] font-semibold pt-2 text-xl ">
@@ -98,7 +104,8 @@ const Impact = () => {
                 </div>
                 <div
                   data-aos="zoom-in-up"
-                  className="bg-gray-300 md:w-[280px] w-[260px]  md:p-6 p-4 mt-6 rounded-xl text-center hover:shadow-lg hover:shadow-[#F48E40]"
+                  className="bg-gray-300 md:w-[280px] w-[260px]  md:p-6 p-4 mt-6 rounded-xl 
+                  text-center hover:shadow-lg hover:shadow-[#F48E40]"
                 >
                   <h5 className="text-[#1E50EC] font-bold text-2xl">
                     <CountUp start={0} delay={0} end={18} duration={2} />
@@ -109,7 +116,8 @@ const Impact = () => {
                 </div>
                 <div
                   data-aos="zoom-in-up"
-                  className="bg-gray-300 md:w-[280px] w-[260px]  md:p-6 p-4 mt-6 rounded-xl text-center hover:shadow-lg hover:shadow-[#F48E40]"
+                  className="bg-gray-300 md:w-[280px] w-[260px]  md:p-6 p-4 mt-6 rounded-xl 
+                  text-center hover:shadow-lg hover:shadow-[#F48E40]"
                 >
                   <h5 className="text-[#1E50EC] font-bold text-2xl lg:text-3xl">
                     <CountUp start={0} delay={0} end={1800} duration={3} />+
