@@ -127,7 +127,7 @@ const OurTeam = () => {
                 </figure>
 
                 <svg
-                  className="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px]  h-14 "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -157,7 +157,7 @@ const OurTeam = () => {
                 </figure>
 
                 <svg
-                  className="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px]  h-14 "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -187,7 +187,7 @@ const OurTeam = () => {
                 </figure>
 
                 <svg
-                  className="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px]  h-14"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -208,7 +208,7 @@ const OurTeam = () => {
         </div>
 
         <h2 className="md:text-4xl text-center text-3xl py-3 pt-12 pl-2 font-semibold text-gray-800 uppercase ">
-          Our Advisor Board
+          Our Advisory Board
         </h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
           <div className="mb-6 lg:mb-0">
@@ -223,7 +223,7 @@ const OurTeam = () => {
                 </figure>
 
                 <svg
-                  className="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px] h-14"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -253,7 +253,7 @@ const OurTeam = () => {
                 </figure>
 
                 <svg
-                  className="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px]  h-14"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
@@ -283,7 +283,7 @@ const OurTeam = () => {
                 </figure>
 
                 <svg
-                  className="absolute left-0 -bottom-[1px] "
+                  className="absolute left-0 -bottom-[1px]  h-14"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1440 320"
                 >
