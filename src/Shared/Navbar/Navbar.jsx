@@ -13,13 +13,13 @@ const Navbar = () => {
     <>
       <li>
         <Link>
-          Who are we{" "}
+          Who we are{" "}
           <span>
             <MdOutlineKeyboardArrowDown size={20} />
           </span>
           <ul className="sub-menu">
             <li>
-              <Link to="/aboutus">ABOUT US</Link>
+              <Link to="/aboutus">WE DO</Link>
             </li>
             <li>
               <Link to="/vision">VISION</Link>
