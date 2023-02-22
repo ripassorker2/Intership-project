@@ -5,7 +5,7 @@ import { AiOutlineRight } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className=" text-gray-100 pt-7">
-      <div className="">
+      <div>
         <div className="md:max-w-screen-xl w-[90%] mx-auto grid md:grid-cols-4 gap-x-8">
           <div className=" w-full font-semibold">
             <h3 className="text-[54px] pt-0 font-bold">Care</h3>
