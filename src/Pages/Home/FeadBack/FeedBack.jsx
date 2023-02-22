@@ -3,11 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay, Pagination } from "swiper";
-import amulya from "../../../assets/homebanner/amulya.jpg";
-import jop from "../../../assets/homebanner/jop.jpg";
-import ramarao from "../../../assets/homebanner/ramarao.jpg";
-import Richel from "../../../assets/homebanner/Richel Rani.jpg";
-import surekha from "../../../assets/homebanner/surekha.jpg";
+import amulya from "../../../assets/homebanner/1.jpg";
+import jop from "../../../assets/homebanner/2.jpg";
+import ramarao from "../../../assets/homebanner/3.jpg";
+import Richel from "../../../assets/homebanner/4.jpg";
+import surekha from "../../../assets/homebanner/5.jpg";
 
 const FeedBack = () => {
   const imgData = [

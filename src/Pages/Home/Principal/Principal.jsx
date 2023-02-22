@@ -36,13 +36,12 @@ const Principal = () => {
                 </figure>
                 <div className=" mx-auto text-center text">
                   <h2 className="py-2 text-xl font-bold"> Commitment</h2>
-                  <p>Upholding the dignity of each individual</p>
                 </div>
               </div>
             </li>
 
             <li
-              className="card card2 xl:w-40 lg:w-32 md:w-28 w-36  flex 
+              className="card xl:w-40 lg:w-32 md:w-28 w-36  flex 
             justify-center "
             >
               <div className="principal-item">
@@ -55,7 +54,6 @@ const Principal = () => {
                 </figure>
                 <div className=" mx-auto text-center text">
                   <h2 className="py-2 font-bold"> Inclusive </h2>
-                  <p>Upholding the dignity of each individual</p>
                 </div>
               </div>
             </li>
@@ -74,12 +72,11 @@ const Principal = () => {
                 </figure>
                 <div className=" mx-auto text-center text">
                   <h2 className="py-2 text-xl font-bold"> Learning</h2>
-                  <p>Upholding the dignity of each individual</p>
                 </div>
               </div>
             </li>
 
-            <li className="card xl:w-40 lg:w-32 md:w-28 w-36  flex justify-center">
+            <li className="card xl:w-40 lg:w-32 md:w-28 w-36 flex justify-center">
               <div className="principal-item ">
                 <figure
                   className="item-img rounded-full xl:w-28 xl:h-28 lg:w-24 lg:h-24 md:w-24 md:h-24 w-28 h-28
@@ -89,13 +86,12 @@ const Principal = () => {
                 </figure>
                 <div className=" mx-auto text-center text">
                   <h2 className="py-2 text-xl font-bold">Integrity </h2>
-                  <p>Upholding the dignity of each individual</p>
                 </div>
               </div>
             </li>
 
             <li
-              className="card xl:w-40 lg:w-32 md:w-28 w-36 flex 
+              className="card card2 xl:w-40 lg:w-32 md:w-28 w-36 flex 
             justify-center"
             >
               <div className="principal-item ">
@@ -108,7 +104,6 @@ const Principal = () => {
                 </figure>
                 <div className="mx-auto text-center text">
                   <h2 className="py-2 text-xl font-bold">Equality </h2>
-                  <p>Upholding the dignity of each individual</p>
                 </div>
               </div>
             </li>
