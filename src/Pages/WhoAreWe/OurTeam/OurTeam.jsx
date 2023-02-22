@@ -6,7 +6,7 @@ import img3 from "../../../assets/team/img3.jpg";
 import img4 from "../../../assets/team/img4.jpg";
 import img5 from "../../../assets/team/t-5.png";
 import img6 from "../../../assets/team/t-6.png";
-import img7 from "../../../assets/team/t-7.png";
+import img7 from "../../../assets/team//t-7.png";
 
 const OurTeam = () => {
   return (
@@ -19,26 +19,16 @@ const OurTeam = () => {
           <div className="w-full  rounded text-gray-800 relative ">
             <div className=" grid lg:grid-cols-2 gap-6 ">
               <div className="mt-6 ">
-                <div className=" bg-[#77cf1a]   block rounded-lg  overflow-hidden">
+                <div className=" bg-[#F48E40]   block rounded-lg  overflow-hidden">
                   <div className="relative overflow-hidden bg-no-repeat bg-cover">
                     <figure>
                       <img
                         src={img1}
                         alt=""
-                        className="w-full  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
+                        className="w-full  rounded-t-lg  hover:scale-110
+                         hover:skew-x-1 duration-300 "
                       />
                     </figure>
-
-                    <svg
-                      className="absolute left-0 -bottom-[1px] "
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 1440 320"
-                    >
-                      <path
-                        fill="#77cf1a"
-                        d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                      ></path>
-                    </svg>
                   </div>
                   <div className="p-5 text-center text-gray-800 ">
                     <h5 className="md:text-xl text-base font-semibold ">
@@ -116,26 +106,19 @@ const OurTeam = () => {
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
           <div className="mb-6 lg:mb-0">
-            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+            <div
+              className=" bg-[#F48E40]   block rounded-lg shadow-lg
+             overflow-hidden"
+            >
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
                     src={img2}
                     alt=""
-                    className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
+                    className="w-full h-[280px]  rounded-t-lg  hover:scale-110
+                     hover:skew-x-1 duration-300 "
                   />
                 </figure>
-
-                <svg
-                  className="absolute left-0 -bottom-[1px] "
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 1440 320"
-                >
-                  <path
-                    fill="#77cf1a"
-                    d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                  ></path>
-                </svg>
               </div>
               <div className="p-5 text-center text-gray-800 ">
                 <h5 className="md:text-lg text-base font-semibold ">
@@ -146,7 +129,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="mb-6 lg:mb-0">
-            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+            <div className=" bg-[#F48E40]   block rounded-lg shadow-lg overflow-hidden">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
@@ -155,17 +138,6 @@ const OurTeam = () => {
                     className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
-
-                <svg
-                  className="absolute left-0 -bottom-[1px] "
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 1440 320"
-                >
-                  <path
-                    fill="#77cf1a"
-                    d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                  ></path>
-                </svg>
               </div>
               <div className="p-5 text-center text-gray-800 ">
                 <h5 className="md:text-lg text-base font-semibold ">
@@ -176,7 +148,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="mb-6 lg:mb-0">
-            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+            <div className=" bg-[#F48E40]   block rounded-lg shadow-lg overflow-hidden">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
@@ -185,17 +157,6 @@ const OurTeam = () => {
                     className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
-
-                <svg
-                  className="absolute left-0 -bottom-[1px] "
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 1440 320"
-                >
-                  <path
-                    fill="#77cf1a"
-                    d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                  ></path>
-                </svg>
               </div>
               <div className="p-5 text-center text-gray-800 ">
                 <h5 className="md:text-lg text-base font-semibold ">
@@ -208,11 +169,11 @@ const OurTeam = () => {
         </div>
 
         <h2 className="md:text-4xl text-center text-3xl py-3 pt-12 pl-2 font-semibold text-gray-800 uppercase ">
-          Our Advisor Board
+          Our Advisory Board
         </h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">
           <div className="mb-6 lg:mb-0">
-            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+            <div className=" bg-[#F48E40]   block rounded-lg shadow-lg overflow-hidden">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
@@ -221,17 +182,6 @@ const OurTeam = () => {
                     className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
-
-                <svg
-                  className="absolute left-0 -bottom-[1px] "
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 1440 320"
-                >
-                  <path
-                    fill="#77cf1a"
-                    d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                  ></path>
-                </svg>
               </div>
               <div className="p-5 text-center text-gray-800 ">
                 <h5 className="md:text-lg text-base font-semibold ">
@@ -242,7 +192,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="mb-6 lg:mb-0">
-            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+            <div className=" bg-[#F48E40]   block rounded-lg shadow-lg overflow-hidden">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
@@ -251,17 +201,6 @@ const OurTeam = () => {
                     className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
-
-                <svg
-                  className="absolute left-0 -bottom-[1px] "
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 1440 320"
-                >
-                  <path
-                    fill="#77cf1a"
-                    d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                  ></path>
-                </svg>
               </div>
               <div className="p-5 text-center text-gray-800 ">
                 <h5 className="md:text-lg text-base font-semibold ">
@@ -272,7 +211,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="mb-6 lg:mb-0">
-            <div className=" bg-[#77cf1a]   block rounded-lg shadow-lg overflow-hidden">
+            <div className=" bg-[#F48E40]   block rounded-lg shadow-lg overflow-hidden">
               <div className="relative overflow-hidden bg-no-repeat bg-cover">
                 <figure>
                   <img
@@ -281,17 +220,6 @@ const OurTeam = () => {
                     className="w-full h-[280px]  rounded-t-lg  hover:scale-110 hover:skew-x-1 duration-300 "
                   />
                 </figure>
-
-                <svg
-                  className="absolute left-0 -bottom-[1px] "
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 1440 320"
-                >
-                  <path
-                    fill="#77cf1a"
-                    d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                  ></path>
-                </svg>
               </div>
               <div className="p-5 text-center text-gray-800 ">
                 <h5 className="md:text-lg text-base font-semibold ">

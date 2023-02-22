@@ -51,10 +51,10 @@ const August19 = () => {
         <>
         <section className='max-w-screen-xl mx-auto my-20'>
         <h1 className='text-4xl font-semibold'>AUGUST 15-2019</h1>
-             <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
+             <div className="gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                 {PhotoData.map((photo) => (
-                    <div className=" bg-base-100 shadow-xl">
-                    <img className='w-80 h-72 rounded' src={photo.img} alt="" />
+                    <div className="">
+                    <img className=' rounded' src={photo.img} alt="" />
                 </div>
                 ))}
             </div>
