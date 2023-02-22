@@ -1,4 +1,5 @@
 import Main from "../Layout/Main";
+import Donate from "../Pages/Donate/Donate";
 import Impact from "../Pages/Impact/Impact";
 
 import Stewacd from "../Pages/OurWork/Stewacd/Stewacd";
@@ -15,6 +16,7 @@ import QualityEducation from "../Pages/Partners/Events/Quality Education/Quality
 import SkillEnhancement from "../Pages/Partners/Events/Skill Enhancement/SkillEnhancement";
 import OurPartners from "../Pages/Partners/OurPartners/OurPartners";
 import PartnerWithUs from "../Pages/Partners/PartnerWithUs/PartnerWithUs";
+import Volunter from "../Pages/Volunter/Volunter";
 import AboutUs from "../Pages/WhoAreWe/AboutUs/AboutUs";
 import OurTeam from "../Pages/WhoAreWe/OurTeam/OurTeam";
 import Vision from "../Pages/WhoAreWe/Vision/Vision";
@@ -73,35 +75,44 @@ const router = createBrowserRouter([
       },
       {
         path: "/august19",
-        element: <August19/>,
-      }, 
+        element: <August19 />,
+      },
       {
         path: "/august20",
-        element: <August20/>,
+        element: <August20 />,
       },
       {
         path: "/AwardsCeremony",
-        element: <AwardsCeremony/>,
-      }, 
+        element: <AwardsCeremony />,
+      },
       {
         path: "/GenderAwarness",
-        element: <GenderAwarness/>,
-      }, 
+        element: <GenderAwarness />,
+      },
       {
         path: "/GoodTouch",
-        element: <GoodTouch/>,
-      },
-       {
-        path: "/NutritousFood",
-        element: <NutritousFood/>,
+        element: <GoodTouch />,
       },
       {
+        path: "/NutritousFood",
+        element: <NutritousFood />,
+      },
+
+      {
         path: "/QualityEducation",
-        element: <QualityEducation/>,
+        element: <QualityEducation />,
       },
       {
         path: "/SkillEnhancement",
-        element: <SkillEnhancement/>,
+        element: <SkillEnhancement />,
+      },
+      {
+        path: "/volunteer",
+        element: <Volunter />,
+      },
+      {
+        path: "/donate",
+        element: <Donate />,
       },
     ],
   },
