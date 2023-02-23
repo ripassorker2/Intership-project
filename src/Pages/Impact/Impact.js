@@ -40,7 +40,7 @@ const Impact = () => {
                         "Educational Institutions",
                       ],
                       legend: {
-                        fontSize: "14px",
+                        fontSize: "16px",
                         labels: {
                           colors: "#f1f1f1",
                           useSeriesColors: false,
