@@ -7,7 +7,6 @@ import Nutritous from "../../../assets/event/Nutritous.jpg";
 import quality from "../../../assets/event/quality.jpg";
 import skill from "../../../assets/event/skill.jpg";
 import img1 from "../../../assets/event/Event.jpg";
-//import { AiFillFolderOpen } from "react-icons/ai";
 
 const Events = () => {
   return (
