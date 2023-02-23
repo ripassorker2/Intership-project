@@ -15,18 +15,18 @@ const Events = () => {
       <div className='text-center my-24'>
         <h1 className='events-title'>EVENTS</h1>
       </div>
-      <div className=" gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-        <div className="">
-          <div className="card-compact w-96 bg-base-100 shadow-xl ">
+      <div className=" mx-auto gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+        <div className="mx-auto img-b">
+          <div className="card-compact card-size w-96  ">
             <figure>
-              <img className="h-[420px]" src={img1} alt="Shoes" />
+              <img className="h-[420px] " src={img1} alt="img" />
             </figure>
           </div>
         </div>
-        <Link to="/GenderAwarness">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <Link to="/GenderAwarness" className='mx-auto'>
+          <div className="card card-compact card-size w-96 bg-base-100 shadow-xl">
             <figure>
-              <img className="h-[350px] w-96" src={gender} alt="Shoes" />
+              <img className="h-[350px]  w-96" src={gender} alt="Shoes" />
             </figure>
             <div className="card-body  bg-[#F48E40] hover:bg-[#fff]">
               <h2 className="card-title">Gender Awarness Session</h2>
@@ -34,8 +34,8 @@ const Events = () => {
           </div>
         </Link>
 
-        <Link to="/GoodTouch">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <Link to="/GoodTouch" className='mx-auto'>
+          <div className="card card-compact card-size w-96 bg-base-100 shadow-xl">
             <figure>
               <img className="h-[350px] w-96" src={good} alt="Shoes" />
             </figure>
@@ -45,8 +45,8 @@ const Events = () => {
           </div>
         </Link>
 
-        <Link to="/NutritousFood">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <Link to="/NutritousFood" className='mx-auto'>
+          <div className="card card-compact card-size w-96 bg-base-100 shadow-xl">
             <figure>
               <img className="h-[350px] w-96" src={Nutritous} alt="Shoes" />
             </figure>
@@ -56,8 +56,8 @@ const Events = () => {
           </div>
         </Link>
 
-        <Link to="/QualityEducation">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <Link to="/QualityEducation" mx-auto>
+          <div className="card card-compact card-size w-96 bg-base-100 shadow-xl">
             <figure>
               <img className="h-[350px] w-96" src={quality} alt="Shoes" />
             </figure>
@@ -67,8 +67,8 @@ const Events = () => {
           </div>
         </Link>
 
-        <Link to="/SkillEnhancement">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <Link to="/SkillEnhancement" className='mx-auto'>
+          <div className="card card-compact card-size w-96 bg-base-100 shadow-xl">
             <figure>
               <img className="h-[350px] w-96" src={skill} alt="Shoes" />
             </figure>
