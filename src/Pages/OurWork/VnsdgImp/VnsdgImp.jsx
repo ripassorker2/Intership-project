@@ -7,11 +7,13 @@ import img2 from '../../../assets/eduction/Sustainable_Development_Goal_13.png'
 
 const VnsdgImp = () => {
   return (
-    <div className="max-w-screen-xl mx-auto my-20">
-      <div className="text-center my-24">
-        <h1 className="unsdgs-title">UNSDGs IMPLEMENTATION</h1>
+    <div className="max-w-screen-xl mx-auto w-[90%] lg:my-28 my-14">
+      <div className="text-center">
+        <h1 className="unsdgs-title inline-flex">
+          UNSDGs <span className="md:inline-block hidden">IMPLEMENTATION</span>
+        </h1>
       </div>
-      <h2 className="text-center mt-10 m-4">
+      <h2 className="text-center my-10 m-4">
         There are 17 United Nations Sustainable Development Goals listed by the
         United Nations to achieve it by the 2030 in order to make this continent
         Peaceful, Sustainable and Inclusive. Here, at The Change we focus on the
@@ -19,7 +21,8 @@ const VnsdgImp = () => {
       </h2>
       <div
         className="lg:card-side bg-base-100 drop-shadow-2xl 
-           flex justify-center my-12 gap-4 md:p-4 xl:w-[950px] lg:w-[800px] md:w-[700px] mx-auto stewacd_card"
+           flex justify-center my-12 gap-4 md:p-4 xl:w-[950px] lg:w-[800px]
+            md:w-[700px] mx-auto stewacd_card"
       >
         <div className="flex items-center justify-center">
           <img

@@ -37,10 +37,12 @@
     .unsdgs-title::before {
         width: 30px;
         height: 4px;
+        left: -50%;
     }
 
     .unsdgs-title::after {
         width: 30px;
         height: 4px;
+        right: -50%;
     }
 }

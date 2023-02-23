@@ -6,11 +6,11 @@ import './Stewacd.css'
 
 const Stewacd = () => {
   return (
-    <div className="max-w-screen-xl mx-auto my-20">
-      <div className='text-center my-24'>
-        <h1 className='stewacd-title'>STEWACD</h1>
+    <div className="max-w-screen-xl mx-auto w-[90%] lg:my-28 my-14">
+      <div className="text-center">
+        <h1 className="stewacd-title">STEWACD</h1>
       </div>
-      <h2 className="text-center mt-10 px-4">
+      <h2 className="text-center my-10 px-4">
         At our organisation we work on separate programmes like STEWACD, it is
         the acronym of Support Towards Empowerment of Women and Child
         Development. This initiative is mainly focussed on the UNSDG Goals-4,5
@@ -78,11 +78,7 @@ const Stewacd = () => {
           />
         </div>
         <div className="px-2">
-          <h2
-            className="card-title"
-          >
-            UNSDG GOAL: 05: GENDER EQUALITY
-          </h2>
+          <h2 className="card-title">UNSDG GOAL: 05: GENDER EQUALITY</h2>
           <p className="flex leading-6 mt-4">
             <span className="text-[18px] mt-1 mr-2">
               <FaHandPointRight />
@@ -99,16 +95,16 @@ const Stewacd = () => {
             <span className="text-[18px] mt-1 mr-2">
               <FaHandPointRight />
             </span>
-            Sessions on the Gender Identity and Sexual Orientation, Awareness
-            on LGBTQ.
+            Sessions on the Gender Identity and Sexual Orientation, Awareness on
+            LGBTQ.
           </p>
           <p className="flex leading-6">
             <span className="text-[18px] mt-1 mr-2">
               <FaHandPointRight />
             </span>
-            Sessions, Panel Discussions and webinars on Gender Equality,
-            Gender Sensitising and allowing Women from under privileged to
-            learn out of it.
+            Sessions, Panel Discussions and webinars on Gender Equality, Gender
+            Sensitising and allowing Women from under privileged to learn out of
+            it.
           </p>
         </div>
       </div>
