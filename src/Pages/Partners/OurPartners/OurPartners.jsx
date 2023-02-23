@@ -8,24 +8,27 @@ import img5 from "../../../assets/partners/our-pat.jpeg";
 
 const OurPartners = () => {
   return (
-    <div className="max-w-screen-xl mx-auto">
-      <div className='text-center my-24'>
-        <h1 className='our-partners-title'>OUR PARTNERS</h1>
+    <div className="max-w-screen-xl mx-auto w-[90%] lg:my-28 my-14">
+      <div className="text-center">
+        <h1 className="our-partners-title">OUR PARTNERS</h1>
       </div>
-      <div className="flex gap-10 justify-center mt-10">
-        <div className="w-48 h-40">
+      <div
+        className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-10
+       justify-center align-middle mt-10"
+      >
+        <div className="">
           <img className="w-full h-full rounded-md" src={img1} alt="" />
         </div>
-        <div className="w-48 h-40">
+        <div className="">
           <img className="w-full h-full rounded-md" src={img2} alt="" />
         </div>
-        <div className="w-48 h-40">
+        <div className="">
           <img className="w-full h-full rounded-md" src={img3} alt="" />
         </div>
-        <div className="w-48 h-40">
+        <div className="">
           <img className="w-full h-full rounded-md" src={img4} alt="" />
         </div>
-        <div className="w-48 h-40">
+        <div className="">
           <img className="w-full h-full rounded-md" src={img5} alt="" />
         </div>
       </div>
