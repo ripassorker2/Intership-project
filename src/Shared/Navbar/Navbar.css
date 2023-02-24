@@ -1,265 +1,261 @@
 nav {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999999;
-    padding: 0 20px;
-    background: #FFFFFF;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 9999999;
+   padding: 0 20px;
+   background: #ffffff;
 }
 
 .nav-bg {
-    background: #FFFFFF;
-
+   background: #ffffff;
 }
 
 .bb-none {
-    border-bottom: none !important;
+   border-bottom: none !important;
 }
 
 nav .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid white;
-    padding: 15px 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid white;
+   padding: 15px 0px;
 }
 
 nav .nav-container .toggole-menu {
-    display: none;
+   display: none;
 }
 
 nav .nav-container .phone-menu {
-    width: 100%;
-    min-height: 100vh;
-    background: #004e7e;
-    position: absolute;
-    top: 0;
-    left: -100%;
-    transition: all linear 0.4s;
+   width: 100%;
+   min-height: 100vh;
+   background: #004e7e;
+   position: absolute;
+   top: 0;
+   left: -100%;
+   transition: all linear 0.4s;
 }
 
 .right0 {
-    left: 0 !important;
+   left: 0 !important;
 }
 
 nav .nav-container .toggole-menu svg {
-    font-size: 35px;
-    color: black;
+   font-size: 35px;
+   color: black;
 }
 
 nav .logo {
-    height: 90px;
-    margin-right: 5px;
+   height: 90px;
+   margin-right: 5px;
 }
 
 .logo_title {
-    font-size: 42px;
-    color: #2143F5;
-    font-weight: 700;
+   font-size: 42px;
+   color: #2143f5;
+   font-weight: 700;
 }
 
 .logo_he {
-    font-size: 22px;
-    color: #444444;
+   font-size: 22px;
+   color: #444444;
 
-    font-weight: 700;
-    text-align: center;
-    line-height: 2px;
+   font-weight: 700;
+   text-align: center;
+   line-height: 2px;
 }
 
 nav .nav-container .main-menu {
-    display: flex;
-
+   display: flex;
 }
 
-
-nav .nav-container .main-menu>li {
-    position: relative;
+nav .nav-container .main-menu > li {
+   position: relative;
 }
 
-nav .nav-container .main-menu>li>a {
-    display: flex;
-    align-items: center;
-    color: #000;
-    font-weight: 600;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-left: 20px;
-    padding: 5px 10px;
-    transition: all linear 0.2s;
+nav .nav-container .main-menu > li > a {
+   display: flex;
+   align-items: center;
+   color: #000;
+   font-weight: 600;
+   font-size: 16px;
+   text-transform: uppercase;
+   margin-left: 20px;
+   padding: 5px 10px;
+   transition: all linear 0.2s;
 }
 
-nav .nav-container .main-menu>li>a:first-child {
-    margin-left: 0px;
+nav .nav-container .main-menu > li > a:first-child {
+   margin-left: 0px;
 }
 
-nav .nav-container .main-menu>li>a:hover {
-    background: #71e432;
+nav .nav-container .main-menu > li > a:hover {
+   background: #71e432;
 }
 
-nav .nav-container .main-menu>li>a span>svg {
-    margin-left: 0px;
-    transition: all linear 0.2s;
+nav .nav-container .main-menu > li > a span > svg {
+   margin-left: 0px;
+   transition: all linear 0.2s;
 }
 
-nav .nav-container .main-menu>li>a:hover span>svg {
-    transform: rotate(180deg);
+nav .nav-container .main-menu > li > a:hover span > svg {
+   transform: rotate(180deg);
 }
 
-nav .nav-container .main-menu>li .sub-menu {
-    position: absolute;
-    width: 150px;
-    padding-top: 73px;
-    top: 0%;
-    left: 0;
-    display: none;
+nav .nav-container .main-menu > li .sub-menu {
+   position: absolute;
+   width: 150px;
+   padding-top: 73px;
+   top: 0%;
+   left: 0;
+   display: none;
 }
 
-nav .nav-container .main-menu>li .sub-menu>li {
-    background: white;
-    text-transform: capitalize;
-    border-bottom: 1px solid #b9b6b6;
+nav .nav-container .main-menu > li .sub-menu > li {
+   background: white;
+   text-transform: capitalize;
+   border-bottom: 1px solid #b9b6b6;
 }
 
-nav .nav-container .main-menu>li .sub-menu>li:last-child {
-    border-bottom: none;
+nav .nav-container .main-menu > li .sub-menu > li:last-child {
+   border-bottom: none;
 }
 
-nav .nav-container .main-menu>li .sub-menu>li>a:active {
-    background: none;
+nav .nav-container .main-menu > li .sub-menu > li > a:active {
+   background: none;
 }
 
-nav .nav-container .main-menu>li .sub-menu>li>a {
-    display: block;
-    color: black;
+nav .nav-container .main-menu > li .sub-menu > li > a {
+   display: block;
+   color: black;
 }
 
-nav .nav-container .main-menu>li>a:hover .sub-menu {
-    display: block;
+nav .nav-container .main-menu > li > a:hover .sub-menu {
+   display: block;
 }
 
-nav .nav-container .main-menu>li .sub-menu>li>a:hover {
-    background-color: #d6ffc0;
+nav .nav-container .main-menu > li .sub-menu > li > a:hover {
+   background-color: #d6ffc0;
 }
 
-nav .nav-container .main-menu>li>a:hover .sub-menu li {
-    transform-origin: bottom center;
-    opacity: 1;
+nav .nav-container .main-menu > li > a:hover .sub-menu li {
+   transform-origin: bottom center;
+   opacity: 1;
 }
 
-nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(1) {
-    animation: animate 0.3s ease-in-out backwards;
-    animation-delay: 0.15;
+nav .nav-container .main-menu > li > a:hover .sub-menu li:nth-child(1) {
+   animation: animate 0.3s ease-in-out backwards;
+   animation-delay: 0.15;
 }
 
-nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(2) {
-    animation: animate 0.3s ease-in-out backwards;
-    animation-delay: 0s;
+nav .nav-container .main-menu > li > a:hover .sub-menu li:nth-child(2) {
+   animation: animate 0.3s ease-in-out backwards;
+   animation-delay: 0s;
 }
 
-nav .nav-container .main-menu>li>a:hover .sub-menu li:nth-child(3) {
-    animation: animate 0.3s ease-in-out backwards;
-    animation-delay: -0.15s;
+nav .nav-container .main-menu > li > a:hover .sub-menu li:nth-child(3) {
+   animation: animate 0.3s ease-in-out backwards;
+   animation-delay: -0.15s;
 }
 
 /* main menu css ends  */
 
 @keyframes animate {
-    0% {
-        opacity: 0;
-        transform: rotateX(-90deg);
-    }
+   0% {
+      opacity: 0;
+      transform: rotateX(-90deg);
+   }
 
-    50% {
-        transform: rotateX(20deg);
-    }
+   50% {
+      transform: rotateX(20deg);
+   }
 
-    100% {
-        opacity: 1;
-        transform: rotateX(0deg);
-    }
+   100% {
+      opacity: 1;
+      transform: rotateX(0deg);
+   }
 }
 
-@media (min-width:320px) and (max-width:576px) {
-    nav {
-        background: white;
-    }
+@media (min-width: 320px) and (max-width: 576px) {
+   nav {
+      background: white;
+   }
 
-    nav .logo {
-        height: 50px;
-    }
+   nav .logo {
+      height: 50px;
+   }
 
-    .logo_detail {
-        margin-top: 5px;
-    }
+   .logo_detail {
+      margin-top: 5px;
+   }
 
-    .logo_title {
-        font-size: 18px;
-    }
+   .logo_title {
+      font-size: 18px;
+   }
 
-    .logo_he {
-        font-size: 10px;
-        font-weight: 700;
-        color: #f0f07a;
-    }
+   .logo_he {
+      font-size: 10px;
+      font-weight: 700;
+      color: #f0f07a;
+   }
 
-    nav .nav-container {
-        border-bottom: none;
-    }
+   nav .nav-container {
+      border-bottom: none;
+   }
 
-    nav .nav-container .toggole-menu {
-        display: block;
-    }
+   nav .nav-container .toggole-menu {
+      display: block;
+   }
 
-    nav .nav-container .menu {
-        display: none;
-    }
-
+   nav .nav-container .menu {
+      display: none;
+   }
 }
 
-@media (min-width:577px) and (max-width:768px) {
-    nav {
-        padding: 0 20px;
-    }
+@media (min-width: 577px) and (max-width: 768px) {
+   nav {
+      padding: 0 20px;
+   }
 
-    nav .logo {
-        height: 60px;
-    }
+   nav .logo {
+      height: 60px;
+   }
 
-    .logo_detail {
-        margin-top: 10px;
-    }
+   .logo_detail {
+      margin-top: 10px;
+   }
 
-    .logo_title {
-        font-size: 20px;
-    }
+   .logo_title {
+      font-size: 20px;
+   }
 
-    .logo_he {
-        font-size: 11px;
-        font-weight: 700;
-    }
+   .logo_he {
+      font-size: 11px;
+      font-weight: 700;
+   }
 
-    nav .nav-container .main-menu>li>a {
-        font-size: 13px;
-    }
+   nav .nav-container .main-menu > li > a {
+      font-size: 13px;
+   }
 }
 
-@media (min-width:779px) and (max-width:1024px) {
-    nav .logo {
-        height: 80px;
-    }
+@media (min-width: 779px) and (max-width: 1024px) {
+   nav .logo {
+      height: 80px;
+   }
 
-    .logo_detail {
-        margin-top: 8px;
-    }
+   .logo_detail {
+      margin-top: 8px;
+   }
 
-    .logo_title {
-        font-size: 30px;
-    }
+   .logo_title {
+      font-size: 30px;
+   }
 
-    .logo_he {
-        font-size: 16px;
-        font-weight: 700;
-    }
+   .logo_he {
+      font-size: 16px;
+      font-weight: 700;
+   }
 }
