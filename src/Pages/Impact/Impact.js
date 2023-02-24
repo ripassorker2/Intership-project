@@ -8,8 +8,8 @@ const Impact = () => {
   const [counterOn, seTCounterOn] = useState(false);
 
   return (
-    <div className="">
-      <div className="text-center my-20 ">
+    <div className="lg:my-24 my-14">
+      <div className="text-center mb-10">
         <h1 className="impact-title mx-10">IMPACT</h1>
       </div>
       <ScrollTrigger
@@ -22,11 +22,15 @@ const Impact = () => {
             w-full opacity-80  `}
             id="bg-overlay"
           >
-            <div className=" hidden md:block absolute border border-green-500 
-            h-[84%] left-[50%]"></div>
+            <div
+              className=" hidden md:block absolute border border-green-500 
+            h-[84%] left-[50%]"
+            ></div>
             <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 gap-2 ">
-              <div className="w-full h-full m-auto lg:px-10 p-4  flex 
-              md:justify-start   justify-center items-center ">
+              <div
+                className="w-full h-full m-auto lg:px-10 p-4  flex 
+              md:justify-start   justify-center items-center "
+              >
                 <div className="text-[#000]">
                   <Chart
                     options={{
@@ -94,8 +98,10 @@ const Impact = () => {
                    rounded-xl text-center hover:shadow-lg 
                    hover:shadow-[#F48E40]"
                 >
-                  <h5 className="text-[#1E50EC] font-bold text-2xl 
-                  lg:text-3xl">
+                  <h5
+                    className="text-[#1E50EC] font-bold text-2xl 
+                  lg:text-3xl"
+                  >
                     <CountUp start={0} delay={0} end={12000} duration={3} />+
                   </h5>
                   <h5 className="text-[#1E50EC] font-semibold pt-2 text-xl ">

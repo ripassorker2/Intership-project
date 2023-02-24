@@ -36,7 +36,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
           <Link>
             Who are we{" "}
             <span>
-              <MdOutlineKeyboardArrowDown />
+              <MdOutlineKeyboardArrowDown size={30} />
             </span>
           </Link>
           <div className="drawer-sub-menu">
@@ -57,7 +57,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
           <Link>
             Our Work{" "}
             <span>
-              <MdOutlineKeyboardArrowDown />
+              <MdOutlineKeyboardArrowDown size={30} />
             </span>
           </Link>
           <div className="drawer-sub-menu">
@@ -69,7 +69,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
                 <Link to="/vnsdg">Vnsdg Imp</Link>
               </li>
               <li>
-                <Link to="/telenthunt">TALENT HUNT</Link>
+                <Link to="/telenthunt">Talent hunt</Link>
               </li>
             </ul>
           </div>
@@ -78,7 +78,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
           <Link>
             Partner{" "}
             <span>
-              <MdOutlineKeyboardArrowDown />
+              <MdOutlineKeyboardArrowDown size={30} />
             </span>
           </Link>
           <div className="drawer-sub-menu">

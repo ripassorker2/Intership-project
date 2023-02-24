@@ -95,7 +95,7 @@ const Navbar = () => {
         </Link>
         <div className="toggole-menu">
           <button onClick={() => setOpenMenu(!openMenu)}>
-            <GiHamburgerMenu />
+            <GiHamburgerMenu size={24} />
           </button>
         </div>
         <div className={`phone-menu ${openMenu ? "block right0" : "hidden"}`}>

@@ -22,15 +22,12 @@
     margin-top: 50px;
 }
 
-.main-drawer .drawer-main-menu li {
-    margin-top: 20px;
-}
 
 .main-drawer .drawer-main-menu li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
 }
@@ -49,6 +46,10 @@
     height: 0;
     transition: all 0.5s;
     padding: 10px 15px;
+}
+.main-drawer .drawer-main-menu .according-menu .drawer-sub-menu li a{
+    font-size: 16px;
+    text-transform: capitalize;
 }
 
 

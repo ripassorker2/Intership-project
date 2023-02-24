@@ -4,22 +4,30 @@ import RespectIcon from "../../../assets/icons/RespectIcon";
 import IntegrityIcon from "../../../assets/icons/IntegrityIcon";
 import ExcellenceIcon from "../../../assets/icons/ExcellenceIcon";
 import InclusiveIcon from "../../../assets/icons/InclusiveIcon";
+import principal from '../../../assets/banner/pincipal-removebg-preview.png'
 import './Principal.css';
 
 const Principal = () => {
   return (
-    <>
-      <h1 className="text-2xl text-center font-bold mt-5 block md:hidden lg:hidden">
+    <div className="lg:h-[550px] md:h-[480px] h-[550px]">
+      <h1 className="text-2xl text-center font-bold mt-5 block md:hidden
+       lg:hidden">
         Core Principles
       </h1>
-      <div className="main-principal max-w-screen-xl mx-auto lg:h-[700px] md:h-[510px] h-[480px] my-10 flex justify-center items-center">
-        <div className="first-principale lg:h-[100%] md:h-[310px] h-[480px] relative">
+      <div className="main-principal max-w-screen-xl mx-auto my-10 flex justify-center items-center">
+        <img
+          className="pincipal_img xl:w-[800px] lg:w-[700px] md:-[600px] xl:h-[380px] lg:h-[350px] md:h-[300px] h-[480px] my-10 flex justify-center items-center"
+          src={principal}
+          alt="principal"
+        />
+        <div className="first-principale">
           <h1>Core Principles</h1>
-          <div className="principale-content absolute"></div>
         </div>
+        <div className="principale-content absolute"></div>
+
         <div className="principale-ul">
           <ul
-            className="item xl:gap-6 lg:gap-1 md:gap-8 gap-1 
+            className="item xl:gap-6 lg:gap-8 md:gap-8 gap-1 
           justify-center md:flex"
           >
             <li
@@ -110,7 +118,7 @@ const Principal = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
