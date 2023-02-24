@@ -22,7 +22,7 @@ const GetInTouch = ({ title, bg, photo2 }) => {
                   backgroundImage: `url(${photo2})`,
                }}
             >
-               <div className="bg-slate-900 text-gray-200 inline-block text-sm md:p-14 m-8  p-5 rounded-md ">
+               <div className="bg-slate-900 text-gray-200 inline-block text-sm md:p-12 m-8  p-5 rounded-md ">
                   <h4 className="flex items-center mb-1 md:text-lg tracking-wider">
                      <span>
                         <AiOutlineMail size={24} className="mr-3" />
