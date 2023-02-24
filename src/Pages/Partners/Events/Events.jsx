@@ -11,7 +11,7 @@ import img1 from "../../../assets/event/Event.jpg";
 
 const Events = () => {
   return (
-    <div className="max-w-screen-xl mx-auto my-20">
+    <div className="max-w-screen-xl mx-auto my-20 margin">
       <div className='text-center my-24'>
         <h1 className='events-title'>EVENTS</h1>
       </div>
