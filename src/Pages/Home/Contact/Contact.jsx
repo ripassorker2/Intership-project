@@ -64,14 +64,7 @@ const Contact = () => {
                 <FaInstagram className="text-base text-white duration-300" />
               </p> */}
             </div>
-            <div className=" pt-1">
-              {/* <button className="bg-gray-800 hover:bg-[#F48E40] px-2 py-1 mt-2 font-bold  text-l ">
-                <FaPhoneSquareAlt className="text-white inline-block mr-2 text-base" />
-                <span className=" text-white hover:text-white duration-300">
-                  00 - 0000000
-                </span>
-              </button> */}
-            </div>
+            <div className=" pt-1"></div>
           </div>
 
           <div className="ml-4">
@@ -82,17 +75,10 @@ const Contact = () => {
               <iframe
                 className="w-full"
                 title="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30695922.013225425!2d64.44757036482669!3d20.08974543066478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sbd!4v1677062124511!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122345.62477976696!2d79.74326844999999!3d16.61166735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a356a808c383f11%3A0xf7b70ba074f3bbc9!2z4Kah4Ka-4Kaa4KeH4Kaq4Kay4KeN4Kay4Ka_LCDgpoXgpqjgp43gpqfgp43gprAg4Kaq4KeN4Kaw4Kam4KeH4Ka2LCDgpq3gpr7gprDgpqQ!5e0!3m2!1sbn!2sbd!4v1677236981516!5m2!1sbn!2sbd"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </p>
-            {/* <h5 className=" text-base  py-1 font-semibold text-gray-800">
-              Corporate and Registered Office
-            </h5> */}
-            {/* <p className="text-gray-800 text-base font-medium">
-              Module No. 411, 4th Floor, NSIC-MDBP Building <br /> Okhla
-              Industrial Estate, New Delhi – 110020 (INDIA)
-            </p> */}
           </div>
           <div className="ml-4 md:hidden inline-block">
             <h3 className=" md:text-xl text-lg font-bold text-[#d26e21]  mt-3 mb-1">
