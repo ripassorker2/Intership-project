@@ -47,6 +47,13 @@
 }
 
 @media (min-width:320px) and (max-width: 576px) {
+  #bg-overlay {
+    background-image: linear-gradient(to left,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../../assets/banner/child.png");
+   
+  }
   .impact-title {
     font-size: 18px;
   }

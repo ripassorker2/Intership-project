@@ -9,7 +9,7 @@ const Impact = () => {
 
   return (
     <div className="">
-      <div className="text-center my-24">
+      <div className="text-center my-20 ">
         <h1 className="impact-title mx-10">IMPACT</h1>
       </div>
       <ScrollTrigger
