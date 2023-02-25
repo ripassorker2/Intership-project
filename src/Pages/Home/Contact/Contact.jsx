@@ -5,11 +5,7 @@ import { TbCircleCheck } from "react-icons/tb";
 import { AiOutlineMail } from "react-icons/ai";
 import {
   FaFacebook,
-  FaTwitter,
   FaLinkedin,
-  FaYoutube,
-  FaInstagram,
-  FaPhoneSquareAlt,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -57,12 +53,6 @@ const Contact = () => {
               <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
                 <FaLinkedin className="text-base text-white duration-300" />
               </p>
-              {/* <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
-                <FaYoutube className="text-base text-white duration-300" />
-              </p> */}
-              {/* <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
-                <FaInstagram className="text-base text-white duration-300" />
-              </p> */}
             </div>
             <div className=" pt-1"></div>
           </div>
@@ -89,25 +79,11 @@ const Contact = () => {
                 <FaFacebook className="text-base text-white duration-300" />
               </p>
               <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
-                <FaTwitter className="text-base text-white duration-300" />
+                <AiOutlineMail className="text-base text-white duration-300" />
               </p>
               <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
                 <FaLinkedin className="text-base text-white duration-300" />
               </p>
-              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
-                <FaYoutube className="text-base text-white duration-300" />
-              </p>
-              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
-                <FaInstagram className="text-base text-white duration-300" />
-              </p>
-            </div>
-            <div className=" pt-1">
-              <button className="bg-gray-800 hover:bg-[#F48E40] px-2 py-1 mt-2 font-bold  text-l ">
-                <FaPhoneSquareAlt className="text-white inline-block mr-2 text-base" />
-                <span className=" text-white hover:text-white duration-300">
-                  00 - 0000000
-                </span>
-              </button>
             </div>
           </div>
         </div>

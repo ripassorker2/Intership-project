@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import BannerItem from "./BannerItem";
 import img1 from '../../../assets/banner/1.png'
 import img2 from '../../../assets/banner/2.png'
-import img3 from '../../../assets/banner/3.png'
+import img3 from '../../../assets/banner/3.jpg'
 import img4 from '../../../assets/banner/4.png'
 import img5 from '../../../assets/banner/5.png'
 import img6 from '../../../assets/banner/7 (Custom)_auto_x2_cleanup.jpg'
@@ -61,7 +61,7 @@ const Banner = () => {
         }}
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper xl:mt-[122px] lg:mt-[112px] md:mt-[92px] mt-[82px]"
+        className="mySwiper xl:mt-[122px] lg:mt-[112px] md:mt-[92px] mt-[82px] lg:h-[480px]"
       >
         {
         banner.map((banner, i) => (
