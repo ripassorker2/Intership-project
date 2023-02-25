@@ -3,10 +3,9 @@ import { AiOutlineMail } from "react-icons/ai";
 import { GiWorld } from "react-icons/gi";
 
 const GetInTouch = ({ title, bg, photo2 }) => {
-   console.log(bg);
    return (
-      <div className="grid place-content-center  w-[95%] m-auto">
-         <div className=" md:h-[600px] h-[400px] md:w-[700px] w-full bg-repeat-round bg-cover">
+      <div className="grid place-content-center  w-[95%] m-auto ">
+         <div className=" md:h-[600px]  h-[400px] md:w-[700px] w-full bg-repeat-round bg-cover rounded-lg overflow-hidden">
             <div
                className={`md:h-[250px] h-[150px] grid place-content-center ${bg}`}
             >
@@ -17,12 +16,12 @@ const GetInTouch = ({ title, bg, photo2 }) => {
                </div>
             </div>
             <div
-               className="grid place-content-center md:h-[70%] h-[50%] bg-repeat-round bg-cover"
+               className="grid place-content-center md:h-[350px] h-[280px] bg-repeat-round bg-cover "
                style={{
                   backgroundImage: `url(${photo2})`,
                }}
             >
-               <div className="bg-slate-900 text-gray-200 inline-block text-sm md:p-14 m-8  p-5 rounded-md ">
+               <div className="bg-slate-900 text-gray-200 inline-block text-sm md:p-12 m-8  p-5 rounded-md ">
                   <h4 className="flex items-center mb-1 md:text-lg tracking-wider">
                      <span>
                         <AiOutlineMail size={24} className="mr-3" />
