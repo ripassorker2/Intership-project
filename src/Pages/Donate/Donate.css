@@ -1,0 +1,8 @@
+#bg-donete {
+  background-image: linear-gradient(to left,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("https://buddhistglobalrelief.files.wordpress.com/2019/01/DSC_0473-v.2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

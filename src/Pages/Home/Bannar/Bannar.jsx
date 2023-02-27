@@ -10,8 +10,8 @@ import img1 from '../../../assets/banner/1.png'
 import img2 from '../../../assets/banner/2.png'
 import img3 from '../../../assets/banner/3.jpg'
 import img4 from '../../../assets/banner/4.png'
-import img5 from '../../../assets/banner/5.png'
-import img6 from '../../../assets/banner/7 (Custom)_auto_x2_cleanup.jpg'
+import img5 from '../../../assets/banner/5.jpg'
+import img6 from '../../../assets/banner/6.png'
 
 const Banner = () => {
    const banner = [
@@ -40,13 +40,7 @@ const Banner = () => {
        img: img6,
      },
    ];
-  // const [banner, setBanner] = useState([]);
 
-  // useEffect(() => {
-  //   fetch("banner.json")
-  //     .then((res) => res.json())
-  //     .then((data) => setBanner(data));
-  // }, []);
   return (
     <div>
       <Swiper
@@ -61,7 +55,7 @@ const Banner = () => {
         }}
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper xl:mt-[122px] lg:mt-[112px] md:mt-[92px] mt-[82px] lg:h-[480px]"
+        className="mySwiper xl:mt-[122px] lg:mt-[112px] md:mt-[92px] mt-[82px] lg:h-[500px]"
       >
         {
         banner.map((banner, i) => (
