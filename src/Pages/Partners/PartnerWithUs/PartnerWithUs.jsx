@@ -1,14 +1,12 @@
-import React from "react";
-import GetInTouch from "../../../Shared/GetInTouch/GetInTouch";
+import React from 'react';
+import img  from '../../../assets/banner-logo/Orange1.png'
 
 const PartnerWithUs = () => {
-   let title = "Partner with us";
-   let bg = "bg-[#2143f5]";
-   let photo2 =
-      "https://t3.ftcdn.net/jpg/00/94/43/44/360_F_94434495_kqP2DyNTpVJEfF2px0soelCEjamyriMR.jpg";
    return (
-      <div className="my-20">
-         <GetInTouch title={title} bg={bg} photo2={photo2} />
+      <div className='grid place-content-center  w-[95%] m-auto my-5'>
+        <a href="mailto: thechange2k19@gmail.com">
+        <img className='w-[500px] h-[400px]' src={img} alt="" />
+        </a>
       </div>
    );
 };
