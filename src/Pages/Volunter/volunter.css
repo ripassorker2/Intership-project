@@ -1,0 +1,12 @@
+#bg-overlay {
+   background-image: linear-gradient(
+         to left,
+         rgba(0, 0, 0, 0.5),
+         rgba(0, 0, 0, 0.5)
+      ),
+      url("https://i.ibb.co/88NYmVh/5.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-repeat: round;
+   border-radius: 10px;
+}
