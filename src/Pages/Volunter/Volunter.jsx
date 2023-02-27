@@ -1,14 +1,48 @@
 import React from "react";
-import GetInTouch from "../../Shared/GetInTouch/GetInTouch";
+import { AiOutlineMail } from "react-icons/ai";
+import { GiWorld } from "react-icons/gi";
+
+import "./volunter.css";
 
 const Volunter = () => {
-   let title = "Volunteer with us";
-   let bg = "bg-[#F48E40]";
-   let photo2 =
-      "https://images.yourstory.com/cs/wordpress/2018/03/19884450_1686832194672581_7847578843808818976_n.jpg?w=752&fm=auto&ar=2:1&mode=crop&crop=faces";
    return (
-      <div className="my-20">
-         <GetInTouch title={title} bg={bg} photo2={photo2} />
+      <div className="mx-7">
+         <div
+            className=" my-11  py-8 max-w-screen-xl m-auto bg-repeat-round bg-cover "
+            id="bg-overlay"
+         >
+            <h3 className="lg:text-5xl md:text-4xl text-3xl font-semibold text-center underline text-gray-200 p-4 pt-10 pb-8">
+               Volunteer with us
+            </h3>
+            <div className="flex flex-col justify-center items-center pb-5 text-gray-200 md:text-lg  ">
+               <div className="inline-block border p-4 m-3 rounded-lg max-w-[440px] text-center font-serif">
+                  <p className="pb-2">
+                     We welcome all volunteers, with any availabilities and
+                     experience!
+                  </p>
+                  <p>
+                     Volunteer with us today if you are passonate about making a
+                     difference in the live of young people!
+                  </p>
+               </div>
+            </div>
+            <div className="flex flex-col justify-center items-center mb-9 text-gray-900  ">
+               <div className="bg-slate-100  inline-block rounded-md p-5">
+                  <h4 className="flex items-center mb-1 md:text-lg tracking-wider">
+                     <span>
+                        <AiOutlineMail size={24} className="mr-3" />
+                     </span>
+                     <span>thechange2k19@gmail.com</span>
+                  </h4>
+                  <h4 className="flex items-center mb-1 md:text-lg  tracking-wider">
+                     <span>
+                        <GiWorld size={24} className="mr-3" />
+                     </span>
+                     <span>http://the-changes.com/</span>
+                  </h4>
+               </div>
+            </div>
+         </div>
       </div>
    );
 };
