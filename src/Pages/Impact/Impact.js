@@ -20,7 +20,7 @@ const Impact = () => {
           <section
             className={`relative h-[520p]  py-10 bg-cover bg-center bg-no-repeat
             w-full opacity-80  `}
-            id="bg-overlay"
+            id="bg-impact"
           >
             <div
               className=" hidden md:block absolute border border-green-500 
