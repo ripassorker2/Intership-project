@@ -66,7 +66,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
                 <Link to="/stewacd">Stewacd</Link>
               </li>
               <li>
-                <Link to="/vnsdg">Vnsdg Imp</Link>
+                <Link to="/vnsdgimp">UNSDGs</Link>
               </li>
               <li>
                 <Link to="/telenthunt">Talent hunt</Link>

@@ -44,14 +44,23 @@ const Contact = () => {
               Connect with Us
             </h3>
             <div className="flex pt-3 ">
-              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
-                <FaFacebook className="text-base text-white duration-300" />
+              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full
+               lg:mr-3 md:mr-2 mr-2">
+                <a href="https://www.facebook.com/thechange.00">
+                  <FaFacebook className="text-base text-white duration-300" />
+                </a>
               </p>
-              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
-                <AiOutlineMail className="text-base text-white duration-300" />
+              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full
+               lg:mr-3 md:mr-2 mr-2">
+                <a href="mailto: thechange2k19@gmail.com">
+                  <AiOutlineMail className="text-base text-white duration-300" />
+                </a>
               </p>
-              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
-                <FaLinkedin className="text-base text-white duration-300" />
+              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full
+               lg:mr-3 md:mr-2 mr-2">
+                <a href="https://www.linkedin.com/company/thechangestewacd/">
+                  <FaLinkedin className="text-base text-white duration-300" />
+                </a>
               </p>
             </div>
             <div className=" pt-1"></div>
@@ -75,14 +84,23 @@ const Contact = () => {
               Connect with Us
             </h3>
             <div className="flex pt-3 ">
-              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
+              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full
+               lg:mr-3 md:mr-2 mr-2">
+                <a href="https://www.facebook.com/thechange.00">
                 <FaFacebook className="text-base text-white duration-300" />
+                </a>
               </p>
-              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
+              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full
+               lg:mr-3 md:mr-2 mr-2">
+                <a href="mailto: thechange2k19@gmail.com">
                 <AiOutlineMail className="text-base text-white duration-300" />
+                </a>
               </p>
-              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full lg:mr-3 md:mr-2 mr-2">
+              <p className="bg-gray-800 hover:bg-[#F48E40] inline-block p-[7px] rounded-full
+               lg:mr-3 md:mr-2 mr-2">
+                <a href="https://www.linkedin.com/company/thechangestewacd/">
                 <FaLinkedin className="text-base text-white duration-300" />
+                </a>
               </p>
             </div>
           </div>
