@@ -69,6 +69,9 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
                 <Link to="/vnsdgimp">UNSDGs</Link>
               </li>
               <li>
+                <Link to="/events">Events</Link>
+              </li>
+              <li>
                 <Link to="/telenthunt">Talent hunt</Link>
               </li>
             </ul>
@@ -86,9 +89,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
               <li>
                 <Link to="/ourpartners">Our Partners</Link>
               </li>
-              <li>
-                <Link to="/events">Events</Link>
-              </li>
+
               <li>
                 <Link to="/partnerwithus">Partner With Us</Link>
               </li>
@@ -98,6 +99,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
         <li className="according-menu">
           <Link to="/impact">Impact </Link>
         </li>
+        <button className="btn btn-primary btn-sm">Donate</button>
       </ul>
     </div>
   );
