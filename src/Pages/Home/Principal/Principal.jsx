@@ -20,7 +20,7 @@ const Principal = () => {
           src={principal}
           alt="principal"
         />
-        <div className="first-principale">
+        <div className="first-principale lg:text-4xl md:text-3xl">
           <h1>Core Principles</h1>
         </div>
         <div className="principale-content absolute"></div>

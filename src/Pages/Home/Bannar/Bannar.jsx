@@ -6,12 +6,12 @@ import "swiper/css/navigation";
 import "./Banner.css";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import BannerItem from "./BannerItem";
-import img1 from '../../../assets/banner/1.png'
-import img2 from '../../../assets/banner/2.png'
+import img1 from '../../../assets/banner/1.jpg'
+import img2 from '../../../assets/banner/2.jpg'
 import img3 from '../../../assets/banner/3.jpg'
-import img4 from '../../../assets/banner/4.png'
+import img4 from '../../../assets/banner/4.jpg'
 import img5 from '../../../assets/banner/5.jpg'
-import img6 from '../../../assets/banner/6.png'
+import img6 from '../../../assets/banner/6.jpg'
 
 const Banner = () => {
    const banner = [

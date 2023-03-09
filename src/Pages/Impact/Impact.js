@@ -18,7 +18,7 @@ const Impact = () => {
       >
         {counterOn && (
           <section
-            className={`relative h-[520p]  py-10 bg-cover bg-center bg-no-repeat
+            className={`relative  py-10  bg-center bg-no-repeat
             w-full opacity-80  `}
             id="bg-impact"
           >
