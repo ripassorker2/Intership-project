@@ -4,9 +4,9 @@ import img1 from "../../../assets/team/img1.jpg";
 import img2 from "../../../assets/team/img2.jpg";
 import img3 from "../../../assets/team/img3.jpg";
 import img4 from "../../../assets/team/img4.jpg";
-import img5 from "../../../assets/team/t-5 .jpg";
-import img6 from "../../../assets/team/t-7.jpg";
-import img7 from "../../../assets/team/t-6.jpg";
+import img5 from "../../../assets/team/t-5.png";
+import img6 from "../../../assets/team/t-7.png";
+import img7 from "../../../assets/team/t-6.png";
 
 const OurTeam = () => {
   return (

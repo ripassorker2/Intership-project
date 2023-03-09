@@ -1,15 +1,13 @@
 import React from "react";
-import GetInTouch from "../../Shared/GetInTouch/GetInTouch";
+import img from '../../assets/Donate-part-voluteer/Blue Creative Contact Us Instagram Post.png'
+
 
 const Donate = () => {
-   let title = "Donate us";
-   let bg = "bg-[#71e432]";
-   let photo2 =
-      "https://img.global.news.samsung.com/in/wp-content/uploads/2018/08/IMG_5905-e1533544026651.jpg";
+
    return (
-      <div className="my-20">
-         <GetInTouch title={title} bg={bg} photo2={photo2} />
-      </div>
+     <div className="grid place-content-center  w-[95%] m-auto my-14">
+         <img className="w-[500px] h-[400px]" src={img} alt="" />
+     </div>
    );
 };
 
