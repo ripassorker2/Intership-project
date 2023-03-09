@@ -51,7 +51,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999999999;
-  font-size: 28px;
   font-weight: 700;
   color: white;
 }
@@ -120,7 +119,4 @@
   top: 306px;
   z-index: 99999;
 }
-}
-@media (min-width:779px) and (max-width:1024px){
-  
 }

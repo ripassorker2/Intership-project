@@ -46,6 +46,9 @@ const Navbar = () => {
             <li>
               <Link to="/telenthunt">TALENT HUNT</Link>
             </li>
+            <li>
+              <Link to="/covid">COVID RELIEF</Link>
+            </li>
           </ul>
         </Link>
       </li>

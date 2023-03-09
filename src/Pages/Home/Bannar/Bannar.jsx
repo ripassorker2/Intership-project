@@ -6,12 +6,12 @@ import "swiper/css/navigation";
 import "./Banner.css";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import BannerItem from "./BannerItem";
-import img1 from "../../../assets/banner/1 (Custom).jpg";
-import img2 from "../../../assets/banner/2 (Custom) (2).jpg";
-import img3 from "../../../assets/banner/banner.jpg";
-import img4 from "../../../assets/banner/4 (Custom)_auto_x2.jpg";
-import img5 from "../../../assets/banner/6 (Custom)_auto_x2.jpg";
-import img6 from "../../../assets/banner/7 (Custom)_auto_x2.jpg";
+import img1 from "../../../assets/banner/1.jpg";
+import img2 from "../../../assets/banner/2.jpg";
+import img3 from "../../../assets/banner/3.jpg";
+import img4 from "../../../assets/banner/4.jpg";
+import img5 from "../../../assets/banner/5.jpg";
+import img6 from "../../../assets/banner/6.jpg";
 
 const Banner = () => {
    const banner = [
@@ -40,13 +40,7 @@ const Banner = () => {
          img: img6,
       },
    ];
-   // const [banner, setBanner] = useState([]);
 
-   // useEffect(() => {
-   //   fetch("banner.json")
-   //     .then((res) => res.json())
-   //     .then((data) => setBanner(data));
-   // }, []);
    return (
       <div>
          <Swiper
@@ -61,7 +55,7 @@ const Banner = () => {
             }}
             navigation={false}
             modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper xl:mt-[122px] lg:mt-[112px] md:mt-[92px] mt-[82px]"
+            className="mySwiper xl:mt-[122px] lg:mt-[112px] md:mt-[92px] mt-[82px] lg:h-[500px]"
          >
             {banner.map((banner, i) => (
                <SwiperSlide key={i}>

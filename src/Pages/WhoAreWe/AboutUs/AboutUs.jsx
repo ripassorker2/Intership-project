@@ -11,7 +11,7 @@ const AboutUs = () => {
             </div>
             <div className="md:flex px-5 sm:grid sm:grid-cols-1">
                <div className="md:w-1/2 sm:w-[100%] flex justify-center">
-                  <img className="h-72 " src={logo} alt="" />
+                  <img className="md:h-72 h-60 " src={logo} alt="" />
                </div>
                <div className="md:w-1/2 sm:w-[100%] mb-6">
                   <article className=" text-[16px]">

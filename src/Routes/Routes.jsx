@@ -1,6 +1,7 @@
 import Main from "../Layout/Main";
 import Donate from "../Pages/Donate/Donate";
 import Impact from "../Pages/Impact/Impact";
+import Covid from "../Pages/OurWork/Covid/Covid";
 
 import Stewacd from "../Pages/OurWork/Stewacd/Stewacd";
 import TelentHunt from "../Pages/OurWork/TelentHunt/TelentHunt";
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: "/telenthunt",
         element: <TelentHunt />,
+      },
+      {
+        path: "/covid",
+        element: <Covid />,
       },
       {
         path: "/Vnsdgimp",
