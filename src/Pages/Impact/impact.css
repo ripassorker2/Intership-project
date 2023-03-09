@@ -1,9 +1,9 @@
 
 #bg-impact {
   background-image: linear-gradient(to left,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
-    url("../../assets/banner//p.png");
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)),
+    url("../../assets/impact/Screenshot\ 2023-03-09\ 193222.png");
   background-size: contain;
   background-repeat: no-repeat;
 }

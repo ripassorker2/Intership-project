@@ -44,6 +44,9 @@ const Navbar = () => {
               <Link to="/vnsdgimp">UNSDGs</Link>
             </li>
             <li>
+              <Link to="/events">EVENTS</Link>
+            </li>
+            <li>
               <Link to="/telenthunt">TALENT HUNT</Link>
             </li>
             <li>
@@ -63,9 +66,6 @@ const Navbar = () => {
               <Link to="/ourpartners">OUR PARTNERS</Link>
             </li>
             <li>
-              <Link to="/events">EVENTS</Link>
-            </li>
-            <li>
               <Link to="/partnerwithus">PARTNER WITH US</Link>
             </li>
           </ul>
@@ -74,6 +74,8 @@ const Navbar = () => {
       <li className="bg-none">
         <Link to="impact">IMPACT</Link>
       </li>
+
+      <button className="btn btn-primary btn-sm">Donate</button>
     </>
   );
 
