@@ -72,7 +72,7 @@ const router = createBrowserRouter([
          },
          {
             path: "/partnerwithus",
-            element: <Volunter />,
+            element: <PartnerWithUs />,
          },
          {
             path: "/impact",
@@ -111,10 +111,10 @@ const router = createBrowserRouter([
             path: "/SkillEnhancement",
             element: <SkillEnhancement />,
          },
-         // {
-         //   path: "/volunteer",
-         //   element: <Volunter />,
-         // },
+         {
+            path: "/volunteer",
+            element: <Volunter />,
+         },
          {
             path: "/donate",
             element: <Donate />,
