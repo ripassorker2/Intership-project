@@ -1,11 +1,11 @@
 #bg-impact {
    background-image: linear-gradient(
          to left,
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
+         rgba(0, 0, 0, 0.4),
+         rgba(0, 0, 0, 0.4)
       ),
-      url("../../assets/banner//p.png");
-   background-size: contain;
+      url("../../assets/impact/Screenshot\ 2023-03-09\ 193222.png");
+   background-size: cover;
    background-repeat: no-repeat;
 }
 
