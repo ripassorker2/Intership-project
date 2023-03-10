@@ -1,7 +1,7 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { TbWorld } from "react-icons/tb";
-import img from "../../../assets/partners/for-partner-top@5x-1536x692-1.png";
+import img from "../../../assets/partners/partner-banner.svg";
 
 const PartnerWithUs = () => {
    return (
@@ -11,13 +11,7 @@ const PartnerWithUs = () => {
          </h4>
          <div className="grid md:grid-cols-2 gap-10 place-content-center">
             <div className="md:w-[90%] mx-auto grid place-content-center mt-5">
-               <img
-                  src={
-                     "https://img.freepik.com/premium-vector/handshake-business-partners-united-puzzle-details-concept-successful-vector-illustration_143808-859.jpg?w=900"
-                  }
-                  alt=""
-                  className="rounded-lg w-full bg-cover"
-               />
+               <img src={img} alt="" className="rounded-lg w-full bg-cover" />
             </div>
             <div className="grid place-content-center md:w-[90%] leading-3 ">
                <h4 className="md:text-2xl font-serif font-semibold mb-3">
@@ -27,8 +21,7 @@ const PartnerWithUs = () => {
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Quisquam explicabo commodi accusantium reiciendis pariatur
                   aspernatur ipsa voluptatibus quo aperiam, non est quasi libero
-                  dolor, deserunt eos sit amet enim tempore error. Alias modi
-                  quam perspiciatis fugiat.
+                  dolor, deserunt eos sit amet enim tempore error.
                </p>
                <div className="mt-4">
                   <h4 className="inline-flex text-lg">
