@@ -5,13 +5,19 @@ import { TbWorld } from "react-icons/tb";
 const Volunter = () => {
    return (
       <section className="max-w-screen-xl w-[90%] mx-auto my-16">
+         <h4
+            className="md:text-4xl text-
+         2xl text-center font-serif font-semibold mb-3"
+         >
+            Volunteer with us
+         </h4>
          <div className="grid md:grid-cols-2 gap-10">
             <div className="md:w-[90%] mx-auto">
                <img src={img} alt="" className="rounded-lg" />
             </div>
-            <div className="grid place-content-center">
-               <h4 className="text-4xl font-serif font-semibold mb-3">
-                  Volunteer with us
+            <div className=" mt-6">
+               <h4 className="md:text-2xl font-serif font-semibold mb-3">
+                  Volunteer
                </h4>
                <p className="md:w-[90%] text-lg font-serif">
                   We welcome all volunteers, with any availabilities and
