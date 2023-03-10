@@ -74,8 +74,9 @@ const Navbar = () => {
       <li className="bg-none">
         <Link to="impact">IMPACT</Link>
       </li>
-
-      <button className="btn btn-primary btn-sm">Donate</button>
+      <Link to="donate" className="ml-2">
+        <button className="btn btn-primary btn-sm">Donate</button>
+      </Link>
     </>
   );
 

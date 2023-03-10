@@ -1,13 +1,31 @@
 import React from "react";
-import img from "../../../assets/Donate-part-voluteer/part.png";
+import img from "../../../assets/Donate-part-voluteer/partners.png";
+import './Partners.css'
 
 const PartnerWithUs = () => {
    return (
-      <div className="grid place-content-center  w-[95%] m-auto my-14">
-         <a href="mailto: thechange2k19@gmail.com">
-            <img className="w-[500px] h-[400px]" src={img} alt="" />
-         </a>
-      </div>
+     <section className="max-w-screen-xl w-[90%] mx-auto my-16 bg-indigo-500">
+       <div className="">
+         <div className="flex justify-center mx-auto">
+           <img
+             className="w-[600px] h-[520px] mt-10 relative"
+             src={img}
+             alt=""
+           />
+         </div>
+         <div className=" absolute ">
+           <h4 className="text-4xl font-serif font-semibold partners">
+             Partners with us
+           </h4>
+           <div>
+             <button className="btn btn-success">NGO</button>
+             <button className="btn btn-success">NGO</button>
+             <button className="btn btn-success">NGO</button>
+             <button className="btn btn-success">NGO</button>
+           </div>
+         </div>
+       </div>
+     </section>
    );
 };
 

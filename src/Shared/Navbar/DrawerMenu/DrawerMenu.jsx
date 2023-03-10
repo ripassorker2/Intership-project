@@ -99,7 +99,9 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
         <li className="according-menu">
           <Link to="/impact">Impact </Link>
         </li>
-        <button className="btn btn-primary btn-sm">Donate</button>
+        <Link to="donate">
+          <button className="btn btn-warning btn-sm">Donate</button>
+        </Link>
       </ul>
     </div>
   );
