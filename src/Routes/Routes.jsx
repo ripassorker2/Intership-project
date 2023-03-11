@@ -1,6 +1,7 @@
 import Main from "../Layout/Main";
 import Donate from "../Pages/Donate/Donate";
 import Impact from "../Pages/Impact/Impact";
+import Covid from "../Pages/OurWork/Covid/Covid";
 
 import Stewacd from "../Pages/OurWork/Stewacd/Stewacd";
 import TelentHunt from "../Pages/OurWork/TelentHunt/TelentHunt";
@@ -25,97 +26,101 @@ const { createBrowserRouter } = require("react-router-dom");
 const { default: Home } = require("../Pages/Home/Home");
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Main />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/aboutus",
-        element: <AboutUs />,
-      },
-      {
-        path: "/vision",
-        element: <Vision />,
-      },
-      {
-        path: "/ourteam",
-        element: <OurTeam />,
-      },
-      {
-        path: "/stewacd",
-        element: <Stewacd />,
-      },
-      {
-        path: "/telenthunt",
-        element: <TelentHunt />,
-      },
-      {
-        path: "/Vnsdgimp",
-        element: <VnsdgImp />,
-      },
-      {
-        path: "/events",
-        element: <Events />,
-      },
-      {
-        path: "/ourpartners",
-        element: <OurPartners />,
-      },
-      {
-        path: "/partnerwithus",
-        element: <PartnerWithUs />,
-      },
-      {
-        path: "/impact",
-        element: <Impact />,
-      },
-      {
-        path: "/august19",
-        element: <August19 />,
-      },
-      {
-        path: "/august20",
-        element: <August20 />,
-      },
-      {
-        path: "/AwardsCeremony",
-        element: <AwardsCeremony />,
-      },
-      {
-        path: "/GenderAwarness",
-        element: <GenderAwarness />,
-      },
-      {
-        path: "/GoodTouch",
-        element: <GoodTouch />,
-      },
-      {
-        path: "/NutritousFood",
-        element: <NutritousFood />,
-      },
+   {
+      path: "/",
+      element: <Main />,
+      children: [
+         {
+            path: "/",
+            element: <Home />,
+         },
+         {
+            path: "/aboutus",
+            element: <AboutUs />,
+         },
+         {
+            path: "/vision",
+            element: <Vision />,
+         },
+         {
+            path: "/ourteam",
+            element: <OurTeam />,
+         },
+         {
+            path: "/stewacd",
+            element: <Stewacd />,
+         },
+         {
+            path: "/telenthunt",
+            element: <TelentHunt />,
+         },
+         {
+            path: "/covid",
+            element: <Covid />,
+         },
+         {
+            path: "/Vnsdgimp",
+            element: <VnsdgImp />,
+         },
+         {
+            path: "/events",
+            element: <Events />,
+         },
+         {
+            path: "/ourpartners",
+            element: <OurPartners />,
+         },
+         {
+            path: "/partnerwithus",
+            element: <PartnerWithUs />,
+         },
+         {
+            path: "/impact",
+            element: <Impact />,
+         },
+         {
+            path: "/august19",
+            element: <August19 />,
+         },
+         {
+            path: "/august20",
+            element: <August20 />,
+         },
+         {
+            path: "/AwardsCeremony",
+            element: <AwardsCeremony />,
+         },
+         {
+            path: "/GenderAwarness",
+            element: <GenderAwarness />,
+         },
+         {
+            path: "/GoodTouch",
+            element: <GoodTouch />,
+         },
+         {
+            path: "/NutritousFood",
+            element: <NutritousFood />,
+         },
 
-      {
-        path: "/QualityEducation",
-        element: <QualityEducation />,
-      },
-      {
-        path: "/SkillEnhancement",
-        element: <SkillEnhancement />,
-      },
-      {
-        path: "/volunteer",
-        element: <Volunter />,
-      },
-      {
-        path: "/donate",
-        element: <Donate />,
-      },
-    ],
-  },
+         {
+            path: "/QualityEducation",
+            element: <QualityEducation />,
+         },
+         {
+            path: "/SkillEnhancement",
+            element: <SkillEnhancement />,
+         },
+         {
+            path: "/volunteer",
+            element: <Volunter />,
+         },
+         {
+            path: "/donate",
+            element: <Donate />,
+         },
+      ],
+   },
 ]);
 
 export default router;

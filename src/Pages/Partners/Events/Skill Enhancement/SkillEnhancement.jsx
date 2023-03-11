@@ -47,7 +47,7 @@ const SkillEnhancement = () => {
     ];
     return (
         <>
-        <section className='max-w-screen-xl mx-auto my-20'>
+        <section className='max-w-screen-xl mx-auto my-20 px-2'>
         <h1 className='text-4xl font-semibold'>Skill Enhancement programme-Orphanage</h1>
              <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
                 {PhotoData.map((photo) => (

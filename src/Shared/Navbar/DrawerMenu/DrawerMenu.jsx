@@ -34,7 +34,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
       <ul className="drawer-main-menu">
         <li className="according-menu">
           <Link>
-            Who are we{" "}
+            Who we are{" "}
             <span>
               <MdOutlineKeyboardArrowDown size={30} />
             </span>
@@ -42,7 +42,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
           <div className="drawer-sub-menu">
             <ul>
               <li>
-                <Link to="/aboutus">About us</Link>
+                <Link to="/aboutus">What we do</Link>
               </li>
               <li>
                 <Link to="/vision">Vision</Link>
@@ -66,7 +66,10 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
                 <Link to="/stewacd">Stewacd</Link>
               </li>
               <li>
-                <Link to="/vnsdg">Vnsdg Imp</Link>
+                <Link to="/vnsdgimp">UNSDGs</Link>
+              </li>
+              <li>
+                <Link to="/events">Events</Link>
               </li>
               <li>
                 <Link to="/telenthunt">Talent hunt</Link>
@@ -86,9 +89,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
               <li>
                 <Link to="/ourpartners">Our Partners</Link>
               </li>
-              <li>
-                <Link to="/events">Events</Link>
-              </li>
+
               <li>
                 <Link to="/partnerwithus">Partner With Us</Link>
               </li>
@@ -96,10 +97,9 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
           </div>
         </li>
         <li className="according-menu">
-          <Link to='/impact'>
-            Impact{" "}
-          </Link>
+          <Link to="/impact">Impact </Link>
         </li>
+        <button className="btn btn-primary btn-sm">Donate</button>
       </ul>
     </div>
   );

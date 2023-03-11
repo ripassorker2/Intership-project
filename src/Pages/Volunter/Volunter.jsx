@@ -1,49 +1,43 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { GiWorld } from "react-icons/gi";
-
-import "./volunter.css";
-
+import img from "../../assets/Donate-part-voluteer/volunter.jpg";
+import { HiOutlineMail } from "react-icons/hi";
+import { TbWorld } from "react-icons/tb";
 const Volunter = () => {
    return (
-      <div className="mx-7">
-         <div
-            className=" my-11  py-8 max-w-screen-xl m-auto bg-repeat-round bg-cover "
-            id="bg-overlay"
+      <section className="max-w-screen-xl w-[90%] mx-auto my-16">
+         <h4
+            className="md:text-4xl text-
+         2xl text-center font-serif font-semibold mb-3"
          >
-            <h3 className="lg:text-5xl md:text-4xl text-3xl font-semibold text-center underline text-gray-200 p-4 pt-10 pb-8">
-               Volunteer with us
-            </h3>
-            <div className="flex flex-col justify-center items-center pb-5 text-gray-200 md:text-lg  ">
-               <div className="inline-block border p-4 m-3 rounded-lg max-w-[440px] text-center font-serif">
-                  <p className="pb-2">
-                     We welcome all volunteers, with any availabilities and
-                     experience!
-                  </p>
-                  <p>
-                     Volunteer with us today if you are passonate about making a
-                     difference in the live of young people!
-                  </p>
-               </div>
+            Volunteer with us
+         </h4>
+         <div className="grid md:grid-cols-2 gap-10">
+            <div className="md:w-[90%] mx-auto">
+               <img src={img} alt="" className="rounded-lg" />
             </div>
-            <div className="flex flex-col justify-center items-center mb-9 text-gray-900  ">
-               <div className="bg-slate-100  inline-block rounded-md p-5">
-                  <h4 className="flex items-center mb-1 md:text-lg tracking-wider">
-                     <span>
-                        <AiOutlineMail size={24} className="mr-3" />
-                     </span>
-                     <span>thechange2k19@gmail.com</span>
-                  </h4>
-                  <h4 className="flex items-center mb-1 md:text-lg  tracking-wider">
-                     <span>
-                        <GiWorld size={24} className="mr-3" />
-                     </span>
-                     <span>http://the-changes.com/</span>
+            <div className=" mt-6">
+               <h4 className="md:text-2xl font-serif font-semibold mb-3">
+                  Volunteer
+               </h4>
+               <p className="md:w-[90%] text-lg font-serif">
+                  We welcome all volunteers, with any availabilities and
+                  experience! Volunteer with us today if you are passionate
+                  about making a difference in the lives of young people!
+               </p>
+               <div className="mt-5">
+                  <h4 className="inline-flex text-lg">
+                     <HiOutlineMail size={30} className="mr-2" />
+                     thechange2k19@gmail.com
+                  </h4>{" "}
+                  <br />
+                  <h4 className="inline-flex text-lg">
+                     <TbWorld size={30} className="mr-2" />
+                     https://www.the-change.com
                   </h4>
                </div>
             </div>
          </div>
-      </div>
+      </section>
    );
 };
 
