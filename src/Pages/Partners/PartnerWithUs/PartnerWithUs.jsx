@@ -13,11 +13,11 @@ const PartnerWithUs = () => {
          <div className="md:w-[90%] mx-auto grid place-content-center mt-5">
            <img src={img} alt="" className="rounded-lg w-full bg-cover" />
          </div>
-         <div className="grid place-content-center md:w-[95%] leading-3 ">
+         <div className="grid place-content-center md:w-[90%] leading-3 ">
            <h4 className="md:text-2xl font-serif font-semibold mb-3">
              Partner
            </h4>
-           <p className=" text-lg font-serif w-[98%]">
+           <p className=" text-lg font-serif w-[90%]">
              Integrity Action never works alone; we always work in partnership.
              We are keen to initiate partnerships with organisations that share
              our ambition to ensure citizens have a prominent voice in how
@@ -26,7 +26,9 @@ const PartnerWithUs = () => {
            <div className="mt-4">
              <h4 className="inline-flex text-lg">
                <HiOutlineMail size={30} className="mr-2" />
-               thechange2k19@gmail.com
+               <a href="mailto:thechange2k19@gmail.com">
+                 thechange2k19@gmail.com
+               </a>
              </h4>{" "}
              <br />
              <h4 className="inline-flex text-lg">
@@ -36,6 +38,21 @@ const PartnerWithUs = () => {
            </div>
          </div>
        </div>
+       {/* <div className="grid place-content-center md:w-[95%] leading-3 ">
+         <h4 className="md:text-2xl font-serif font-semibold mb-3">Partner</h4>
+         <p className=" text-lg font-serif w-[98%]"></p>
+         <div className="mt-4">
+           <h4 className="inline-flex text-lg">
+             <HiOutlineMail size={30} className="mr-2" />
+             thechange2k19@gmail.com
+           </h4>{" "}
+           <br />
+           <h4 className="inline-flex text-lg">
+             <TbWorld size={30} className="mr-2" />
+             https://www.the-change.com
+           </h4>
+         </div>
+       </div> */}
      </section>
    );
 };

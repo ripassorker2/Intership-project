@@ -71,12 +71,11 @@ const Navbar = () => {
           </ul>
         </Link>
       </li>
-      <li className="bg-none">
+      <li className="bg-none mr-2">
         <Link to="impact">IMPACT</Link>
       </li>
-      <Link to="donate" className="ml-2">
-        <button className="btn btn-primary btn-sm">Donate</button>
-      </Link>
+
+      <Link to="/donate"><button className="btn btn-primary btn-sm">Donate</button></Link>
     </>
   );
 
