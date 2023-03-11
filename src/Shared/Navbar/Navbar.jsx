@@ -75,7 +75,7 @@ const Navbar = () => {
         <Link to="impact">IMPACT</Link>
       </li>
 
-      <button className="btn btn-primary btn-sm">Donate</button>
+      <Link to="/donate"><button className="btn btn-primary btn-sm">Donate</button></Link>
     </>
   );
 
