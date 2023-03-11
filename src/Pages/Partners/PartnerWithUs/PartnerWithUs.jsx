@@ -26,7 +26,7 @@ const PartnerWithUs = () => {
                <div className="mt-4">
                   <h4 className="inline-flex text-lg">
                      <HiOutlineMail size={30} className="mr-2" />
-                     thechange2k19@gmail.com
+                     <a href="mailto:thechange2k19@gmail.com">thechange2k19@gmail.com</a>
                   </h4>{" "}
                   <br />
                   <h4 className="inline-flex text-lg">
