@@ -6,7 +6,7 @@ import img from "../../../assets/partners/partner-banner.svg";
 const PartnerWithUs = () => {
    return (
       <section className="max-w-screen-xl w-[90%] mx-auto my-16">
-         <h4 className="md:text-4xl text-2xl text-center font-serif font-semibold mb-3">
+         <h4 className="md:text-4xl text-2xl text-center font-serif font-semibold mb-3 uppercase">
             Partner with us
          </h4>
          <div className="grid md:grid-cols-2 gap-10 place-content-center">
@@ -14,9 +14,6 @@ const PartnerWithUs = () => {
                <img src={img} alt="" className="rounded-lg w-full bg-cover" />
             </div>
             <div className="grid place-content-center md:w-[90%] leading-3 ">
-               <h4 className="md:text-2xl font-serif font-semibold mb-3">
-                  Partner
-               </h4>
                <p className=" text-lg font-serif w-[90%]">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Quisquam explicabo commodi accusantium reiciendis pariatur

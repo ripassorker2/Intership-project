@@ -70,6 +70,7 @@ nav .logo {
 
 nav .nav-container .main-menu {
    display: flex;
+   align-items: center;
 }
 
 nav .nav-container .main-menu > li {

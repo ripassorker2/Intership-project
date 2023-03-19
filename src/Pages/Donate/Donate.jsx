@@ -17,11 +17,13 @@ const Donate = () => {
           <p className=" text-lg font-serif w-[90%]">
          <main>
       <form>
-        <label for="name">Name</label>
+        <label for="name">NAME</label>
         <input type="text" id="name" name="name" placeholder="Enter your name..."/>
         
-        <label for="email">Email</label>
+        <label for="email">EMAIL</label>
         <input type="text" id="email" name="email" placeholder="Enter your email..."/>
+        <label for="email">AMOUNT</label>
+        <input type="text" id="email" name="email" placeholder="Enter amount..."/>
         <a  href="mailto:thechange2k19@gmail.com"  className="btn btn-warning">Donate</a> 
       </form>
     </main>

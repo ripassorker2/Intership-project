@@ -17,7 +17,7 @@ const Vision = () => {
           </div>
           <div className="lg:w-1/2 xl:w-1/2 md:w-[100%]">
             <div className="">
-              <article className="mt-5 text-[18px]">
+              <article className="mt-5 text-[20px]">
                 The Change’s vision is to serve individuals, families and
                 communities in the poorest by pulling strength from our global
                 diversity, resources and experience. We promote innovative

@@ -3,6 +3,7 @@ import logo from "../../../assets/logo/logo.png";
 import "./Contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
    return (
@@ -15,9 +16,11 @@ const Contact = () => {
                   </div>
                   <div className=" pl-4 pt-1">
                      <div className="w-[120px] mt-6">
-                        <button className="btn btn-primary btn-sm">
-                           Volunteer
+                        <Link to='/volunteer'>
+                        <button className="bg-[#71e432] font-semibold px-4 py-1.5 rounded  text-[20px]">
+                           Volunteer 
                         </button>
+                        </Link>
                      </div>
                   </div>
                </div>
