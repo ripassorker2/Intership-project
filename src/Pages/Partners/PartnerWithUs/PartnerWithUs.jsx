@@ -11,7 +11,7 @@ const PartnerWithUs = () => {
          </h4>
          <div className="grid md:grid-cols-2 gap-10 place-content-center">
             <div className="md:w-[90%] mx-auto grid place-content-center mt-5">
-               <img src={img} alt="" className="rounded-lg w-full bg-cover" />
+               <img loading="lazy" src={img} alt="" className="rounded-lg w-full bg-cover" />
             </div>
             <div className="grid place-content-center md:w-[90%] leading-3 ">
                <p className=" text-lg font-serif w-[90%]">
