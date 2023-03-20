@@ -56,7 +56,7 @@ const Navbar = () => {
           </ul>
         </Link>
       </li>
-      <li>
+      <li className="event">
               <Link to="/events">EVENTS</Link>
             </li>
       <li>
@@ -79,7 +79,7 @@ const Navbar = () => {
         <Link to="impact">IMPACT</Link>
       </li>
 
-      <Link to="/donate"><button className="bg-[#71e432] font-semibold px-4 py-3 rounded  text-[16px] ml-2  flex items-center"><span>DONATE</span> <BsFillSuitHeartFill className="text-[#fff] ml-2 text-[22px]"/></button></Link>
+      <Link to="/donate"><button className="bg-[#71e432] font-semibold px-4 py-3 rounded  text-[16px] ml-2 donate flex items-center"><span>DONATE</span> <BsFillSuitHeartFill className="text-[#fff] ml-2 text-[22px]"/></button></Link>
     </>
   );
 
@@ -99,7 +99,7 @@ const Navbar = () => {
       <div id="navContainer" className="max-w-7xl mx-auto nav-container">
         <Link to="/">
           <div className="flex">
-            <img className="lg:w-80 md:w-60 w-48" src={logo} alt="logo" />
+            <img className="lg:w-80 md:w-60 w-48 logo_img" src={logo} alt="logo" />
           </div>
         </Link>
         <div className="toggole-menu">

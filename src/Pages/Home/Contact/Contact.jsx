@@ -61,8 +61,8 @@ const Contact = () => {
                   <h3 className="md:text-xl text-lg font-bold text-[#d26e21]   mt-3 ">
                      Location and Address
                   </h3>
-                  <p className="">
-                     <iframe
+                  <p>
+                     <iframe className="map"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d489382.5000109297!2d79.743268!3d16.611667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a356a808c383f11%3A0xf7b70ba074f3bbc9!2sDachepalli%2C%20Andhra%20Pradesh%2C%20India!5e0!3m2!1sen!2sbd!4v1678375216890!5m2!1sen!2sbd"
                         allowfullscreen=""
                         loading="lazy"
