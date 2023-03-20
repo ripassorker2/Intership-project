@@ -4,6 +4,7 @@ import { ImCross } from "react-icons/im";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import logo from "../../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
+import {BsFillSuitHeartFill} from "react-icons/bs"
 
 const DrawerMenu = ({ setOpenMenu, openMenu }) => {
   const according = document.getElementsByClassName("according-menu");
@@ -77,6 +78,9 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
             </ul>
           </div>
         </li>
+        <li>
+              <Link to="/events">Events</Link>
+            </li>
         <li className="according-menu">
           <Link>
             Partner{" "}
@@ -99,7 +103,7 @@ const DrawerMenu = ({ setOpenMenu, openMenu }) => {
         <li className="according-menu">
           <Link to="/impact">Impact </Link>
         </li>
-        <button className="btn btn-primary btn-sm">Donate</button>
+        <Link to="/donate"><button className="bg-[#71e432] mt-3 font-semibold px-4 py-3 rounded  text-[16px] flex items-center"><span>DONATE</span> <BsFillSuitHeartFill className="text-[#fff] text-[22px]  ml-2"/></button></Link>
       </ul>
     </div>
   );

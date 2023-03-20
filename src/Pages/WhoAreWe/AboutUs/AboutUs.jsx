@@ -11,10 +11,10 @@ const AboutUs = () => {
             </div>
             <div className="md:flex px-5 sm:grid sm:grid-cols-1">
                <div className="md:w-1/2 sm:w-[100%] flex justify-center">
-                  <img className="md:h-72 h-60 " src={logo} alt="" />
+                  <img className="md:h-72 lg:h-64 h-60 " src={logo} alt="logo" />
                </div>
                <div className="md:w-1/2 sm:w-[100%] mb-6">
-                  <article className=" text-[16px]">
+                  <article className=" text-[18px]">
                      We started this organisation because we felt that there are
                      people in this world who dream to live a life that we are
                      living right now. While we dream of luxuries, they just
