@@ -1,7 +1,7 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { TbWorld } from "react-icons/tb";
-import img from "../../../assets/partners/partner-banner.svg";
+import img from "../../../assets/Donate-part-voluteer/partner.png";
 
 const PartnerWithUs = () => {
    return (
@@ -14,11 +14,8 @@ const PartnerWithUs = () => {
                <img loading="lazy" src={img} alt="" className="rounded-lg w-full bg-cover" />
             </div>
             <div className="grid place-content-center md:w-[90%] leading-3 ">
-               <p className=" text-lg font-serif w-[90%]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Quisquam explicabo commodi accusantium reiciendis pariatur
-                  aspernatur ipsa voluptatibus quo aperiam, non est quasi libero
-                  dolor, deserunt eos sit amet enim tempore error.
+               <p className=" text-xl font-serif w-[90%]">
+               Integrityaction never works alone; we always work in partnership. We are keen to initiate partnerships with organisations that share our ambition to ensure citizens have a prominent voice in how projects and services are delivered where they live.
                </p>
                <div className="mt-4">
                   <h4 className="inline-flex text-lg">

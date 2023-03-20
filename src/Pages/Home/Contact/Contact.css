@@ -5,3 +5,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media (min-width: 577px) and (max-width: 768px){
+    .map{
+        width: 200px;
+        height: 100px;
+    }
+}
