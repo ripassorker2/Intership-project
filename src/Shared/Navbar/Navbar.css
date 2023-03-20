@@ -70,6 +70,7 @@ nav .logo {
 
 nav .nav-container .main-menu {
    display: flex;
+   align-items: center;
 }
 
 nav .nav-container .main-menu > li {
@@ -216,12 +217,32 @@ nav .nav-container .main-menu > li > a:hover .sub-menu li:nth-child(3) {
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
+   nav .nav-container {
+     
+      justify-content:start;
+   }
+   .event{
+      display: none;
+   }
+   .logo_img{
+      width: 200px;
+      margin-left: 2px;
+   }
+   nav .nav-container .main-menu > li > a {
+      font-size: 8px;
+   }
    nav {
-      padding: 0 20px;
+      padding: 0 2px;
+   }
+   .donate{
+     font-size: 12px;
+      padding: 5px;
+      margin-left:2px ;
    }
 
    nav .logo {
-      height: 60px;
+      height: 70px;
+
    }
 
    .logo_detail {
@@ -243,8 +264,11 @@ nav .nav-container .main-menu > li > a:hover .sub-menu li:nth-child(3) {
 }
 
 @media (min-width: 779px) and (max-width: 1024px) {
+   nav .nav-container .main-menu > li > a {
+      font-size: 12px;
+   }
    nav .logo {
-      height: 80px;
+      height: 75px;
    }
 
    .logo_detail {
@@ -256,7 +280,7 @@ nav .nav-container .main-menu > li > a:hover .sub-menu li:nth-child(3) {
    }
 
    .logo_he {
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 700;
    }
 }
