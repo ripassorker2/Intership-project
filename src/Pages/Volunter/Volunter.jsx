@@ -15,11 +15,8 @@ const Volunter = () => {
             <div className="md:w-[90%] mx-auto flex justify-center  items-center">
                <img src={img} alt="" className="rounded-lg" />
             </div>
-            <div className=" mt-6">
-               <h4 className="md:text-2xl font-serif font-semibold mb-3">
-                  Volunteer
-               </h4>
-               <p className="md:w-[90%] text-lg font-serif">
+            <div className=" mt-6 grid place-content-center">
+               <p className="md:w-[90%] text-lg font-serif ">
                   We welcome all volunteers, with any availabilities and
                   experience! Volunteer with us today if you are passionate
                   about making a difference in the lives of young people!

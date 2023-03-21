@@ -75,7 +75,7 @@ const Navbar = () => {
           </ul>
         </Link>
       </li>
-      <li className="bg-none">
+      <li className="bg-none mr-2">
         <Link to="impact">IMPACT</Link>
       </li>
 

@@ -30,7 +30,10 @@ const PartnerWithUs = () => {
                </div>
             </div>
          </div>
-      </section>
+         
+       
+      
+     </section>
    );
 };
 
