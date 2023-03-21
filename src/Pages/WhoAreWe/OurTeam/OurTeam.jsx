@@ -12,7 +12,7 @@ const OurTeam = () => {
   return (
     <div className=" my-9">
       <div className="max-w-screen-xl mx-auto w-[90%]">
-        <div className="text-center mt-8">
+        <div className="text-center lg:mt-16 md:mt-10 mt-5">
           <h1 className="our-team-title">Our Team</h1>
         </div>
         <div className=" flex  overflow-hidden relative mb-8">
@@ -38,7 +38,7 @@ const OurTeam = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full mt-5">
+              <div className="w-full lg:mt-5 md:mt-3">
                 <div className="">
                   <div className="text-[14px] text-gray-800 leading-2">
                     <p className="font-semibold">Greetings,</p>
@@ -168,7 +168,7 @@ const OurTeam = () => {
           </div>
         </div>
 
-        <h2 className="md:text-4xl text-center text-3xl py-3 pt-12 pl-2 font-semibold text-gray-800 uppercase ">
+        <h2 className="md:text-4xl text-xl text-center py-3 md:pt-12 pt-4 pl-2 font-semibold text-gray-800 uppercase ">
           Our Advisory Board
         </h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-6 ">

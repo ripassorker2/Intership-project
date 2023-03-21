@@ -43,19 +43,47 @@ const GenderAwarness = () => {
         }, 
     ];
     return (
-        <>
-        <section className='max-w-screen-xl mx-auto my-20 px-2'>
-        <h1 className='text-4xl font-semibold'>Gender Awarness and Well-Being Session</h1>
-             <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
-                {PhotoData.map((photo) => (
-                     <div className=" bg-base-100 shadow-xl">
-                     <img className='w-80 h-72 rounded' src={photo.img} alt="" />
-                 </div>
-                ))}
-            </div>
+      <>
+        <section className="max-w-screen-xl mx-auto lg:my-16 md:my-10 my-5 px-2">
+          <h1 className="lg:text-4xl md:text-1xl text-xl font-semibold text-center uppercase">
+            Gender Awarness and Well-Being Session
+          </h1>
+          <p className="text-[18px] mt-2">
+            “A gender-equal society would be the one where the word “gender”
+            doesn’t exist; where everyone can be themselves.” Gloria Steinem
+            Gender bias is a prejudice of one gender over another. It can be
+            conscious or unconscious and can manifest in various ways ranging
+            from subtle glances to obvious reactions. When children are about 2
+            years old, they learn about the physical differences between boys
+            and girls and by the age of 4, they have a stable sense of their
+            identity. During this time, they also learn about “things girls do”
+            vs “things boys do”. In order to create an open classroom
+            environment, it is essential to avoid stereotyping. Schools
+            generally affect gender differentiation via 2 primary sources:
+            teachers and peers. Teachers and peers directly influence gender
+            differentiation by providing boys and girls with different learning
+            opportunities and feedback.
+          </p>
+          <div className="mt-5">
+            <p className="text-[18px]">
+              We highly encourage the schools to be gender neutral and adopt the
+              following through our sessions:
+            </p>
+            <ul className="font-semibold">
+              <li>a. Using Inclusive Language</li>
+              <li>b. Being aware of current Gender Bias</li>
+              <li>c. Conduct of Teachers.</li>
+            </ul>
+          </div>
+          <div className="gap-10 justify-center md:mt-10 mt-2 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
+            {PhotoData.map((photo) => (
+              <div className=" bg-base-100 shadow-xl">
+                <img className="w-80 h-72 rounded" src={photo.img} alt="" />
+              </div>
+            ))}
+          </div>
         </section>
-          
-        </>
+      </>
     );
 };
 export default GenderAwarness;

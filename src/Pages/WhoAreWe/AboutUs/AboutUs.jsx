@@ -5,9 +5,9 @@ import "./AboutUs.css";
 const AboutUs = () => {
    return (
       <>
-         <div className="max-w-screen-xl mx-auto w-[90%] lg:my-28 my-14">
+         <div className="max-w-screen-xl mx-auto w-[90%] lg:my-16 md:my-10 my-5">
             <div className="text-center">
-               <h1 className="about-title mb-6">About Us</h1>
+               <h1 className="about-title md:mb-6 mb-2">About Us</h1>
             </div>
             <div className="md:flex px-5 sm:grid sm:grid-cols-1">
                <div className="md:w-1/2 sm:w-[100%] flex justify-center  items-center">

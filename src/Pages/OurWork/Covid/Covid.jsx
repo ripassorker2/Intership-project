@@ -7,6 +7,7 @@ import img5 from "../../../assets/Covid/5.jpeg";
 import img6 from "../../../assets/Covid/6.jpeg";
 import img7 from "../../../assets/Covid/7.jpeg";
 import img8 from "../../../assets/Covid/8.jpeg";
+import Title from '../../../Shared/Title/Title';
 
 const Covid = () => {
     const covid_img = [
@@ -45,9 +46,9 @@ const Covid = () => {
     ];
 
     return (
-      <div className="max-w-screen-xl w-[85%] mx-auto mb-6">
-        <div className="mt-14 mb-6 text-center">
-          <h1 className="about-title mb-6">COVID RELIEF</h1>
+      <div className="max-w-screen-xl mx-auto lg:my-16 md:my-10 my-5">
+        <Title title={"COVID RELIEF"}></Title>
+        <div className="lg:my-8 md:my-6 mb-2 px-2">
           <h2>
             Covid-19 is a severe pandemic that this generation has witnessed.
             when Governments and civil society came together to work on Right to

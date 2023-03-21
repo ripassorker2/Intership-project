@@ -8,13 +8,13 @@ import img5 from "../../../assets/partners/our-pat.jpeg";
 
 const OurPartners = () => {
   return (
-    <div className="max-w-screen-xl mx-auto w-[90%] lg:my-28 my-14">
+    <div className="max-w-screen-xl mx-auto lg:my-16 md:my-10 my-5">
       <div className="text-center">
         <h1 className="our-partners-title">OUR PARTNERS</h1>
       </div>
       <div
         className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-10
-       justify-center align-middle mt-10"
+       justify-center align-middle lg:mt-10 md:mt-6 mt-2 px-2"
       >
         <div className="">
           <img className="w-full h-full rounded-md" src={img1} alt="" />

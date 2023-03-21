@@ -7,6 +7,7 @@ import img5 from '../../../../assets/event/Skill Enhancement programme-Orphanage
 import img6 from '../../../../assets/event/Skill Enhancement programme-Orphanage/6.jpg'
 import img7 from '../../../../assets/event/Skill Enhancement programme-Orphanage/7.jpg'
 import img8 from '../../../../assets/event/Skill Enhancement programme-Orphanage/8.jpg'
+import img9 from '../../../../assets/event/Skill Enhancement programme-Orphanage/SKILLS.jpg'
 
 
 const SkillEnhancement = () => {
@@ -46,19 +47,30 @@ const SkillEnhancement = () => {
        
     ];
     return (
-        <>
-        <section className='max-w-screen-xl mx-auto my-20 px-2'>
-        <h1 className='text-4xl font-semibold'>Skill Enhancement programme-Orphanage</h1>
-             <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
-                {PhotoData.map((photo) => (
-                    <div className=" bg-base-100 shadow-xl">
-                        <img className='w-80 h-72 rounded' src={photo.img} alt="" />
-                    </div>
-                ))}
-            </div>
+      <>
+        <section className="max-w-screen-xl mx-auto lg:my-16 md:my-10 my-5 px-2">
+          <h1 className="lg:text-4xl md:text-1xl text-xl font-semibold text-center uppercase">
+            Skill Enhancement programme-Orphanage
+          </h1>
+          <div className="flex justify-center md:my-8 my-2">
+            <img className="md:h-[350px] h-[250px]" src={img9} alt="" />
+          </div>
+          <p className="text-[18px]">
+            Skill-based education gives students ownership of their learning and
+            helps them close the comprehension gap. The evaluation, rather than
+            grades, proves their proficiency. The education process is a
+            beautiful advantage for dropouts since they may go ahead without the
+            need for a gap.
+          </p>
+          <div className="gap-10 justify-center mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
+            {PhotoData.map((photo) => (
+              <div className=" bg-base-100 shadow-xl">
+                <img className="w-80 h-72 rounded" src={photo.img} alt="" />
+              </div>
+            ))}
+          </div>
         </section>
-          
-        </>
+      </>
     );
 };
 
