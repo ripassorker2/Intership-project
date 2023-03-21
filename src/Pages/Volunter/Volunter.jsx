@@ -7,12 +7,12 @@ const Volunter = () => {
       <section className="max-w-screen-xl w-[90%] mx-auto my-16">
          <h4
             className="md:text-4xl text-
-         2xl text-center font-serif font-semibold mb-3"
+         2xl text-center font-serif font-semibold mb-3 uppercase"
          >
             Volunteer with us
          </h4>
          <div className="grid md:grid-cols-2 gap-10">
-            <div className="md:w-[90%] mx-auto">
+            <div className="md:w-[90%] mx-auto flex justify-center  items-center">
                <img src={img} alt="" className="rounded-lg" />
             </div>
             <div className=" mt-6">
