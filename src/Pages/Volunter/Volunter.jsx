@@ -32,7 +32,7 @@ const Volunter = () => {
              <br />
              <h4 className="inline-flex text-xl font-semibold">
                <TbWorld size={30} className="mr-2" />
-               https://www.the-change.com
+               https://www.the-change.com/
              </h4>
            </div>
          </div>
