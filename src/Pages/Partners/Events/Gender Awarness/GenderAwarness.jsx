@@ -7,6 +7,7 @@ import img5 from '../../../../assets/event/Gender Awarness and  Well-Being Sessi
 import img6 from '../../../../assets/event/Gender Awarness and  Well-Being Session/6.jpg'
 import img7 from '../../../../assets/event/Gender Awarness and  Well-Being Session/7.jpg'
 import img8 from '../../../../assets/event/Gender Awarness and  Well-Being Session/8.jpg'
+import Title from '../../../../Shared/Title/Title';
 const GenderAwarness = () => {
     const PhotoData = [
         {
@@ -45,12 +46,14 @@ const GenderAwarness = () => {
     return (
       <>
         <section className="max-w-screen-xl mx-auto lg:my-16 md:my-10 my-5 px-2">
-          <h1 className="lg:text-4xl md:text-1xl text-xl font-semibold text-center uppercase">
-            Gender Awarness and Well-Being Session
+          <h1>
+            <Title title={"Gender Awarness"} />
           </h1>
-          <p className="text-[18px] mt-2">
+          <p className='font-semibold italic text-[18px] text-center'>
             “A gender-equal society would be the one where the word “gender”
             doesn’t exist; where everyone can be themselves.” Gloria Steinem
+          </p>
+          <p className="text-[18px] mt-2">
             Gender bias is a prejudice of one gender over another. It can be
             conscious or unconscious and can manifest in various ways ranging
             from subtle glances to obvious reactions. When children are about 2

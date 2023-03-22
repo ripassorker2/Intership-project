@@ -50,7 +50,7 @@ const SkillEnhancement = () => {
       <>
         <section className="max-w-screen-xl mx-auto lg:my-16 md:my-10 my-5 px-2">
           <h1 className="lg:text-4xl md:text-1xl text-xl font-semibold text-center uppercase">
-            Skill Enhancement programme-Orphanage
+            Skill Enhancement programme
           </h1>
           <div className="flex justify-center md:my-8 my-2">
             <img className="md:h-[350px] h-[250px]" src={img9} alt="" />

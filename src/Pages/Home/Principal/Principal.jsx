@@ -11,7 +11,7 @@ const Principal = () => {
   return (
     <div className="lg:h-[550px] md:h-[480px] h-[550px]">
       <h1 className="text-2xl text-center font-bold mt-5 block md:hidden
-       lg:hidden">
+       lg:hidden uppercase">
         Core Principles
       </h1>
       <div className="main-principal max-w-screen-xl mx-auto my-10 flex justify-center items-center">
@@ -20,7 +20,7 @@ const Principal = () => {
           src={principal}
           alt="principal"
         />
-        <div className="first-principale lg:text-4xl md:text-3xl">
+        <div className="first-principale lg:text-4xl md:text-3xl uppercase">
           <h1>Core Principles</h1>
         </div>
         <div className="principale-content absolute"></div>

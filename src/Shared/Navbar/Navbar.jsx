@@ -45,9 +45,6 @@ const Navbar = () => {
               <Link to="/vnsdgimp">UNSDGs</Link>
             </li>
             <li>
-              <Link to="/events">EVENTS</Link>
-            </li>
-            <li>
               <Link to="/telenthunt">TALENT HUNT</Link>
             </li>
             <li>

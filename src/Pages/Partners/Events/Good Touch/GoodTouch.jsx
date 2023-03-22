@@ -48,8 +48,7 @@ const GoodTouch = () => {
       <>
         <section className="max-w-screen-xl mx-auto lg:my-16 md:my-10 my-5 px-2">
           <h1 className="lg:text-4xl md:text-1xl text-xl font-semibold text-center uppercase">
-            Good Touch and Bad Touch Session and Skill Enhancement
-            Programme-pragartinagar
+            Good Touch and Bad Touch Session
           </h1>
           <article className="text-[18px]">
             <p className="mt-2">
