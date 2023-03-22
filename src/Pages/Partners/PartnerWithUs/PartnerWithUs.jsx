@@ -2,12 +2,13 @@ import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { TbWorld } from "react-icons/tb";
 import img from "../../../assets/Donate-part-voluteer/partner.png";
+import Title from "../../../Shared/Title/Title";
 
 const PartnerWithUs = () => {
    return (
      <section className="max-w-screen-xl mx-auto lg:my-16 md:my-10 my-5 px-2">
        <h4 className="md:text-4xl text-2xl text-center font-serif font-semibold mb-3 uppercase">
-         Partner with us
+         <Title title={"Partner with us"} />
        </h4>
        <div className="grid md:grid-cols-2 gap-10 place-content-center">
          <div className="md:w-[90%] mx-auto grid place-content-center mt-5">

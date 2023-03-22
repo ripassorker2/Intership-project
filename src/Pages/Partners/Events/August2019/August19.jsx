@@ -8,6 +8,7 @@ import img7 from '../../../../assets/event/AUGUST 15-2019/7.jpg'
 import img8 from '../../../../assets/event/AUGUST 15-2019/8.jpg'
 import img9 from '../../../../assets/event/AUGUST 15-2019/9.jpg'
 import img10 from '../../../../assets/event/AUGUST 15-2019/10.jpg';
+import Title from '../../../../Shared/Title/Title';
 
 const August19 = () => {
     const PhotoData = [
@@ -48,19 +49,20 @@ const August19 = () => {
        
     ];
     return (
-        <>
-        <section className='max-w-screen-xl mx-auto my-20 px-2'>
-        <h1 className='text-4xl font-semibold'>AUGUST 15-2019</h1>
-             <div className="gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-                {PhotoData.map((photo) => (
-                    <div className="">
-                    <img className=' rounded' src={photo.img} alt="" />
-                </div>
-                ))}
-            </div>
+      <>
+        <section className="max-w-screen-xl mx-auto my-20 px-2">
+          <h1>
+            <Title title={"AUGUST 15-2019"} />
+          </h1>
+          <div className="gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            {PhotoData.map((photo) => (
+              <div className="">
+                <img className=" rounded" src={photo.img} alt="" />
+              </div>
+            ))}
+          </div>
         </section>
-          
-        </>
+      </>
     );
 };
 
