@@ -2,8 +2,10 @@ import React from "react";
 import logo from "../../../assets/logo/logo.png";
 import "./Contact.css";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaLinkedin} from "react-icons/fa";
+import { GiShakingHands } from "react-icons/gi";
 import { Link } from "react-router-dom";
+
 
 const Contact = () => {
    return (
@@ -15,10 +17,10 @@ const Contact = () => {
                      <img className="md:w-72 w-60" src={logo} alt="" />
                   </div>
                   <div className=" pl-4 pt-1">
-                     <div className="w-[120px] mt-6">
-                        <Link to="volunteer">
-                        <button className="btn btn-primary btn-sm">
-                           Volunteer
+                     <div className="lg:w-[120px] md:w-[100px] w-[80px] mt-6">
+                     <Link to='/volunteer'>
+                        <button className="bg-[#71e432] inline-flex uppercase items-center font-semibold lg:px-4 md:px-3 px-2 py-2 rounded  lg:text-[28px] text-[14px]">
+                           <span>Volunteer</span> <GiShakingHands className="ml-2 lg:text-5xl md:text-3xl text-xl" />
                         </button>
                         </Link>
                      </div>
