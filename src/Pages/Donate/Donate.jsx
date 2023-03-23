@@ -12,12 +12,12 @@ const Donate = () => {
        <h4 className="md:text-4xl text-2xl text-center font-serif font-semibold mb-3 uppercase">
          <Title title={"Donate us"}></Title>
        </h4>
-       <div className="grid md:grid-cols-2 gap-10 place-content-center">
-         <div className="md:w-[90%] mx-auto grid place-content-center mt-5">
+       <div className=" md:flex justify-between items-center">
+         <div className="md:w-[94%] mx-auto grid place-content-center mt-5 mr-4">
            <img src={img} alt="" className="rounded-lg w-full bg-cover" />
          </div>
-         <div className="grid place-content-center md:w-[90%] leading-6 text-xl">
-           <p className="font-semibold mb-3 italic">
+         <div className="grid place-content-center md:w-[100%] leading-6 text-xl">
+           <p className="font-semibold mb-3 italic mt-5">
              "Alone we can do so little, Together we can do so much" - Helen
              Keller.
            </p>

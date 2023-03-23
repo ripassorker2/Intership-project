@@ -48,7 +48,7 @@ const Covid = () => {
     return (
       <div className="max-w-screen-xl mx-auto lg:my-16 md:my-10 my-5">
         <Title title={"COVID RELIEF"}></Title>
-        <div className="lg:my-8 md:my-6 mb-2 px-2">
+        <div className="lg:my-8 md:my-6 mb-2 px-2 text-lg">
           <h2>
             Covid-19 is a severe pandemic that this generation has witnessed.
             when Governments and civil society came together to work on Right to

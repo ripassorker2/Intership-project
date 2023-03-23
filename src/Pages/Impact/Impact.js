@@ -15,6 +15,10 @@ const Impact = () => {
      <div className="max-w-screen-xl w-[90%] mx-auto lg:my-16 md:my-10 my-5">
        <div className="text-center mb-10">
          <h1 className="impact-title mx-10">IMPACT</h1>
+         <p className="font-semibold italic py-3">
+           "It's not how much we give but how much love you put into giving" -
+           Mother Theresa
+         </p>
        </div>
        <ScrollTrigger
          onEnter={() => seTCounterOn(true)}

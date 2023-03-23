@@ -15,8 +15,8 @@ const Volunter = () => {
            <img src={img} alt="" className="rounded-lg" />
          </div>
          <div className=" lg:mt-6 md:mt-4 grid place-content-center">
-           <p className="md:w-[90%] text-lg font-serif ">
-             <span className="font-semibold text-[14px] inline-block mb-2 italic">
+           <p className="md:w-[95%] text-lg font-serif ">
+             <span className="font-semibold text-[16px] inline-block mb-2 italic">
                "Helping Hands are better than praying lips" - Mother Theresa.
              </span>
              <br />

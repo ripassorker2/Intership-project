@@ -46,12 +46,16 @@ const NutritousFood = () => {
           </h1>
           <div className="md:flex gap-2 lg:gap-12 align-middle justify-center lg:my-8 md:mt-6 my-2">
             <img className="lg:h-[250px] md:h-[200px]" src={img7} alt="" />
-            <img className="lg:h-[250px] md:h-[200px] md:mt-0 mt-2" src={img8} alt="" />
+            <img
+              className="lg:h-[250px] md:h-[200px] md:mt-0 mt-2"
+              src={img8}
+              alt=""
+            />
           </div>
+          <p className="font-semibold italic text-lg text-center py-2">
+            “ Man is What He Eats” – Lucretius.
+          </p>
           <p className="text-[18px]">
-            <span className="font-semibold">
-              “ Man is What He Eats” – Lucretius.
-            </span>
             Above facts from the National Family and Health Survey 2019-21,
             highlights the importance and the the need of nutrition in the
             children. We, acknowledge this and strive our way best in providing

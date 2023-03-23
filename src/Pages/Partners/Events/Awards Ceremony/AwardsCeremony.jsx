@@ -18,6 +18,7 @@ import img16 from '../../../../assets/event/Awards Ceremony/15.jpg'
 import img17 from '../../../../assets/event/Awards Ceremony/16.jpg'
 import img18 from '../../../../assets/event/Awards Ceremony/17.jpg'
 import img19 from '../../../../assets/event/Awards Ceremony/19.jpg'
+import Title from '../../../../Shared/Title/Title';
 
 
 const AwardsCeremony = () => {
@@ -98,19 +99,20 @@ const AwardsCeremony = () => {
        
     ];
     return (
-        <>
-        <section className='max-w-screen-xl mx-auto my-20 px-2'>
-        <h1 className='text-4xl font-semibold'>Awards Ceremony</h1>
-             <div className="gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-                {PhotoData.map((photo) => (
-                    <div className=" bg-base-100 shadow-xl">
-                    <img className=' rounded ' src={photo.img} alt="" />
-                </div>
-                ))}
-            </div>
+      <>
+        <section className="max-w-screen-xl mx-auto my-20 px-2">
+          <h1>
+            <Title title={"Awards Ceremony"} />
+          </h1>
+          <div className="gap-10 justify-center mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            {PhotoData.map((photo) => (
+              <div className=" bg-base-100 shadow-xl">
+                <img className=" rounded " src={photo.img} alt="" />
+              </div>
+            ))}
+          </div>
         </section>
-          
-        </>
+      </>
     );
 };
 export default AwardsCeremony;
